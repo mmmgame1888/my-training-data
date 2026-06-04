@@ -35,15 +35,40 @@
 - **Saturday:** Outdoor group ride, Zone 2, ~3h
 - **Sunday:** Outdoor group ride, Zone 2, ~2h
 
-## Background
-- 6 years of serious cycling
-- No current injuries or health limiters
+## Training History
+- **Peak weekly volume:** 12–13 hours (do not prescribe above this)
+- **FTP progression (past year):** 220W → 238W outdoor
+- 
+- ## Target Event — Lake Taupo Round the Lake Cycle Challenge
+- **Date:** November 2026
+- **Distance:** 160km, 1,800m elevation
+- **Key climbs:** ~7 minutes each at 90km and 142km
+- **Goal:** Finish under 4:30
+- **Approach:** Racing, riding with a fast group
+- **Experience:** Completes ~2 similar-length rides at race pace per year,
+  plus 5-6 at easier pace — well-practised at this distance
+
+## Group Ride Notes
+- Wednesday, Saturday, Sunday rides are genuinely Zone 2
+- Sunday ride typically includes 1–2 sprints at the end (not structured)
+- All three rides are with the same established group
+
+## Lifestyle
+- **Training time:** Early morning
+- **Work hours:** 8am–5pm with occasional flexibility for midday rides
+- **Sleep:** ~7 hours per night
 
 ## Coaching Preferences
+- When suggesting changes, **plan ahead** rather than modifying the current week
+- Open to reducing group ride frequency if training load requires it
 - Guide intensity using both **power and HR**
-- Communication style: **detailed and analytical, but in plain English**
-- No scientific jargon — clear explanations preferred
+- Communication style: detailed and analytical, plain English, no jargon
+
+- ## Background
+- 6 years of serious cycling
+- No current injuries or health limiters
 
 ## Notes
 - Indoor and outdoor FTP differ by 10W — use outdoor FTP for outdoor sessions, indoor FTP for trainer sessions
 - Garmin HRM Dual is a chest strap — beat-to-beat HR data available
+
