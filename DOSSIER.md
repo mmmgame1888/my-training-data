@@ -21,10 +21,10 @@
 - **AI Coach Platform:** Claude
 
 ## Goals
-- Grow FTP
 - Complete the Lake Taupo Round the Lake Cycle Challenge (November 2026)
   - 160km, 1,800m elevation
   - Two key climbs of ~7 minutes each at 90km and 142km
+- Grow FTP
 
 ## Training Week (Typical)
 - **Monday:** Commute ride, easy/Zone 2, ~1h 30m
