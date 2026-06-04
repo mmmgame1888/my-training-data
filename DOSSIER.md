@@ -26,39 +26,30 @@ This document serves as a reference template for endurance athletes using the de
 
 | Field | Value |
 |-------|-------|
-| Name | [Your name or alias] |
-| Age | [Age] |
-| Height | [cm] |
-| Current Weight | [kg] |
-| Target Weight | [kg] |
-| Location | [City, Country] |
+| Name | Michael |
+| Age | 41 |
+| Height | 170cm |
+| Current Weight | 64kg |
+| Target Weight | 63kg |
+| Location | Auckland, New Zealand |
 
-**Weigh-in Protocol:** [e.g., Once weekly, Friday morning, after bathroom, before food/drink]
-
-### Medications & Supplements (Optional)
-
-| Time | Items |
-|------|-------|
-| [Time] | [List medications/supplements] |
-| [Time] | [List medications/supplements] |
+**Weigh-in Protocol:** Once weekly, Friday morning, after bathroom, before food/drink
 
 ### Sport Focus
 
 | Type | Description |
 |------|-------------|
-| Primary | [e.g., Cycling performance (Endurance)] |
-| Secondary | [e.g., Running, SkiErg, Walking] |
+| Primary | Cycling performance (Endurance) |
 
 ### Goals
 
 | Goal | Target Date |
 |------|-------------|
-| [Primary goal] | [Year] |
-| [Secondary goal] | [Year] |
-| [Tertiary goal] | [Year] |
+| To beat my previous year's time for the Taupo Round the Lake Cycle Challenge of 4h 28m | 2026 |
+| To contiue to grow my FTP | 2026 |
 
-**Current Phase:** [e.g., Aerobic build + threshold development]  
-**Training Style:** [e.g., High-volume polarized (~15h/week)]
+**Current Phase:** VO2 MAX 
+**Training Style:** Medium-volume pyramidal (10h/week, with two structured sessions on Tuesday and Thursday)
 
 ---
 
@@ -68,36 +59,27 @@ This document serves as a reference template for endurance athletes using the de
 
 | Component | Details |
 |-----------|---------|
-| Trainer/Bike | [Model] |
-| Platform | [e.g., Zwift, TrainerRoad, Tacx App] |
-| Cooling | [Fans, AC, etc.] |
-| Sensors | [HRM, power meter, cadence] |
-| Pedals | [Model] |
+| Trainer/Bike | Tacx Neo 2T |
+| Platform | Zwift |
+| Cooling | Fan |
+| Sensors | HRM, power meter, cadence |
 
 ### Outdoor Setup
 
 | Component | Details |
 |-----------|---------|
-| Bike | [Model, size] |
-| Power Meter | [Model] |
-| Head Unit | [Model] |
-| HRM | [Model] |
-
-### Other Modalities
-
-| Modality | Equipment | Purpose |
-|----------|-----------|---------|
-| [e.g., SkiErg] | [Model] | [e.g., Upper-body aerobic] |
-| [e.g., Running] | [Shoes, watch] | [e.g., Active recovery] |
-| [e.g., Strength] | [Equipment] | [e.g., Core stability] |
+| Bike | Cervelo Soloist 2025 Ultegra DI2 51cm |
+| Power Meter | 4iiii precision 3+ pro ultegra |
+| Head Unit | [Garmin Edge 850 |
+| HRM | Garmin HRM-Dual |
 
 ### Environment
 
 | Factor | Details |
 |--------|---------|
-| Indoor | [Description of training space, ventilation, temperature] |
-| Outdoor | [Typical terrain, climate, temperature range] |
-| Calibration | [Routine for power meter calibration] |
+| Indoor | Garage (gets warm in the summer) |
+| Outdoor | Rolling terrain, warm, humid subtropical and temperate maritime climate, temperature ranges from as low as 4 degrees C in the winter to 25 degrees C in the summer |
+| Calibration | Weekly |
 
 ---
 
@@ -105,20 +87,20 @@ This document serves as a reference template for endurance athletes using the de
 
 ### Weekly Volume Target
 
-**Baseline:** [X] hours/week (± [Y] hours)  
-**Peak phases:** Up to [Z] hours (requires RI ≥ 0.8, HRV within 10%)
+**Baseline:** 10 hours/week (± 3 hours)  
+**Peak phases:** Up to 12 hours
 
 ### Normal Weekly Schedule
 
 | Day | Primary Session | Duration | Secondary |
 |-----|-----------------|----------|-----------|
-| Sunday | [Workout type] | [Duration] | [Optional] |
-| Monday | [Workout type] | [Duration] | [Optional] |
-| Tuesday | [Workout type] | [Duration] | [Optional] |
-| Wednesday | [Workout type] | [Duration] | [Optional] |
-| Thursday | [Workout type] | [Duration] | [Optional] |
-| Friday | [Workout type] | [Duration] | [Optional] |
-| Saturday | [Workout type] | [Duration] | [Optional] |
+| Sunday | Outdoor ride | 2 hours | Zone 2 / social, with sprints at the end |
+| Monday | Commute | 1 hour 30 min | Zone 2 |
+| Tuesday | Indoor workout | ~1 hour | Structured, high-intensity |
+| Wednesday | rest
+| Thursday | Indoor workout | ~1 hour | Structured, high-intensity |
+| Friday | Outdoor ride | 2 hours | Zone 2 |
+| Saturday | Outdoor ride | 3 hours | Zone 2 / social |
 
 ### Session Details
 
@@ -129,14 +111,6 @@ This document serves as a reference template for endurance athletes using the de
 | Sweetspot | [W or % FTP] | [Duration] | [Purpose] |
 | Long Ride | [W or % FTP] | [Duration] | [Purpose] |
 | Recovery | [W or % FTP] | [Duration] | [Purpose] |
-
-### Recovery Protocol
-
-**Recovery Triggers (Auto-Deload):**
-- HRV ↓ > 20% → [Response]
-- RHR ↑ ≥ 5 bpm → [Response]
-- Feel ≥ 4 → [Response]
-- Two+ triggers → [Response]
 
 **Feel Scale:**
 | Score | Meaning |
@@ -172,29 +146,9 @@ This document serves as a reference template for endurance athletes using the de
 | Z7 | 151%+ | [Calculate] | Neuromuscular |
 | SS | 84–97% | [Calculate] | Sweetspot |
 
-**Current FTP:** [W] (Indoor: [W])  
-**Max HR:** [bpm]  
-**Threshold HR:** [bpm]
-
-### Current Fitness Markers
-
-| Metric | Value | Notes |
-|--------|-------|-------|
-| FTP (Outdoor) | [W] | |
-| FTP (Indoor) | [W] | Adjusted for indoor conditions |
-| LT2 Power (MLSS) | [W] | ≈[%] of FTP |
-| LT2 HR | [bpm] | |
-| LT1 (AeT) | [W] | HR ≈[bpm] |
-| VO₂max Interval Power | [W] | |
-| Sweetspot Target | [W] | |
-| Weekly Volume | [hours] | [TSS range] |
-
-### Weight Tracking
-
-**Protocol:** [Frequency, conditions]  
-**Adjustment Control:** Weight adjustments only permitted during readiness-positive periods (DI ≥ 0.95, HR drift ≤ 3%, RI ≥ 0.8)
-
----
+**Current FTP:** 238W (Indoor: 228W)  
+**Max HR:** 192bpm  
+**Threshold HR:** 168bpm
 
 ## 5. Nutrition / Fueling
 
