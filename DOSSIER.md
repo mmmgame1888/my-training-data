@@ -38,8 +38,8 @@
 ## Training History
 - **Peak weekly volume:** 12–13 hours (do not prescribe above this)
 - **FTP progression (past year):** 220W → 238W outdoor
-- 
-- ## Target Event — Lake Taupo Round the Lake Cycle Challenge
+
+## Target Event — Lake Taupo Round the Lake Cycle Challenge
 - **Date:** November 2026
 - **Distance:** 160km, 1,800m elevation
 - **Key climbs:** ~7 minutes each at 90km and 142km
