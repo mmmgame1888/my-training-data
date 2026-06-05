@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T23:17:04.399914",
+  "generated_at": "2026-06-05T03:27:00.595655",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -339,6 +339,27 @@
           "avg_cadence": 65.90307,
           "zone": 1,
           "training_load": 18.050749
+        }
+      ]
+    },
+    {
+      "activity_id": "i154369874",
+      "date": "2026-06-05",
+      "type": "VirtualRide",
+      "name": "Zwift - Intervals icu: 1hr zone 2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4609,
+          "avg_power": 152,
+          "max_power": 202,
+          "avg_hr": 132,
+          "max_hr": 146,
+          "avg_cadence": 86.950096,
+          "zone": 2,
+          "training_load": 57.861797,
+          "decoupling": 8.997165
         }
       ]
     }
