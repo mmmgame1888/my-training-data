@@ -178,6 +178,12 @@ jobs:
             fi
           fi
 
+      - name: Purge jsDelivr cache        # ← ADD THIS STEP
+        if: success()
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/mmmgame1888/my-training-data@main/latest.json"
+          echo "✅ jsDelivr cache purged"
+
       - name: Upload data files for download
         if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v4
