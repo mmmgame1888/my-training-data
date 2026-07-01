@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:58:17.894522",
+  "generated_at": "2026-07-01T05:16:31.965359",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1179,6 +1179,27 @@
           "zone": 2,
           "training_load": 6.688793,
           "decoupling": 3.7380736
+        }
+      ]
+    },
+    {
+      "activity_id": "i161615400",
+      "date": "2026-07-01",
+      "type": "Ride",
+      "name": "Rat racers",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9946,
+          "avg_power": 126,
+          "max_power": 442,
+          "avg_hr": 123,
+          "max_hr": 164,
+          "avg_cadence": 66.68615,
+          "zone": 1,
+          "training_load": 87.83033,
+          "decoupling": 0.22233354
         }
       ]
     }
