@@ -131,8 +131,12 @@ jobs:
               echo "✅ Staged routes.json"
             fi
 
-            # Now pull - autostash will safely stash staged changes
+            # Pull latest from remote
             git pull --rebase --autostash origin main
+
+            # Re-stage after autostash pop (autostash restores as unstaged)
+            git add archive/
+            git add -f latest.json ftp_history.json history.json intervals.json routes.json 2>/dev/null || true
 
             # Only commit if there are changes
             if ! git diff --staged --quiet; then
