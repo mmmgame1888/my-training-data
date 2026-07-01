@@ -50,3 +50,6 @@ jobs:
       - name: Purge jsDelivr cache
         run: |
           curl -s "https://purge.jsdelivr.net/gh/mmmgame1888/my-training-data@main/latest.json"
+          curl -s "https://purge.jsdelivr.net/gh/mmmgame1888/my-training-data/latest.json"
+          sleep 5
+          echo "✅ jsDelivr cache purged"
