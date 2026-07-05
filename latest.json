@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-05T20:40:36.422957",
+    "last_updated": "2026-07-05T21:40:10.367257",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -1.4
+        "value": 8.0
       }
     },
     "signal_summary": {
@@ -216,10 +216,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 57.78,
-      "atl": 59.18,
-      "tsb": -1.4,
-      "ramp_rate": -1.52,
+      "ctl": 55.76,
+      "atl": 47.73,
+      "tsb": 8.03,
+      "ramp_rate": -3.54,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -598,14 +598,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.5,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 2,
       "completed_days": 3,
-      "matched_days": 1,
+      "matched_days": 2,
       "planned_dates": [
         "2026-07-01",
-        "2026-07-05"
+        "2026-07-04"
       ],
       "completed_dates": [
         "2026-07-01",
@@ -625,13 +625,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.35,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
           "next_week_load": 1.29,
-          "plan_coverage_current_week": 0.17,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.17
         },
         "data_quality": "good",
@@ -665,7 +665,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-05T20:40:36.421807",
+    "calculation_timestamp": "2026-07-05T21:40:10.366075",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3490,19 +3490,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 97764432,
-      "date": "2026-07-05",
-      "name": "Botany Bunch",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.94,
-      "duration_formatted": "1h56m10s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 24m9s 70%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
-    },
-    {
       "id": 97765071,
       "date": "2026-07-06",
       "name": "Morning E-Bike Ride",
@@ -4006,12 +3993,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 28,
+    "attempted": 27,
     "success": 7,
     "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 21
+    "bail_no_match": 20
   },
   "weekly_summary": {
     "total_training_hours": 5.92,
