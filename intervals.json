@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T01:06:38.544927",
+  "generated_at": "2026-07-11T04:26:30.277972",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -838,6 +838,114 @@
           "avg_cadence": 67.867096,
           "zone": 2,
           "training_load": 36.496365
+        }
+      ]
+    },
+    {
+      "activity_id": "i164613183",
+      "date": "2026-07-11",
+      "type": "VirtualRide",
+      "name": "B.1. VO2",
+      "interval_summary": [
+        "1x 2m17s 214w",
+        "2x 5m13s 246w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "137s@214w92rpm",
+          "duration_secs": 137,
+          "avg_power": 214,
+          "max_power": 243,
+          "avg_hr": 133,
+          "max_hr": 138,
+          "avg_cadence": 92.0219,
+          "zone": 4,
+          "training_load": 3.0433958,
+          "decoupling": 3.7427688
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 80,
+          "avg_power": 190,
+          "max_power": 257,
+          "avg_hr": 146,
+          "max_hr": 155,
+          "avg_cadence": 87.675,
+          "zone": 3,
+          "training_load": 1.6230774,
+          "decoupling": -5.2426004
+        },
+        {
+          "type": "WORK",
+          "label": "313s@246w96rpm",
+          "duration_secs": 319,
+          "avg_power": 253,
+          "max_power": 336,
+          "avg_hr": 168,
+          "max_hr": 174,
+          "avg_cadence": 96.82445,
+          "zone": 5,
+          "training_load": 11.007216,
+          "decoupling": 1.7967689
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 98,
+          "avg_power": 219,
+          "max_power": 276,
+          "avg_hr": 169,
+          "max_hr": 174,
+          "avg_cadence": 95.581635,
+          "zone": 4,
+          "training_load": 2.7704022,
+          "decoupling": 2.1475773
+        },
+        {
+          "type": "WORK",
+          "label": "313s@246w96rpm",
+          "duration_secs": 307,
+          "avg_power": 238,
+          "max_power": 276,
+          "avg_hr": 171,
+          "max_hr": 176,
+          "avg_cadence": 96.13681,
+          "zone": 4,
+          "training_load": 9.295673,
+          "decoupling": -1.4943199
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 251,
+          "avg_power": 103,
+          "max_power": 358,
+          "avg_hr": 146,
+          "max_hr": 178,
+          "avg_cadence": 74.42629,
+          "zone": 1,
+          "training_load": 4.157866,
+          "decoupling": 35.39584
+        }
+      ]
+    },
+    {
+      "activity_id": "i164611643",
+      "date": "2026-07-11",
+      "type": "VirtualRide",
+      "name": "Zwift - Pacer Group Ride with Coco",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1040,
+          "avg_power": 140,
+          "max_power": 287,
+          "avg_hr": 88,
+          "max_hr": 109,
+          "avg_cadence": 84.71126,
+          "zone": 2,
+          "training_load": 12.952879,
+          "decoupling": 10.469571
         }
       ]
     }
