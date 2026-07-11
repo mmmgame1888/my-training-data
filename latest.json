@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-11T16:50:24.973391",
+    "last_updated": "2026-07-11T17:50:34.694538",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -107,9 +107,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 30.3,
-        "baseline_7d": 30.3,
-        "delta_pct": 0.1
+        "value": 28.5,
+        "baseline_7d": 30.1,
+        "delta_pct": -5.4
       },
       "rhr": {
         "status": "green",
@@ -128,7 +128,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.97,
+        "value": 0.92,
         "value_yesterday": 0.91
       },
       "tsb": {
@@ -266,7 +266,7 @@
         }
       },
       "resting_hr": 60,
-      "hrv": 30.328985,
+      "hrv": 28.472414,
       "sleep_quality": null,
       "sleep_hours": 7.18,
       "sleep_formatted": "7h11m",
@@ -299,13 +299,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.97,
+    "recovery_index": 0.92,
     "recovery_index_yesterday": 0.91,
-    "hrv_baseline_7d": 30.3,
+    "hrv_baseline_7d": 30.1,
     "rhr_baseline_7d": 58.3,
-    "hrv_baseline_28d": 32.8,
+    "hrv_baseline_28d": 32.7,
     "rhr_baseline_28d": 63.2,
-    "latest_hrv": 30.328985,
+    "latest_hrv": 28.472414,
     "latest_rhr": 60,
     "acwr": 0.93,
     "acwr_interpretation": "optimal",
@@ -318,7 +318,7 @@
     "multi_sport_detected": false,
     "strain": 470.0,
     "stress_tolerance": 4.1,
-    "load_recovery_ratio": 4.2,
+    "load_recovery_ratio": 4.4,
     "tss_7d_total": 409.0,
     "tss_28d_total": 1756.0,
     "zone_distribution_7d": {
@@ -671,7 +671,7 @@
     "p_max": 1005,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-11T16:50:24.972283",
+    "calculation_timestamp": "2026-07-11T17:50:34.693397",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3671,7 +3671,7 @@
         "weight": null
       },
       "resting_hr": 60,
-      "hrv_rmssd": 30.328985,
+      "hrv_rmssd": 28.472414,
       "hrv_sdnn": null,
       "sleep_hours": 7.18,
       "sleep_formatted": "7h11m",
@@ -4236,7 +4236,7 @@
     "total_training_formatted": "8h46m",
     "total_tss": 409,
     "activities_count": 8,
-    "avg_hrv": 30.3,
+    "avg_hrv": 30.1,
     "avg_resting_hr": 58.3
   },
   "race_calendar": {
