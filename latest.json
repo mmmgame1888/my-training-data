@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T11:31:48.894656",
+    "last_updated": "2026-07-12T12:36:13.410153",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -112,7 +112,7 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
+    "recommendation": "skip",
     "priority": 2,
     "signals": {
       "hrv": {
@@ -128,8 +128,8 @@
         "delta_bpm": 13.4
       },
       "sleep": {
-        "status": "green",
-        "hours": 7.65,
+        "status": "red",
+        "hours": 1.82,
         "quality": null
       },
       "acwr": {
@@ -147,9 +147,9 @@
       }
     },
     "signal_summary": {
-      "green": 4,
+      "green": 3,
       "amber": 1,
-      "red": 1,
+      "red": 2,
       "unavailable": 0
     },
     "phase_context": {
@@ -159,18 +159,8 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "rhr",
-        "hrv"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (rhr), 1 amber (hrv).",
+    "modification": null,
+    "reason": "P2 signal count. 2 red (rhr, sleep), 1 amber (hrv).",
     "alarm_refs": []
   },
   "history": {
@@ -276,8 +266,8 @@
       "resting_hr": 74,
       "hrv": 24.758108,
       "sleep_quality": null,
-      "sleep_hours": 7.65,
-      "sleep_formatted": "7h39m",
+      "sleep_hours": 1.82,
+      "sleep_formatted": "1h49m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -685,7 +675,7 @@
     "p_max": 1005,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-07-12T11:31:48.893587",
+    "calculation_timestamp": "2026-07-12T12:36:13.409033",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3687,8 +3677,8 @@
       "resting_hr": 74,
       "hrv_rmssd": 24.758108,
       "hrv_sdnn": null,
-      "sleep_hours": 7.65,
-      "sleep_formatted": "7h39m",
+      "sleep_hours": 1.82,
+      "sleep_formatted": "1h49m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
