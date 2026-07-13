@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-13T08:12:21.647331",
+    "last_updated": "2026-07-13T11:28:26.740679",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -621,13 +621,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.5,
+          "planned_tss_delta": 1.63,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 1.52,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.14,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -661,7 +661,7 @@
     "p_max": 1005,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-13T08:12:21.646138",
+    "calculation_timestamp": "2026-07-13T11:28:26.739588",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3725,17 +3725,31 @@
       "description": ""
     },
     {
+      "id": 122522346,
+      "date": "2026-07-14",
+      "name": "1hr zone 2",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 52,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 70%\n- 3m 55%"
+    },
+    {
       "id": 97765100,
       "date": "2026-07-15",
       "name": "A.2. Fatigue-Primed Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 86,
-      "duration_hours": 1.38,
-      "duration_formatted": "1h23m",
-      "workout_summary": "3m @119W | 3m @142W | 40m @166W | 3\u00d78m @230W / 4m rec | 1m @119W",
+      "planned_tss": 88,
+      "duration_hours": 1.43,
+      "duration_formatted": "1h26m",
+      "workout_summary": "2m @119W | 2m @142W | 45m @166W | 3\u00d78m @230W / 4m rec | 1m @119W",
       "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 40m 70%\n\nIntervals: \n3x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
+      "description": "Warm up\n- 2m 50%\n- 2m 60%\n\n- 45m 70%\n\nIntervals: \n3x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
     },
     {
       "id": 97765287,
@@ -4227,12 +4241,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 27,
+    "attempted": 28,
     "success": 7,
     "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 20
+    "bail_no_match": 21
   },
   "weekly_summary": {
     "total_training_hours": 10.76,
