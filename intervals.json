@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T23:23:26.191632",
+  "generated_at": "2026-07-17T00:58:01.339876",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -777,6 +777,53 @@
           "zone": 1,
           "training_load": 3.2439485,
           "decoupling": -10.795856
+        }
+      ]
+    },
+    {
+      "activity_id": "i166421072",
+      "date": "2026-07-17",
+      "type": "Ride",
+      "name": "B.2. Over-unders",
+      "interval_summary": [
+        "1x 2m51s 187w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7583,
+          "avg_power": 104,
+          "max_power": 379,
+          "avg_hr": 114,
+          "max_hr": 142,
+          "avg_cadence": 62.917694,
+          "zone": 1,
+          "training_load": 56.55667,
+          "decoupling": -6.771259
+        },
+        {
+          "type": "WORK",
+          "label": "171s@187w83rpm",
+          "duration_secs": 171,
+          "avg_power": 187,
+          "max_power": 261,
+          "avg_hr": 127,
+          "max_hr": 133,
+          "avg_cadence": 82.96491,
+          "zone": 3,
+          "training_load": 2.839065,
+          "decoupling": 6.2212777
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2763,
+          "avg_power": 118,
+          "max_power": 463,
+          "avg_hr": 119,
+          "max_hr": 138,
+          "avg_cadence": 61.297836,
+          "zone": 1,
+          "training_load": 12.010728
         }
       ]
     }
