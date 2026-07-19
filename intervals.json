@@ -1,84 +1,10 @@
 {
-  "generated_at": "2026-07-18T23:34:46.028042",
+  "generated_at": "2026-07-19T01:09:29.978185",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i162510531",
-      "date": "2026-07-04",
-      "type": "Ride",
-      "name": "Auckland Road Cycling",
-      "interval_summary": [
-        "1x 10s 366w",
-        "1x 96s 222w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 671,
-          "avg_power": 125,
-          "max_power": 391,
-          "avg_hr": 127,
-          "max_hr": 140,
-          "avg_cadence": 69.46481,
-          "zone": 1,
-          "training_load": 5.514739,
-          "decoupling": 0.28488
-        },
-        {
-          "type": "WORK",
-          "label": "10s@366w94rpm",
-          "duration_secs": 10,
-          "avg_power": 366,
-          "max_power": 444,
-          "avg_hr": 122,
-          "max_hr": 131,
-          "avg_cadence": 94.0,
-          "zone": 7,
-          "training_load": 0.053040825,
-          "decoupling": 16.545753
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4112,
-          "avg_power": 152,
-          "max_power": 450,
-          "avg_hr": 134,
-          "max_hr": 153,
-          "avg_cadence": 76.69875,
-          "zone": 2,
-          "training_load": 51.809795,
-          "decoupling": -0.9999686
-        },
-        {
-          "type": "WORK",
-          "label": "96s@222w91rpm",
-          "duration_secs": 96,
-          "avg_power": 222,
-          "max_power": 301,
-          "avg_hr": 146,
-          "max_hr": 153,
-          "avg_cadence": 90.5625,
-          "zone": 4,
-          "training_load": 2.196455,
-          "decoupling": 16.764616
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 173,
-          "avg_power": 164,
-          "max_power": 299,
-          "avg_hr": 146,
-          "max_hr": 152,
-          "avg_cadence": 79.24856,
-          "zone": 2,
-          "training_load": 2.7182899,
-          "decoupling": 9.829222
-        }
-      ]
-    },
     {
       "activity_id": "i163333896",
       "date": "2026-07-07",
@@ -1405,6 +1331,53 @@
           "zone": 2,
           "training_load": 50.821995,
           "decoupling": 9.788212
+        }
+      ]
+    },
+    {
+      "activity_id": "i167001069",
+      "date": "2026-07-19",
+      "type": "Ride",
+      "name": "Botany Bunch",
+      "interval_summary": [
+        "1x 13s 450w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7087,
+          "avg_power": 112,
+          "max_power": 533,
+          "avg_hr": 116,
+          "max_hr": 146,
+          "avg_cadence": 63.84671,
+          "zone": 1,
+          "training_load": 55.728565,
+          "decoupling": -5.049423
+        },
+        {
+          "type": "WORK",
+          "label": "13s@450w100rpm",
+          "duration_secs": 13,
+          "avg_power": 450,
+          "max_power": 592,
+          "avg_hr": 140,
+          "max_hr": 148,
+          "avg_cadence": 99.69231,
+          "zone": 7,
+          "training_load": 0.4510765,
+          "decoupling": 1.2615496
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3764,
+          "avg_power": 120,
+          "max_power": 876,
+          "avg_hr": 125,
+          "max_hr": 161,
+          "avg_cadence": 63.457905,
+          "zone": 1,
+          "training_load": 21.237545
         }
       ]
     }
