@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-22T07:55:01.814285",
+    "last_updated": "2026-07-22T10:20:11.219522",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -197,8 +197,8 @@
       "ctl": 57.16,
       "atl": 53.13,
       "tsb": 4.03,
-      "ramp_rate": 2.58,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 1.17,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 235.2,
@@ -576,9 +576,9 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.8,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 4,
       "matched_days": 4,
       "planned_dates": [
@@ -586,8 +586,7 @@
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
-        "2026-07-21",
-        "2026-07-22"
+        "2026-07-21"
       ],
       "completed_dates": [
         "2026-07-16",
@@ -608,13 +607,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.65,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.48,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 1.49,
-          "plan_coverage_current_week": 0.71,
+          "plan_coverage_current_week": 0.57,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -648,13 +647,13 @@
     "p_max": 1004,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-22T07:55:01.813108",
+    "calculation_timestamp": "2026-07-22T10:20:11.218293",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 25,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 12,
         "outdoor": 0
@@ -3995,7 +3994,7 @@
   "planned_workouts": [
     {
       "id": 97765198,
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "name": "A.1. Fatigue-Primed Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -4008,7 +4007,7 @@
     },
     {
       "id": 97765308,
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -4018,19 +4017,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
-    },
-    {
-      "id": 97765200,
-      "date": "2026-07-24",
-      "name": "B.1. VO2",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 51,
-      "duration_hours": 0.63,
-      "duration_formatted": "38m",
-      "workout_summary": "2m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 3m @154W | 4\u00d73m @278W / 3m rec | 2m @119W",
-      "has_terrain": false,
-      "description": "Warm up\n- 2m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 3m 65%\n\nIntervals: \n4x 3m\n- 3m 117%\n- 3m 55%\n\nCool down:\n- 2m 50%"
     },
     {
       "id": 97765325,
@@ -4523,9 +4509,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 29,
-    "success": 8,
-    "patternA": 8,
+    "attempted": 28,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 21
