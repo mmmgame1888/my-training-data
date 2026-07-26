@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T20:51:24.399346",
+    "last_updated": "2026-07-26T21:53:48.795365",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -100,20 +100,10 @@
     "years_on_platform": 1
   },
   "athlete_notes": null,
-  "alerts": [
-    {
-      "metric": "rhr",
-      "value": 83,
-      "severity": "warning",
-      "threshold": "\u2191\u22655bpm vs baseline (62.1)",
-      "context": "RHR 83 is 20.9bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
-      "persistence_days": 1,
-      "tier": 1
-    }
-  ],
+  "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "amber",
@@ -122,10 +112,10 @@
         "delta_pct": -16.6
       },
       "rhr": {
-        "status": "red",
-        "value": 83,
-        "baseline_7d": 62.1,
-        "delta_bpm": 20.9
+        "status": "green",
+        "value": 61,
+        "baseline_7d": 59,
+        "delta_bpm": 2
       },
       "sleep": {
         "status": "green",
@@ -138,8 +128,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.62,
-        "value_yesterday": 0.96
+        "value": 0.81,
+        "value_yesterday": 0.91
       },
       "tsb": {
         "status": "green",
@@ -147,9 +137,9 @@
       }
     },
     "signal_summary": {
-      "green": 4,
+      "green": 5,
       "amber": 1,
-      "red": 1,
+      "red": 0,
       "unavailable": 0
     },
     "phase_context": {
@@ -159,18 +149,8 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "rhr",
-        "hrv"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (rhr), 1 amber (hrv).",
+    "modification": null,
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -273,7 +253,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 83,
+      "resting_hr": 61,
       "hrv": 28.438637,
       "sleep_quality": null,
       "sleep_hours": 7.13,
@@ -307,14 +287,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.62,
-    "recovery_index_yesterday": 0.96,
+    "recovery_index": 0.81,
+    "recovery_index_yesterday": 0.91,
     "hrv_baseline_7d": 34.1,
-    "rhr_baseline_7d": 62.1,
+    "rhr_baseline_7d": 59,
     "hrv_baseline_28d": 32.8,
-    "rhr_baseline_28d": 61.9,
+    "rhr_baseline_28d": 61.1,
     "latest_hrv": 28.438637,
-    "latest_rhr": 83,
+    "latest_rhr": 61,
     "acwr": 1.04,
     "acwr_interpretation": "optimal",
     "monotony": 1.07,
@@ -326,7 +306,7 @@
     "multi_sport_detected": false,
     "strain": 474.0,
     "stress_tolerance": 4.4,
-    "load_recovery_ratio": 7.1,
+    "load_recovery_ratio": 5.5,
     "tss_7d_total": 443.0,
     "tss_28d_total": 1702.0,
     "zone_distribution_7d": {
@@ -678,7 +658,7 @@
     "p_max": 1003,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-07-26T20:51:24.398176",
+    "calculation_timestamp": "2026-07-26T21:53:48.794214",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4063,7 +4043,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 83,
+      "resting_hr": 61,
       "hrv_rmssd": 28.438637,
       "hrv_sdnn": null,
       "sleep_hours": 7.13,
@@ -4128,21 +4108,8 @@
       "description": ""
     },
     {
-      "id": 97765199,
-      "date": "2026-07-28",
-      "name": "A.2. Fatigue-Primed Threshold",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 86,
-      "duration_hours": 1.38,
-      "duration_formatted": "1h23m",
-      "workout_summary": "3m @119W | 3m @142W | 40m @166W | 3\u00d78m @230W / 4m rec | 1m @119W",
-      "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 40m 70%\n\nIntervals: \n3x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
-    },
-    {
       "id": 97765314,
-      "date": "2026-07-29",
+      "date": "2026-07-28",
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -4154,8 +4121,21 @@
       "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
     },
     {
+      "id": 97765199,
+      "date": "2026-07-29",
+      "name": "A.2. Fatigue-Primed Threshold",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 86,
+      "duration_hours": 1.38,
+      "duration_formatted": "1h23m",
+      "workout_summary": "3m @119W | 3m @142W | 40m @166W | 3\u00d78m @230W / 4m rec | 1m @119W",
+      "has_terrain": false,
+      "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 40m 70%\n\nIntervals: \n3x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
+    },
+    {
       "id": 97765201,
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "name": "B.2. Over-unders",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -4617,7 +4597,7 @@
     "total_tss": 443,
     "activities_count": 6,
     "avg_hrv": 34.1,
-    "avg_resting_hr": 62.1
+    "avg_resting_hr": 59.0
   },
   "race_calendar": {
     "next_race": null,
