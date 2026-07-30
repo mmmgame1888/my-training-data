@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T07:08:56.165867",
+    "last_updated": "2026-07-30T09:40:08.707123",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -620,7 +620,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.74,
+          "planned_tss_delta": 1.71,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
@@ -660,7 +660,7 @@
     "p_max": 1003,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-07-30T07:08:56.164683",
+    "calculation_timestamp": "2026-07-30T09:40:08.706002",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4176,17 +4176,18 @@
       "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
     },
     {
-      "id": 97765201,
+      "id": 126146771,
       "date": "2026-07-31",
-      "name": "B.2. Over-unders",
+      "name": "1hr zone 2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 68,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
+      "planned_tss": 60,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals: \n3x 10m\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 5m 55%\n\nCool down:\n- 1m 50%"
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 70m 70%\n- 3m 55%"
     },
     {
       "id": 97765329,
