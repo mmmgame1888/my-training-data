@@ -65,12 +65,12 @@
       "total_training_hours": 4.9,
       "total_training_formatted": "4h53m",
       "total_activities": 4,
-      "total_tss": 170
+      "total_tss": 230
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-10T07:40:34.042116",
+    "last_updated": "2026-08-10T09:20:47.391561",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.41
+        "value": 0.54
       },
       "ri": {
         "status": "green",
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 15.0
+        "value": 8.4
       }
     },
     "signal_summary": {
@@ -169,7 +169,7 @@
       "EBikeRide": {
         "duration_decimal_hours": 1.5,
         "count": 2,
-        "tss": 0,
+        "tss": 60,
         "distance_km": 44.3,
         "display": {
           "distance": {
@@ -194,10 +194,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 56.93,
-      "atl": 41.96,
-      "tsb": 14.97,
-      "ramp_rate": -5.92,
+      "ctl": 58.34,
+      "atl": 49.94,
+      "tsb": 8.4,
+      "ramp_rate": -4.51,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -283,20 +283,20 @@
     "rhr_baseline_28d": 60,
     "latest_hrv": 31.772463,
     "latest_rhr": 59,
-    "acwr": 0.41,
+    "acwr": 0.54,
     "acwr_interpretation": "undertraining",
-    "monotony": 0.55,
+    "monotony": 0.73,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 170.0,
-    "effective_monotony": 0.55,
+    "primary_sport_monotony": 0.73,
+    "primary_sport_tss_7d": 230.0,
+    "effective_monotony": 0.73,
     "multi_sport_detected": false,
-    "strain": 94.0,
-    "stress_tolerance": 1.7,
-    "load_recovery_ratio": 1.6,
-    "tss_7d_total": 170.0,
-    "tss_28d_total": 1655.0,
+    "strain": 168.0,
+    "stress_tolerance": 2.3,
+    "load_recovery_ratio": 2.1,
+    "tss_7d_total": 230.0,
+    "tss_28d_total": 1715.0,
     "zone_distribution_7d": {
       "z1_hours": 1.15,
       "z2_hours": 1.02,
@@ -603,7 +603,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.61,
+          "planned_tss_delta": 1.62,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
@@ -643,7 +643,7 @@
     "p_max": 998,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-10T07:40:34.040935",
+    "calculation_timestamp": "2026-08-10T09:20:47.390373",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -664,8 +664,8 @@
       "name": "Morning E-Bike Ride",
       "duration_hours": 0.73,
       "distance_km": 21.87,
-      "tss": null,
-      "intensity_factor": null,
+      "tss": 30,
+      "intensity_factor": 63.433784,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": null,
@@ -780,8 +780,8 @@
       "name": "Morning E-Bike Ride",
       "duration_hours": 0.77,
       "distance_km": 22.46,
-      "tss": null,
-      "intensity_factor": null,
+      "tss": 30,
+      "intensity_factor": 61.84143,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": null,
@@ -4036,12 +4036,12 @@
       "name": "A.2. Fatigue-Primed Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 86,
-      "duration_hours": 1.38,
-      "duration_formatted": "1h23m",
-      "workout_summary": "3m @119W | 3m @142W | 40m @166W | 3\u00d78m @230W / 4m rec | 1m @119W",
+      "planned_tss": 89,
+      "duration_hours": 1.45,
+      "duration_formatted": "1h27m",
+      "workout_summary": "3m @119W | 3m @142W | 44m @164W | 3\u00d78m @230W / 4m rec | 1m @119W",
       "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 40m 70%\n\nIntervals: \n3x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
+      "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 44m 69%\n\nIntervals: \n3x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
     },
     {
       "id": 97765315,
@@ -4519,7 +4519,7 @@
   "weekly_summary": {
     "total_training_hours": 4.9,
     "total_training_formatted": "4h53m",
-    "total_tss": 170,
+    "total_tss": 230,
     "activities_count": 4,
     "avg_hrv": 32.2,
     "avg_resting_hr": 64.3
