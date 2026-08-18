@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-18T08:35:53.300070",
+    "last_updated": "2026-08-18T09:33:00.101250",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -576,9 +576,9 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.83,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 5,
       "matched_days": 5,
       "planned_dates": [
@@ -586,7 +586,6 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
-        "2026-08-17",
         "2026-08-18"
       ],
       "completed_dates": [
@@ -609,10 +608,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.51,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.38,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 1.37,
           "plan_coverage_current_week": 0.83,
@@ -649,13 +648,13 @@
     "p_max": 995,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-18T08:35:53.298905",
+    "calculation_timestamp": "2026-08-18T09:33:00.100052",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 12,
         "outdoor": 0
@@ -3543,8 +3542,22 @@
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 45m 70%\n\nIntervals: \n2x 10m\n- 10m 99%\n- 5m 57%\n\nCool down:\n- 1m 50%"
     },
     {
+      "id": 129479405,
+      "date": "2026-08-19",
+      "name": "1hr zone 2",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 54,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
+    },
+    {
       "id": 97765215,
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "name": "B.1. VO2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -3554,19 +3567,6 @@
       "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 4\u00d73m @283W / 3m rec | 2m @119W",
       "has_terrain": false,
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals: \n4x 3m\n- 3m 119%\n- 3m 55%\n\nCool down:\n- 2m 50%"
-    },
-    {
-      "id": 129479595,
-      "date": "2026-08-21",
-      "name": "Rat racers",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
     },
     {
       "id": 97765333,
