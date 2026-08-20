@@ -1,57 +1,10 @@
 {
-  "generated_at": "2026-08-19T23:21:52.826124",
+  "generated_at": "2026-08-20T01:11:44.990591",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i172558147",
-      "date": "2026-08-05",
-      "type": "Ride",
-      "name": "Rat racers",
-      "interval_summary": [
-        "1x 3m20s 189w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3453,
-          "avg_power": 158,
-          "max_power": 373,
-          "avg_hr": 138,
-          "max_hr": 156,
-          "avg_cadence": 69.213234,
-          "zone": 2,
-          "training_load": 49.79889,
-          "decoupling": 1.8136423
-        },
-        {
-          "type": "WORK",
-          "label": "200s@189w73rpm",
-          "duration_secs": 200,
-          "avg_power": 189,
-          "max_power": 238,
-          "avg_hr": 138,
-          "max_hr": 143,
-          "avg_cadence": 72.855,
-          "zone": 3,
-          "training_load": 3.393122,
-          "decoupling": 5.284764
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 394,
-          "avg_power": 143,
-          "max_power": 344,
-          "avg_hr": 131,
-          "max_hr": 141,
-          "avg_cadence": 64.64038,
-          "zone": 2,
-          "training_load": 4.0168204
-        }
-      ]
-    },
     {
       "activity_id": "i173538720",
       "date": "2026-08-08",
