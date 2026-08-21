@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-21T08:39:24.586487",
+    "last_updated": "2026-08-21T09:35:55.105477",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 3.7
+        "value": 2.7
       }
     },
     "signal_summary": {
@@ -194,10 +194,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 59.29,
-      "atl": 55.6,
-      "tsb": 3.69,
-      "ramp_rate": 0.47,
+      "ctl": 59.5,
+      "atl": 56.8,
+      "tsb": 2.7,
+      "ramp_rate": 0.69,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -608,14 +608,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.01,
+          "planned_tss_delta": 2.06,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": 1.37,
-          "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 1.17
+          "next_week_load": 1.23,
+          "plan_coverage_current_week": 0.67,
+          "plan_coverage_next_week": 0.83
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -648,13 +648,13 @@
     "p_max": 995,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-08-21T08:39:24.585313",
+    "calculation_timestamp": "2026-08-21T09:35:55.104296",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 12,
         "outdoor": 0
@@ -3599,6 +3599,20 @@
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals: \n4x 3m\n- 3m 119%\n- 3m 55%\n\nCool down:\n- 2m 50%"
     },
     {
+      "id": 130690936,
+      "date": "2026-08-21",
+      "name": "Warm up",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 9,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "00:09",
+      "description": "9m 65%"
+    },
+    {
       "id": 97765333,
       "date": "2026-08-22",
       "name": "Saturday long ride",
@@ -3623,32 +3637,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 24m9s 70%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
-    },
-    {
-      "id": 97765090,
-      "date": "2026-08-24",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97765091,
-      "date": "2026-08-24",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
     },
     {
       "id": 97765213,
@@ -4034,7 +4022,7 @@
     "success": 8,
     "patternA": 8,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 19
   },
   "weekly_summary": {
