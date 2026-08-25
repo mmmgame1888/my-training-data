@@ -65,12 +65,12 @@
       "total_training_hours": 9.74,
       "total_training_formatted": "9h44m",
       "total_activities": 8,
-      "total_tss": 405
+      "total_tss": 433
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-25T09:34:32.709443",
+    "last_updated": "2026-08-25T10:32:11.808238",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.98
+        "value": 1.03
       },
       "ri": {
         "status": "green",
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 1.5
+        "value": -1.6
       }
     },
     "signal_summary": {
@@ -169,7 +169,7 @@
       "EBikeRide": {
         "duration_decimal_hours": 1.46,
         "count": 2,
-        "tss": 30,
+        "tss": 58,
         "distance_km": 44.1,
         "display": {
           "distance": {
@@ -206,17 +206,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 60.3,
-      "atl": 58.82,
-      "tsb": 1.48,
-      "ramp_rate": -0.48,
+      "ctl": 60.96,
+      "atl": 62.55,
+      "tsb": -1.59,
+      "ramp_rate": 0.18,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 232.9,
-      "w_prime": 19583,
+      "eftp": 233.1,
+      "w_prime": 19603,
       "w_prime_kj": 19.6,
-      "p_max": 994,
+      "p_max": 995,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -295,20 +295,20 @@
     "rhr_baseline_28d": 64.5,
     "latest_hrv": 38.008198,
     "latest_rhr": 56,
-    "acwr": 0.98,
+    "acwr": 1.03,
     "acwr_interpretation": "optimal",
-    "monotony": 1.02,
+    "monotony": 1.11,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 1.02,
-    "primary_sport_tss_7d": 405.0,
-    "effective_monotony": 1.02,
+    "primary_sport_monotony": 1.11,
+    "primary_sport_tss_7d": 433.0,
+    "effective_monotony": 1.11,
     "multi_sport_detected": false,
-    "strain": 413.0,
-    "stress_tolerance": 4.0,
-    "load_recovery_ratio": 2.6,
-    "tss_7d_total": 405.0,
-    "tss_28d_total": 1656.0,
+    "strain": 481.0,
+    "stress_tolerance": 4.3,
+    "load_recovery_ratio": 2.8,
+    "tss_7d_total": 433.0,
+    "tss_28d_total": 1684.0,
     "zone_distribution_7d": {
       "z1_hours": 3.1,
       "z2_hours": 3.09,
@@ -581,7 +581,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 238,
-          "w_prime_used": 19583,
+          "w_prime_used": 19603,
           "ftp_staleness_days": 70,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -618,7 +618,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.55,
+          "planned_tss_delta": 1.54,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 3,
@@ -652,13 +652,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 232.9,
-    "w_prime": 19583,
+    "eftp": 233.1,
+    "w_prime": 19603,
     "w_prime_kj": 19.6,
-    "p_max": 994,
+    "p_max": 995,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-25T09:34:32.708246",
+    "calculation_timestamp": "2026-08-25T10:32:11.807060",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -679,8 +679,8 @@
       "name": "Auckland eBiking",
       "duration_hours": 0.71,
       "distance_km": 21.82,
-      "tss": null,
-      "intensity_factor": null,
+      "tss": 28,
+      "intensity_factor": 62.026836,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": null,
@@ -3715,7 +3715,7 @@
     {
       "id": 97765213,
       "date": "2026-08-26",
-      "name": "A.2. Fatigue-Primed Threshold",
+      "name": "De-load: Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
       "planned_tss": 61,
@@ -3741,15 +3741,15 @@
     {
       "id": 97765217,
       "date": "2026-08-28",
-      "name": "B.2. Over-unders",
+      "name": "De-load: Over-unders",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 53,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 2 sets \u00d7 3\u00d71m @249W / 2m rec (2m set rec) | 1m @119W",
+      "planned_tss": 50,
+      "duration_hours": 0.7,
+      "duration_formatted": "42m",
+      "workout_summary": "2m @119W | 2m @142W | 2m @166W | 1m @190W | 1m @214W | 3m @154W | 2 sets \u00d7 3\u00d71m @249W / 2m rec (2m set rec) | 1m @119W",
       "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals: \n2x 10m\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 1m 95%\n- 5m 55%\n\nCool down:\n- 1m 50%"
+      "description": "Warm up\n- 2m 50%\n- 2m 60%\n- 2m 70%\n- 1m 80%\n- 1m 90%\n- 3m 65%\n\nIntervals: \n2x 10m\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 1m 95%\n- 5m 55%\n\nCool down:\n- 1m 50%"
     },
     {
       "id": 97765334,
@@ -4131,7 +4131,7 @@
   "weekly_summary": {
     "total_training_hours": 9.74,
     "total_training_formatted": "9h44m",
-    "total_tss": 405,
+    "total_tss": 433,
     "activities_count": 8,
     "avg_hrv": 30.7,
     "avg_resting_hr": 71.1
