@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 9.03,
-      "total_training_formatted": "9h2m",
-      "total_activities": 7,
+      "total_training_hours": 9.74,
+      "total_training_formatted": "9h44m",
+      "total_activities": 8,
       "total_tss": 405
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-25T05:31:08.288536",
+    "last_updated": "2026-08-25T06:45:21.378193",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -163,17 +163,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 9.03,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 9.74,
+    "total_activities": 8,
     "by_activity_type": {
       "EBikeRide": {
-        "duration_decimal_hours": 0.76,
-        "count": 1,
+        "duration_decimal_hours": 1.46,
+        "count": 2,
         "tss": 30,
-        "distance_km": 22.3,
+        "distance_km": 44.1,
         "display": {
           "distance": {
-            "value": 22.3,
+            "value": 44.1,
             "unit": "km"
           }
         }
@@ -658,12 +658,12 @@
     "p_max": 994,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-25T05:31:08.287674",
+    "calculation_timestamp": "2026-08-25T06:45:21.377062",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 7,
-      "activities_28d": 23,
+      "activities_7d": 8,
+      "activities_28d": 24,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 12,
@@ -672,6 +672,122 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i179475560",
+      "date": "2026-08-25T16:58:01",
+      "type": "EBikeRide",
+      "name": "Auckland eBiking",
+      "duration_hours": 0.71,
+      "distance_km": 21.82,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": 30.7,
+      "avg_speed_unit": "KPH",
+      "max_speed": 44.1,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 13.641183,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": 4.283145,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": 796,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 187.0,
+      "display": {
+        "distance": {
+          "value": 21.82,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 187,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 30.7,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 44.1,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 21.9,
+        "total_elevation_m": 202,
+        "elevation_per_km": 9.2,
+        "course_character": "rolling",
+        "max_grade_pct": 4.9,
+        "grade_distribution": {
+          "flat_pct": 47.6,
+          "gentle_pct": 42.2,
+          "moderate_pct": 10.2,
+          "steep_pct": 0.0
+        },
+        "start_coords": [
+          -37.0001,
+          174.79005
+        ],
+        "climbs": [],
+        "descents": [],
+        "display": {
+          "total_distance": {
+            "value": 21.9,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 202,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 9,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_summary": {
+        "source": "intervals_open_meteo",
+        "units": {
+          "wind": "m/s",
+          "temp": "c",
+          "rain": "mm"
+        },
+        "avg_wind_speed": 4.28,
+        "avg_wind_gust": 10.76,
+        "prevailing_wind_deg": 247,
+        "headwind_pct": 0.04,
+        "tailwind_pct": 86.77,
+        "avg_temp": 13.64,
+        "avg_temp_device": 16.99,
+        "avg_feels_like": 10.77,
+        "min_feels_like": 10.16,
+        "max_feels_like": 11.2,
+        "min_temp": 12.95,
+        "max_temp": 14.26,
+        "clouds_pct": 62,
+        "rain": 0.0,
+        "snow": 0.0
+      }
+    },
     {
       "id": "i179384726",
       "date": "2026-08-25T07:09:18",
@@ -4013,10 +4129,10 @@
     "bail_no_match": 19
   },
   "weekly_summary": {
-    "total_training_hours": 9.03,
-    "total_training_formatted": "9h2m",
+    "total_training_hours": 9.74,
+    "total_training_formatted": "9h44m",
     "total_tss": 405,
-    "activities_count": 7,
+    "activities_count": 8,
     "avg_hrv": 30.7,
     "avg_resting_hr": 71.1
   },
