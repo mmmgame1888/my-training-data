@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-30T01:06:05.478086",
+    "last_updated": "2026-08-30T07:56:20.085860",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -624,9 +624,9 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": 1.55,
+          "next_week_load": 1.68,
           "plan_coverage_current_week": 0.17,
-          "plan_coverage_next_week": 1.17
+          "plan_coverage_next_week": 1.33
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -659,7 +659,7 @@
     "p_max": 992,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-08-30T01:06:05.476903",
+    "calculation_timestamp": "2026-08-30T07:56:20.084734",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3616,30 +3616,18 @@
       "description": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 24m9s 70%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
     },
     {
-      "id": 97765092,
+      "id": 132533499,
       "date": "2026-08-31",
-      "name": "Morning E-Bike Ride",
+      "name": "1hr zone 2",
       "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
+      "sport_type": "VirtualRide",
+      "planned_tss": 51,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97765093,
-      "date": "2026-08-31",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 69%\n- 3m 55%"
     },
     {
       "id": 97765212,
@@ -3655,17 +3643,30 @@
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 45m 70%\n\nIntervals: \n2x 10m\n- 10m 101%\n- 5m 57%\n\nCool down:\n- 1m 50%"
     },
     {
-      "id": 97765430,
+      "id": 132533552,
       "date": "2026-09-02",
-      "name": "Rat racers",
+      "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "sport_type": "EBikeRide",
+      "planned_tss": 30,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
+      "description": ""
+    },
+    {
+      "id": 132533553,
+      "date": "2026-09-02",
+      "name": "Morning E-Bike Ride",
+      "type": "WORKOUT",
+      "sport_type": "EBikeRide",
+      "planned_tss": 30,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
     },
     {
       "id": 97765429,
@@ -3679,6 +3680,19 @@
       "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 4\u00d73m @287W / 3m rec | 2m @119W",
       "has_terrain": false,
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals: \n4x 3m\n- 3m 121%\n- 3m 55%\n\nCool down:\n- 2m 50%"
+    },
+    {
+      "id": 132533542,
+      "date": "2026-09-04",
+      "name": "Rat racers",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 99,
+      "duration_hours": 1.98,
+      "duration_formatted": "1h58m41s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
     },
     {
       "id": 97765433,
@@ -4015,12 +4029,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 26,
+    "attempted": 27,
     "success": 5,
     "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 21
+    "bail_no_match": 22
   },
   "weekly_summary": {
     "total_training_hours": 7.08,
