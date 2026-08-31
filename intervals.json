@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-08-30T23:13:30.048313",
+  "generated_at": "2026-08-31T03:58:36.039290",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i176239357",
-      "date": "2026-08-16",
-      "type": "Ride",
-      "name": "Botany Bunch",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 9789,
-          "avg_power": 125,
-          "max_power": 497,
-          "avg_hr": 117,
-          "max_hr": 137,
-          "avg_cadence": 69.59307,
-          "zone": 1,
-          "training_load": 70.24626,
-          "decoupling": -18.51124
-        }
-      ]
-    },
     {
       "activity_id": "i176899509",
       "date": "2026-08-18",
@@ -764,6 +743,27 @@
           "zone": 1,
           "training_load": 2.6906762,
           "decoupling": 29.872616
+        }
+      ]
+    },
+    {
+      "activity_id": "i181468379",
+      "date": "2026-08-31",
+      "type": "VirtualRide",
+      "name": "1hr zone 2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3970,
+          "avg_power": 153,
+          "max_power": 199,
+          "avg_hr": 130,
+          "max_hr": 140,
+          "avg_cadence": 88.85793,
+          "zone": 2,
+          "training_load": 51.36436,
+          "decoupling": 3.3759654
         }
       ]
     }
