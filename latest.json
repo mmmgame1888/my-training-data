@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-02T03:08:50.098397",
+    "last_updated": "2026-09-02T08:26:36.131253",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -100,9 +100,19 @@
     "years_on_platform": 1
   },
   "athlete_notes": null,
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "rhr",
+      "value": 74,
+      "severity": "warning",
+      "threshold": "\u2191\u22655bpm vs baseline (63.9)",
+      "context": "RHR 74 is 10.1bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    }
+  ],
   "readiness_decision": {
-    "recommendation": "modify",
+    "recommendation": "skip",
     "priority": 2,
     "signals": {
       "hrv": {
@@ -112,10 +122,10 @@
         "delta_pct": 29.1
       },
       "rhr": {
-        "status": "green",
-        "value": 57,
-        "baseline_7d": 61.4,
-        "delta_bpm": -4.4
+        "status": "red",
+        "value": 74,
+        "baseline_7d": 63.9,
+        "delta_bpm": 10.1
       },
       "sleep": {
         "status": "red",
@@ -128,8 +138,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.39,
-        "value_yesterday": 1.36
+        "value": 1.11,
+        "value_yesterday": 1.41
       },
       "tsb": {
         "status": "green",
@@ -137,9 +147,9 @@
       }
     },
     "signal_summary": {
-      "green": 5,
+      "green": 4,
       "amber": 0,
-      "red": 1,
+      "red": 2,
       "unavailable": 0
     },
     "phase_context": {
@@ -149,17 +159,8 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
+    "modification": null,
+    "reason": "P2 signal count. 2 red (rhr, sleep), 0 amber ().",
     "alarm_refs": []
   },
   "history": {
@@ -250,7 +251,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 57,
+      "resting_hr": 74,
       "hrv": 35.238094,
       "sleep_quality": null,
       "sleep_hours": 4.02,
@@ -284,14 +285,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.39,
-    "recovery_index_yesterday": 1.36,
+    "recovery_index": 1.11,
+    "recovery_index_yesterday": 1.41,
     "hrv_baseline_7d": 27.3,
-    "rhr_baseline_7d": 61.4,
+    "rhr_baseline_7d": 63.9,
     "hrv_baseline_28d": 30.3,
-    "rhr_baseline_28d": 63.5,
+    "rhr_baseline_28d": 64.1,
     "latest_hrv": 35.238094,
-    "latest_rhr": 57,
+    "latest_rhr": 74,
     "acwr": 1.02,
     "acwr_interpretation": "optimal",
     "monotony": 1.23,
@@ -303,7 +304,7 @@
     "multi_sport_detected": false,
     "strain": 526.0,
     "stress_tolerance": 4.3,
-    "load_recovery_ratio": 3.1,
+    "load_recovery_ratio": 3.9,
     "tss_7d_total": 428.0,
     "tss_28d_total": 1677.0,
     "zone_distribution_7d": {
@@ -585,9 +586,9 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.83,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 5,
       "matched_days": 5,
       "planned_dates": [
@@ -595,7 +596,6 @@
         "2026-08-29",
         "2026-08-30",
         "2026-08-31",
-        "2026-09-01",
         "2026-09-02"
       ],
       "completed_dates": [
@@ -618,13 +618,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.66,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.54,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 1.23,
-          "plan_coverage_current_week": 0.71,
+          "plan_coverage_current_week": 0.86,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -658,13 +658,13 @@
     "p_max": 991,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-09-02T03:08:50.097253",
+    "calculation_timestamp": "2026-09-02T08:26:36.130040",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 12,
         "outdoor": 0
@@ -3380,7 +3380,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 57,
+      "resting_hr": 74,
       "hrv_rmssd": 35.238094,
       "hrv_sdnn": null,
       "sleep_hours": 4.02,
@@ -3432,17 +3432,30 @@
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 45m 70%\n\nIntervals: \n2x 10m\n- 10m 101%\n- 5m 57%\n\nCool down:\n- 1m 50%"
     },
     {
-      "id": 132533542,
+      "id": 132533552,
       "date": "2026-09-03",
-      "name": "Rat racers",
+      "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "sport_type": "EBikeRide",
+      "planned_tss": 30,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
+      "description": ""
+    },
+    {
+      "id": 132533553,
+      "date": "2026-09-03",
+      "name": "Morning E-Bike Ride",
+      "type": "WORKOUT",
+      "sport_type": "EBikeRide",
+      "planned_tss": 30,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
     },
     {
       "id": 97765429,
@@ -3844,12 +3857,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 27,
+    "attempted": 26,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 21
+    "bail_no_match": 20
   },
   "weekly_summary": {
     "total_training_hours": 7.65,
@@ -3857,7 +3870,7 @@
     "total_tss": 428,
     "activities_count": 5,
     "avg_hrv": 27.3,
-    "avg_resting_hr": 61.4
+    "avg_resting_hr": 63.9
   },
   "race_calendar": {
     "next_race": null,
