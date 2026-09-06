@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-06T05:32:21.755475",
+    "last_updated": "2026-09-06T10:22:08.766291",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -623,7 +623,7 @@
           "current_week_hard_days_completed": 4,
           "current_week_hard_days_total": 4,
           "race_proximity": null,
-          "next_week_load": 1.23,
+          "next_week_load": 1.13,
           "plan_coverage_current_week": 0.14,
           "plan_coverage_next_week": 1.0
         },
@@ -658,7 +658,7 @@
     "p_max": 991,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 60.0,
-    "calculation_timestamp": "2026-09-06T05:32:21.754306",
+    "calculation_timestamp": "2026-09-06T10:22:08.765092",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1036,7 +1036,7 @@
       "id": "i183033846",
       "date": "2026-09-04T09:03:50",
       "type": "VirtualRide",
-      "name": "B.1. VO2",
+      "name": "Zwift - Intervals icu: B.1. VO2",
       "duration_hours": 0.67,
       "distance_km": 21.12,
       "tss": 52,
@@ -3736,30 +3736,18 @@
       "description": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 24m9s 70%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
     },
     {
-      "id": 97766301,
+      "id": 134163297,
       "date": "2026-09-07",
-      "name": "Morning E-Bike Ride",
+      "name": "1hr zone 2",
       "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
+      "sport_type": "VirtualRide",
+      "planned_tss": 51,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97766302,
-      "date": "2026-09-07",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 69%\n- 3m 55%"
     },
     {
       "id": 97766226,
@@ -3775,17 +3763,30 @@
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n\n- 25m 70%\n\nIntervals: \n2x 8m\n- 8m 97%\n- 4m 57%\n\nCool down:\n- 1m 50%"
     },
     {
-      "id": 97766228,
+      "id": 97766301,
       "date": "2026-09-09",
-      "name": "Rat racers",
+      "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "sport_type": "EBikeRide",
+      "planned_tss": 30,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
+      "description": ""
+    },
+    {
+      "id": 97766302,
+      "date": "2026-09-09",
+      "name": "Morning E-Bike Ride",
+      "type": "WORKOUT",
+      "sport_type": "EBikeRide",
+      "planned_tss": 30,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
     },
     {
       "id": 97766227,
