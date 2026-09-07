@@ -1,57 +1,10 @@
 {
-  "generated_at": "2026-09-06T23:31:11.039644",
+  "generated_at": "2026-09-07T03:09:58.225520",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i178722765",
-      "date": "2026-08-23",
-      "type": "Ride",
-      "name": "Botany Bunch",
-      "interval_summary": [
-        "1x 3m41s 184w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 6892,
-          "avg_power": 134,
-          "max_power": 651,
-          "avg_hr": 122,
-          "max_hr": 159,
-          "avg_cadence": 72.7107,
-          "zone": 2,
-          "training_load": 70.815125
-        },
-        {
-          "type": "WORK",
-          "label": "221s@184w86rpm",
-          "duration_secs": 221,
-          "avg_power": 184,
-          "max_power": 261,
-          "avg_hr": 134,
-          "max_hr": 145,
-          "avg_cadence": 86.26244,
-          "zone": 3,
-          "training_load": 3.5114045,
-          "decoupling": 8.629428
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1016,
-          "avg_power": 151,
-          "max_power": 613,
-          "avg_hr": 131,
-          "max_hr": 147,
-          "avg_cadence": 76.93846,
-          "zone": 2,
-          "training_load": 12.509498,
-          "decoupling": -1.8865272
-        }
-      ]
-    },
     {
       "activity_id": "i179749415",
       "date": "2026-08-26",
