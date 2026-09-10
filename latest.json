@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-10T05:45:17.798110",
+    "last_updated": "2026-09-10T10:44:08.972263",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -576,9 +576,9 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.83,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 5,
       "matched_days": 5,
       "planned_dates": [
@@ -586,7 +586,6 @@
         "2026-09-05",
         "2026-09-06",
         "2026-09-08",
-        "2026-09-09",
         "2026-09-10"
       ],
       "completed_dates": [
@@ -609,10 +608,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.71,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.54,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 0.32,
           "plan_coverage_current_week": 0.67,
@@ -649,13 +648,13 @@
     "p_max": 991,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-10T05:45:17.797128",
+    "calculation_timestamp": "2026-09-10T10:44:08.971121",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 3,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 12,
         "outdoor": 0
@@ -667,7 +666,7 @@
       "id": "i185017056",
       "date": "2026-09-10T05:53:27",
       "type": "VirtualRide",
-      "name": "B.2. Taper Over-unders",
+      "name": "Zwift - Intervals icu: B.2. Over-unders",
       "duration_hours": 0.67,
       "distance_km": 22.86,
       "tss": 45,
@@ -3439,17 +3438,18 @@
       "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals: \n2x 18m\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 1m 105%\n- 2m 95%\n- 5m 55%\n\nCool down:\n- 1m 50%"
     },
     {
-      "id": 134401943,
+      "id": 134737407,
       "date": "2026-09-11",
-      "name": "Rat racers",
+      "name": "1hr zone 2",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "sport_type": "VirtualRide",
+      "planned_tss": 54,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 34m34s 56%\n- 50m 66%\n- 5m 100%\n- 12m 66%\n- 30s 233%\n- 16m37s 57%"
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
     },
     {
       "id": 97766229,
