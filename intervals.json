@@ -1,123 +1,10 @@
 {
-  "generated_at": "2026-09-11T22:59:53.342922",
+  "generated_at": "2026-09-12T01:02:22.697385",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i180438635",
-      "date": "2026-08-28",
-      "type": "VirtualRide",
-      "name": "De-load: Over-unders",
-      "interval_summary": [
-        "2x 1m59s 215w",
-        "1x 8m2s 224w",
-        "1x 6m55s 222w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 661,
-          "avg_power": 149,
-          "max_power": 215,
-          "avg_hr": 120,
-          "max_hr": 144,
-          "avg_cadence": 87.278366,
-          "zone": 2,
-          "training_load": 8.560727,
-          "decoupling": -2.5914388
-        },
-        {
-          "type": "WORK",
-          "label": "119s@215w97rpm",
-          "duration_secs": 119,
-          "avg_power": 214,
-          "max_power": 226,
-          "avg_hr": 146,
-          "max_hr": 154,
-          "avg_cadence": 96.36975,
-          "zone": 4,
-          "training_load": 2.802111,
-          "decoupling": 4.791166
-        },
-        {
-          "type": "WORK",
-          "label": "482s@224w97rpm",
-          "duration_secs": 482,
-          "avg_power": 224,
-          "max_power": 255,
-          "avg_hr": 162,
-          "max_hr": 168,
-          "avg_cadence": 97.11618,
-          "zone": 4,
-          "training_load": 13.154,
-          "decoupling": 4.7630982
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 301,
-          "avg_power": 125,
-          "max_power": 204,
-          "avg_hr": 136,
-          "max_hr": 165,
-          "avg_cadence": 88.80067,
-          "zone": 2,
-          "training_load": 2.913546,
-          "decoupling": -11.606859
-        },
-        {
-          "type": "WORK",
-          "label": "119s@215w97rpm",
-          "duration_secs": 118,
-          "avg_power": 215,
-          "max_power": 229,
-          "avg_hr": 149,
-          "max_hr": 162,
-          "avg_cadence": 97.94068,
-          "zone": 4,
-          "training_load": 2.7520382,
-          "decoupling": 10.769415
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 65,
-          "avg_power": 236,
-          "max_power": 251,
-          "avg_hr": 164,
-          "max_hr": 168,
-          "avg_cadence": 101.276924,
-          "zone": 4,
-          "training_load": 1.9022648,
-          "decoupling": 1.5566835
-        },
-        {
-          "type": "WORK",
-          "label": "415s@222w99rpm",
-          "duration_secs": 415,
-          "avg_power": 222,
-          "max_power": 259,
-          "avg_hr": 169,
-          "max_hr": 174,
-          "avg_cadence": 99.36385,
-          "zone": 4,
-          "training_load": 11.125092,
-          "decoupling": 1.0033455
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 320,
-          "avg_power": 118,
-          "max_power": 214,
-          "avg_hr": 142,
-          "max_hr": 171,
-          "avg_cadence": 81.8625,
-          "zone": 1,
-          "training_load": 3.0513992,
-          "decoupling": -12.310493
-        }
-      ]
-    },
     {
       "activity_id": "i180843686",
       "date": "2026-08-29",
@@ -1172,6 +1059,101 @@
           "zone": 2,
           "training_load": 53.412273,
           "decoupling": 4.8022747
+        }
+      ]
+    },
+    {
+      "activity_id": "i185743251",
+      "date": "2026-09-12",
+      "type": "VirtualRide",
+      "name": "Zwift - Tour of Fire and Ice in Watopia",
+      "interval_summary": [
+        "1x 2m50s 172w",
+        "1x 15m18s 225w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1771,
+          "avg_power": 152,
+          "max_power": 243,
+          "avg_hr": 131,
+          "max_hr": 143,
+          "avg_cadence": 83.51307,
+          "zone": 2,
+          "training_load": 22.755215,
+          "decoupling": -5.0390906
+        },
+        {
+          "type": "WORK",
+          "label": "170s@172w56rpm",
+          "duration_secs": 170,
+          "avg_power": 172,
+          "max_power": 207,
+          "avg_hr": 140,
+          "max_hr": 144,
+          "avg_cadence": 55.72353,
+          "zone": 3,
+          "training_load": 2.8065372,
+          "decoupling": 2.4971063
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3417,
+          "avg_power": 150,
+          "max_power": 250,
+          "avg_hr": 139,
+          "max_hr": 157,
+          "avg_cadence": 65.09022,
+          "zone": 2,
+          "training_load": 40.54917,
+          "decoupling": 5.395339
+        },
+        {
+          "type": "WORK",
+          "label": "918s@225w94rpm",
+          "duration_secs": 918,
+          "avg_power": 225,
+          "max_power": 283,
+          "avg_hr": 166,
+          "max_hr": 172,
+          "avg_cadence": 94.295204,
+          "zone": 4,
+          "training_load": 25.275826,
+          "decoupling": 0.77213335
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 131,
+          "avg_power": 107,
+          "max_power": 234,
+          "avg_hr": 153,
+          "max_hr": 172,
+          "avg_cadence": 79.67939,
+          "zone": 1,
+          "training_load": 1.4847492,
+          "decoupling": 3.3152142
+        }
+      ]
+    },
+    {
+      "activity_id": "i185732086",
+      "date": "2026-09-12",
+      "type": "VirtualRide",
+      "name": "Zwift - Pacer Group Ride with Maria",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3627,
+          "avg_power": 146,
+          "max_power": 320,
+          "avg_hr": 131,
+          "max_hr": 150,
+          "avg_cadence": 86.00111,
+          "zone": 2,
+          "training_load": 43.992218,
+          "decoupling": 2.4454167
         }
       ]
     }
