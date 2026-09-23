@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-09-22T21:48:07.692104",
+  "generated_at": "2026-09-23T00:02:01.428547",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i184336455",
-      "date": "2026-09-08",
-      "type": "VirtualRide",
-      "name": "Zwift - Intervals icu: Taper Threshold",
-      "interval_summary": [
-        "2x 7m57s 220w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1866,
-          "avg_power": 152,
-          "max_power": 211,
-          "avg_hr": 125,
-          "max_hr": 139,
-          "avg_cadence": 89.47964,
-          "zone": 2,
-          "training_load": 23.856068,
-          "decoupling": 1.3569894
-        },
-        {
-          "type": "WORK",
-          "label": "477s@220w98rpm",
-          "duration_secs": 475,
-          "avg_power": 220,
-          "max_power": 231,
-          "avg_hr": 154,
-          "max_hr": 161,
-          "avg_cadence": 97.30316,
-          "zone": 4,
-          "training_load": 12.2808275,
-          "decoupling": 4.988318
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 241,
-          "avg_power": 129,
-          "max_power": 211,
-          "avg_hr": 137,
-          "max_hr": 159,
-          "avg_cadence": 85.83402,
-          "zone": 2,
-          "training_load": 2.5101082,
-          "decoupling": -6.6593347
-        },
-        {
-          "type": "WORK",
-          "label": "477s@220w98rpm",
-          "duration_secs": 478,
-          "avg_power": 219,
-          "max_power": 232,
-          "avg_hr": 156,
-          "max_hr": 164,
-          "avg_cadence": 98.13389,
-          "zone": 4,
-          "training_load": 12.245786,
-          "decoupling": 5.3133717
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 250,
-          "avg_power": 124,
-          "max_power": 206,
-          "avg_hr": 135,
-          "max_hr": 162,
-          "avg_cadence": 83.412,
-          "zone": 1,
-          "training_load": 2.6038465,
-          "decoupling": -10.468716
-        }
-      ]
-    },
     {
       "activity_id": "i185017056",
       "date": "2026-09-10",
