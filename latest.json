@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-25T20:17:17.372348",
+    "last_updated": "2026-09-25T23:51:17.364900",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -254,7 +254,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 94.0,
+      "spO2": 97.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -644,7 +644,7 @@
     "p_max": 983,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-25T20:17:17.371177",
+    "calculation_timestamp": "2026-09-25T23:51:17.363733",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2688,7 +2688,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 94.0,
+      "spO2": 97.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
