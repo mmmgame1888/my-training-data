@@ -1,105 +1,10 @@
 {
-  "generated_at": "2026-09-26T21:51:49.929845",
+  "generated_at": "2026-09-27T00:17:20.202165",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i185743251",
-      "date": "2026-09-12",
-      "type": "VirtualRide",
-      "name": "Zwift - Tour of Fire and Ice in Watopia",
-      "interval_summary": [
-        "1x 2m50s 172w",
-        "1x 15m18s 225w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1771,
-          "avg_power": 152,
-          "max_power": 243,
-          "avg_hr": 131,
-          "max_hr": 143,
-          "avg_cadence": 83.51307,
-          "zone": 2,
-          "training_load": 22.755215,
-          "decoupling": -5.0390906
-        },
-        {
-          "type": "WORK",
-          "label": "170s@172w56rpm",
-          "duration_secs": 170,
-          "avg_power": 172,
-          "max_power": 207,
-          "avg_hr": 140,
-          "max_hr": 144,
-          "avg_cadence": 55.72353,
-          "zone": 3,
-          "training_load": 2.8065372,
-          "decoupling": 2.4971063
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3417,
-          "avg_power": 150,
-          "max_power": 250,
-          "avg_hr": 139,
-          "max_hr": 157,
-          "avg_cadence": 65.09022,
-          "zone": 2,
-          "training_load": 40.54917,
-          "decoupling": 5.395339
-        },
-        {
-          "type": "WORK",
-          "label": "918s@225w94rpm",
-          "duration_secs": 918,
-          "avg_power": 225,
-          "max_power": 283,
-          "avg_hr": 166,
-          "max_hr": 172,
-          "avg_cadence": 94.295204,
-          "zone": 4,
-          "training_load": 25.275826,
-          "decoupling": 0.77213335
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 131,
-          "avg_power": 107,
-          "max_power": 234,
-          "avg_hr": 153,
-          "max_hr": 172,
-          "avg_cadence": 79.67939,
-          "zone": 1,
-          "training_load": 1.4847492,
-          "decoupling": 3.3152142
-        }
-      ]
-    },
-    {
-      "activity_id": "i185732086",
-      "date": "2026-09-12",
-      "type": "VirtualRide",
-      "name": "Zwift - Pacer Group Ride with Maria",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3627,
-          "avg_power": 146,
-          "max_power": 320,
-          "avg_hr": 131,
-          "max_hr": 150,
-          "avg_cadence": 86.00111,
-          "zone": 2,
-          "training_load": 43.992218,
-          "decoupling": 2.4454167
-        }
-      ]
-    },
     {
       "activity_id": "i186046128",
       "date": "2026-09-13",
