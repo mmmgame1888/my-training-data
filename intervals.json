@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-09-27T23:43:24.395203",
+  "generated_at": "2026-09-28T03:57:04.194036",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i186046128",
-      "date": "2026-09-13",
-      "type": "Ride",
-      "name": "Auckland Road Cycling",
-      "interval_summary": [
-        "1x 2m12s 230w",
-        "1x 29s 435w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5757,
-          "avg_power": 146,
-          "max_power": 427,
-          "avg_hr": 127,
-          "max_hr": 139,
-          "avg_cadence": 74.71974,
-          "zone": 2,
-          "training_load": 58.951607,
-          "decoupling": -1.8383588
-        },
-        {
-          "type": "WORK",
-          "label": "132s@230w84rpm",
-          "duration_secs": 132,
-          "avg_power": 230,
-          "max_power": 327,
-          "avg_hr": 143,
-          "max_hr": 150,
-          "avg_cadence": 84.32576,
-          "zone": 4,
-          "training_load": 3.1902409,
-          "decoupling": 11.726199
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5538,
-          "avg_power": 154,
-          "max_power": 994,
-          "avg_hr": 137,
-          "max_hr": 173,
-          "avg_cadence": 69.78034,
-          "zone": 2,
-          "training_load": 73.260735,
-          "decoupling": -7.437902
-        },
-        {
-          "type": "WORK",
-          "label": "29s@435w105rpm",
-          "duration_secs": 29,
-          "avg_power": 435,
-          "max_power": 536,
-          "avg_hr": 161,
-          "max_hr": 166,
-          "avg_cadence": 104.655174,
-          "zone": 7,
-          "training_load": 1.6926992,
-          "decoupling": 6.0550585
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2551,
-          "avg_power": 137,
-          "max_power": 416,
-          "avg_hr": 141,
-          "max_hr": 169,
-          "avg_cadence": 65.710724,
-          "zone": 2,
-          "training_load": 14.576763
-        }
-      ]
-    },
     {
       "activity_id": "i186441089",
       "date": "2026-09-14",
