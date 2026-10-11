@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-11T21:33:39.344203",
+    "last_updated": "2026-10-11T23:35:49.051900",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 1.19
+        "value": 0.73
       },
       "ri": {
         "status": "green",
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 22.8
+        "value": 21.7
       }
     },
     "signal_summary": {
@@ -182,10 +182,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.17,
-      "atl": 16.36,
-      "tsb": 22.81,
-      "ramp_rate": -4.35,
+      "ctl": 42.78,
+      "atl": 21.12,
+      "tsb": 21.66,
+      "ramp_rate": -5.01,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -271,8 +271,8 @@
     "rhr_baseline_28d": 58.7,
     "latest_hrv": 28.313334,
     "latest_rhr": 62,
-    "acwr": 1.19,
-    "acwr_interpretation": "optimal",
+    "acwr": 0.73,
+    "acwr_interpretation": "undertraining",
     "monotony": 0.38,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
@@ -284,7 +284,7 @@
     "stress_tolerance": 1.0,
     "load_recovery_ratio": 1.1,
     "tss_7d_total": 99.0,
-    "tss_28d_total": 332.0,
+    "tss_28d_total": 543.0,
     "zone_distribution_7d": {
       "z1_hours": 0.67,
       "z2_hours": 0.53,
@@ -325,23 +325,23 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 6721,
-      "z2_seconds": 1919,
-      "z3_seconds": 1302,
-      "z1_pct": 67.6,
-      "z2_pct": 19.3,
-      "z3_pct": 13.1,
+      "z1_seconds": 20221,
+      "z2_seconds": 2039,
+      "z3_seconds": 2022,
+      "z1_pct": 83.3,
+      "z2_pct": 8.4,
+      "z3_pct": 8.3,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 6721,
-      "z2_seconds": 1919,
-      "z3_seconds": 1302,
-      "z1_pct": 67.6,
-      "z2_pct": 19.3,
-      "z3_pct": 13.1,
+      "z1_seconds": 20221,
+      "z2_seconds": 2039,
+      "z3_seconds": 2022,
+      "z1_pct": 83.3,
+      "z2_pct": 8.4,
+      "z3_pct": 8.3,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
@@ -588,18 +588,18 @@
         "stream_1": {
           "ctl_slope": -3.4,
           "acwr_trend": "rising",
-          "hard_day_pattern": 0,
+          "hard_day_pattern": 0.3,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 7.75,
+          "planned_tss_delta": 4.07,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 7.53,
-          "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 3.0
+          "next_week_load": 3.95,
+          "plan_coverage_current_week": 0.33,
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -634,12 +634,12 @@
     "p_max": 968,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-10-11T21:33:39.343307",
+    "calculation_timestamp": "2026-10-11T23:35:49.051071",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 1,
-      "activities_28d": 7,
+      "activities_28d": 11,
       "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 12,
@@ -784,6 +784,67 @@
       }
     },
     {
+      "id": "i196290388",
+      "date": "2026-10-03T00:00:00",
+      "type": "VirtualRide",
+      "name": "1hr zone 2",
+      "duration_hours": 1.1,
+      "distance_km": 0.0,
+      "tss": 53,
+      "intensity_factor": 69.413124,
+      "avg_power": 156,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 616.7,
+      "calories": 670,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "power_zones": {
+          "z1_time": 300,
+          "z2_time": 3660,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
+    },
+    {
       "id": "20376202549",
       "date": "2026-09-29T10:39:09",
       "type": "Unknown",
@@ -834,6 +895,67 @@
       "has_dfa": false
     },
     {
+      "id": "i196290322",
+      "date": "2026-09-29T00:00:00",
+      "type": "VirtualRide",
+      "name": "1hr zone 2",
+      "duration_hours": 1.1,
+      "distance_km": 0.0,
+      "tss": 53,
+      "intensity_factor": 69.413124,
+      "avg_power": 156,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 616.7,
+      "calories": 670,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "power_zones": {
+          "z1_time": 300,
+          "z2_time": 3660,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
+    },
+    {
       "id": "20366379159",
       "date": "2026-09-28T12:56:46",
       "type": "Unknown",
@@ -882,6 +1004,128 @@
       "zone_distribution": null,
       "has_intervals": false,
       "has_dfa": false
+    },
+    {
+      "id": "i196289828",
+      "date": "2026-09-25T00:00:00",
+      "type": "VirtualRide",
+      "name": "B.1. VO2 max",
+      "duration_hours": 0.68,
+      "distance_km": 0.0,
+      "tss": 52,
+      "intensity_factor": 87.23392,
+      "avg_power": 175,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 430.1,
+      "calories": 467,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "power_zones": {
+          "z1_time": 1020,
+          "z2_time": 600,
+          "z3_time": 120,
+          "z4_time": 0,
+          "z5_time": 720,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals\n4x 3m\n- 3m 115%\n- 3m 55%\n\nCooldown\n- 2m 50%"
+    },
+    {
+      "id": "i196289839",
+      "date": "2026-09-23T00:00:00",
+      "type": "VirtualRide",
+      "name": "1hr zone 2",
+      "duration_hours": 1.1,
+      "distance_km": 0.0,
+      "tss": 53,
+      "intensity_factor": 69.413124,
+      "avg_power": 156,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 616.7,
+      "calories": 670,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "power_zones": {
+          "z1_time": 300,
+          "z2_time": 3660,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
     },
     {
       "id": "i189215274",
