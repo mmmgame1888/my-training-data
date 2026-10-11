@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-11T04:18:59.654572",
+    "last_updated": "2026-10-11T11:14:54.483597",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 17.0
+        "value": 22.8
       }
     },
     "signal_summary": {
@@ -182,10 +182,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 40.42,
-      "atl": 23.41,
-      "tsb": 17.01,
-      "ramp_rate": -3.1,
+      "ctl": 39.17,
+      "atl": 16.36,
+      "tsb": 22.81,
+      "ramp_rate": -4.35,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -242,7 +242,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 99.0,
+      "spO2": 97.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -564,15 +564,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.25,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-06",
         "2026-10-08",
-        "2026-10-10",
         "2026-10-11"
       ],
       "completed_dates": [
@@ -593,14 +592,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 12.53,
+          "planned_tss_delta": 7.75,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 7.62,
-          "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 3.5
+          "next_week_load": 7.53,
+          "plan_coverage_current_week": 0.5,
+          "plan_coverage_next_week": 3.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -635,13 +634,13 @@
     "p_max": 968,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 59.0,
-    "calculation_timestamp": "2026-10-11T04:18:59.653361",
+    "calculation_timestamp": "2026-10-11T11:14:54.482379",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 6,
       "activities_7d": 1,
       "activities_28d": 7,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 12,
         "outdoor": 0
@@ -1521,7 +1520,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 99.0,
+      "spO2": 97.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -1543,20 +1542,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 97766414,
-      "date": "2026-10-11",
-      "name": "1hr zone 2",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 53,
-      "duration_hours": 1.1,
-      "duration_formatted": "1h6m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
-    },
-    {
       "id": 97766419,
       "date": "2026-10-11",
       "name": "Botany Bunch",
@@ -1570,30 +1555,18 @@
       "description": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 24m9s 70%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
     },
     {
-      "id": 97765700,
+      "id": 97766642,
       "date": "2026-10-12",
-      "name": "Morning E-Bike Ride",
+      "name": "1hr zone 2",
       "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
+      "sport_type": "VirtualRide",
+      "planned_tss": 53,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97765712,
-      "date": "2026-10-12",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 71%\n- 3m 55%"
     },
     {
       "id": 97765889,
