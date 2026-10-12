@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-12T20:54:20.108271",
+    "last_updated": "2026-10-12T23:03:22.520861",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -222,8 +222,8 @@
           "max_hr": 193,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 238,
-          "ftp_indoor": 227
+          "ftp": 234,
+          "ftp_indoor": 224
         },
         "run": {
           "lthr": 175,
@@ -498,11 +498,11 @@
               "actual_hr": 170,
               "pct_lthr": 101.2,
               "source": "observed_outdoor",
-              "coggan_watts": 252,
-              "coggan_wpkg": 3.94,
-              "cp_model_watts": 301,
-              "cp_model_wpkg": 4.7,
-              "model_divergence_pct": -15.9
+              "coggan_watts": 248,
+              "coggan_wpkg": 3.88,
+              "cp_model_watts": 297,
+              "cp_model_wpkg": 4.64,
+              "model_divergence_pct": -14.8
             },
             "600s": {
               "actual_watts": 243,
@@ -510,11 +510,11 @@
               "actual_hr": 168,
               "pct_lthr": 100.0,
               "source": "observed_outdoor",
-              "coggan_watts": 231,
-              "coggan_wpkg": 3.61,
-              "cp_model_watts": 270,
-              "cp_model_wpkg": 4.22,
-              "model_divergence_pct": -10.0
+              "coggan_watts": 227,
+              "coggan_wpkg": 3.55,
+              "cp_model_watts": 266,
+              "cp_model_wpkg": 4.16,
+              "model_divergence_pct": -8.6
             },
             "1200s": {
               "actual_watts": 224,
@@ -522,11 +522,11 @@
               "actual_hr": 162,
               "pct_lthr": 96.4,
               "source": "observed_outdoor",
-              "coggan_watts": 221,
-              "coggan_wpkg": 3.45,
-              "cp_model_watts": 254,
-              "cp_model_wpkg": 3.97,
-              "model_divergence_pct": -11.8
+              "coggan_watts": 218,
+              "coggan_wpkg": 3.41,
+              "cp_model_watts": 250,
+              "cp_model_wpkg": 3.91,
+              "model_divergence_pct": -10.4
             },
             "1800s": {
               "actual_watts": 212,
@@ -534,11 +534,11 @@
               "actual_hr": 157,
               "pct_lthr": 93.5,
               "source": "observed_outdoor",
-              "coggan_watts": 214,
-              "coggan_wpkg": 3.34,
-              "cp_model_watts": 249,
-              "cp_model_wpkg": 3.89,
-              "model_divergence_pct": -14.9
+              "coggan_watts": 211,
+              "coggan_wpkg": 3.3,
+              "cp_model_watts": 245,
+              "cp_model_wpkg": 3.83,
+              "model_divergence_pct": -13.5
             },
             "3600s": {
               "actual_watts": 169,
@@ -546,11 +546,11 @@
               "actual_hr": 143,
               "pct_lthr": 85.1,
               "source": "observed_outdoor",
-              "coggan_watts": 205,
-              "coggan_wpkg": 3.2,
-              "cp_model_watts": 243,
-              "cp_model_wpkg": 3.8,
-              "model_divergence_pct": -30.5
+              "coggan_watts": 201,
+              "coggan_wpkg": 3.14,
+              "cp_model_watts": 239,
+              "cp_model_wpkg": 3.73,
+              "model_divergence_pct": -29.3
             },
             "5400s": {
               "actual_watts": 162,
@@ -558,11 +558,11 @@
               "actual_hr": 141,
               "pct_lthr": 83.9,
               "source": "observed_outdoor",
-              "coggan_watts": 195,
-              "coggan_wpkg": 3.05,
-              "cp_model_watts": 242,
-              "cp_model_wpkg": 3.78,
-              "model_divergence_pct": -33.1
+              "coggan_watts": 192,
+              "coggan_wpkg": 3.0,
+              "cp_model_watts": 238,
+              "cp_model_wpkg": 3.72,
+              "model_divergence_pct": -31.9
             },
             "7200s": {
               "actual_watts": 140,
@@ -570,17 +570,17 @@
               "actual_hr": 118,
               "pct_lthr": 70.2,
               "source": "observed_outdoor",
-              "coggan_watts": 186,
-              "coggan_wpkg": 2.91,
-              "cp_model_watts": 241,
-              "cp_model_wpkg": 3.77,
-              "model_divergence_pct": -41.9
+              "coggan_watts": 183,
+              "coggan_wpkg": 2.86,
+              "cp_model_watts": 237,
+              "cp_model_wpkg": 3.7,
+              "model_divergence_pct": -40.9
             }
           },
           "coverage_ratio": 1.0,
-          "ftp_used": 238,
+          "ftp_used": 234,
           "w_prime_used": 18966,
-          "ftp_staleness_days": 118,
+          "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
@@ -614,14 +614,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.23,
+          "planned_tss_delta": 2.05,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": 47,
-          "next_week_load": 2.78,
+          "next_week_load": 2.33,
           "plan_coverage_current_week": 2.0,
-          "plan_coverage_next_week": 2.33
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -635,14 +635,14 @@
     "phase_triggers": [],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
-      "current_ftp": 227,
+      "current_ftp": 224,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 238,
+      "current_ftp": 234,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -654,7 +654,7 @@
     "p_max": 967,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-12T20:54:20.107010",
+    "calculation_timestamp": "2026-10-12T23:03:22.519593",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -662,8 +662,8 @@
       "activities_28d": 11,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
-        "indoor": 12,
-        "outdoor": 0
+        "indoor": 130,
+        "outdoor": 130
       }
     }
   },
@@ -1828,7 +1828,7 @@
       "planned_tss": 55,
       "duration_hours": 0.85,
       "duration_formatted": "51m",
-      "workout_summary": "2m @119W | 2m @142W | 2m @166W | 1m @190W | 1m @202W | 2m @154W | 2\u00d715m @211W / 5m rec | 1m @119W",
+      "workout_summary": "2m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 2m @152W | 2\u00d715m @208W / 5m rec | 1m @117W",
       "has_terrain": false,
       "description": "Warm up\n- 2m 50%\n- 2m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 2m 65%\n\nIntervals: \n2x 15m\n- 15m 89%\n- 5m 56%\n\nCool down:\n- 1m 50%"
     },
@@ -1838,13 +1838,13 @@
       "name": "1hr zone 2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 46,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 50,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 54m 69%\n- 3m 55%"
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 60m 68%\n- 3m 55%"
     },
     {
       "id": 97765899,
@@ -1852,38 +1852,39 @@
       "name": "B.1. VO2 max",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 34,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 2\u00d73m @273W / 4m rec | 1m @119W",
+      "planned_tss": 41,
+      "duration_hours": 0.55,
+      "duration_formatted": "33m",
+      "workout_summary": "2m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 3m @152W | 3\u00d73m @269W / 4m rec | 1m @117W",
       "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 3m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 5m 65%\n\nIntervals\n2x 3m\n- 3m 115%\n- 4m 55%\n\nCooldown\n- 1m 50%"
+      "description": "Warm up\n- 2m 50%\n- 2m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 3m 65%\n\nIntervals\n3x 3m\n- 3m 115%\n- 4m 55%\n\nCooldown\n- 1m 50%"
     },
     {
-      "id": 97765678,
+      "id": 144053842,
       "date": "2026-10-17",
-      "name": "Saturday long ride",
+      "name": "1hr zone 2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 135,
-      "duration_hours": 3.1,
-      "duration_formatted": "3h5m57s",
+      "planned_tss": 41,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 24m4s 60%\n- 38s 119%\n- 12m33s 65%\n- 39s 115%\n- 32m12s 55%\n- 41s 110%\n- 7m45s 65%\n- 49s 121%\n- 11m45s 60%\n- 2m12s 102%\n- 50s 41%\n- 47s 124%\n- 10m24s 65%\n- 35s 110%\n- 2m14s 26%\n- 94s 91%\n- 39m9s 63%\n- 37s 122%\n- 36m29s 65%"
+      "indoor": true,
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 54m 65%\n- 3m 55%"
     },
     {
-      "id": 97766417,
+      "id": 144053851,
       "date": "2026-10-18",
       "name": "Botany Bunch",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 50,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h2m1s",
+      "planned_tss": 103,
+      "duration_hours": 2.44,
+      "duration_formatted": "2h26m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 13m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
+      "description": "- 73m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm\n- 85s 91%\n- 24m9s 70%\n- 16s 194%\n- 23s 88%\n- 11s 170%\n- 7m6s 66% 65rpm\n- 8s 174%\n- 6m10s 66% 67rpm\n- 10s 171%\n- 91s 77%\n- 55s 122%\n- 15m58s 58% 69rpm"
     },
     {
       "id": 97765698,
@@ -1920,7 +1921,7 @@
       "planned_tss": 74,
       "duration_hours": 1.05,
       "duration_formatted": "1h3m",
-      "workout_summary": "3m @119W | 2m @142W | 2m @166W | 1m @190W | 1m @202W | 2m @154W | 2\u00d720m @218W / 6m rec",
+      "workout_summary": "3m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 2m @152W | 2\u00d720m @215W / 6m rec",
       "has_terrain": false
     },
     {
@@ -1929,12 +1930,12 @@
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 88,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "planned_tss": 59,
+      "duration_hours": 1.89,
+      "duration_formatted": "1h53m11s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 34m34s 56%\n- 50m 56%\n- 5m 100%"
+      "description_preview": "- 34m34s 56%\n- 50m 56%\n- 12m 56%"
     },
     {
       "id": 143701629,
@@ -1942,9 +1943,9 @@
       "name": "1hr zone 2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 32,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m",
+      "planned_tss": 46,
+      "duration_hours": 1.1,
+      "duration_formatted": "1h6m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
@@ -1956,25 +1957,12 @@
       "name": "Saturday long ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 144,
-      "duration_hours": 2.78,
-      "duration_formatted": "2h47m4s",
+      "planned_tss": 170,
+      "duration_hours": 3.45,
+      "duration_formatted": "3h27m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 24m4s 60%\n- 38s 119%\n- 12m33s 65%"
-    },
-    {
-      "id": 97765696,
-      "date": "2026-10-25",
-      "name": "Botany Bunch",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.94,
-      "duration_formatted": "1h56m10s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm"
+      "description_preview": "- 44m4s 60%\n- 38s 119%\n- 32m33s 65%"
     },
     {
       "id": 97765714,
@@ -1982,7 +1970,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -1995,7 +1983,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2003,29 +1991,29 @@
       "description_preview": null
     },
     {
-      "id": 97765924,
+      "id": 144058553,
       "date": "2026-10-27",
       "name": "A.2. Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 58,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 2\u00d712m @233W / 4m rec | 1m @119W",
+      "planned_tss": 75,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "3m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 2m @152W | 3\u00d712m @226W / 4m rec | 1m @117W",
       "has_terrain": false
     },
     {
-      "id": 97765724,
+      "id": 144063007,
       "date": "2026-10-28",
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "planned_tss": 77,
+      "duration_hours": 1.97,
+      "duration_formatted": "1h58m11s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 34m34s 56%\n- 50m 66%\n- 5m 100%"
+      "description_preview": "- 34m34s 56%\n- 50m 60%\n- 5m 100%"
     },
     {
       "id": 97765930,
@@ -2033,10 +2021,10 @@
       "name": "B.1. VO2 max",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 52,
-      "duration_hours": 0.68,
-      "duration_formatted": "41m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 4\u00d73m @273W / 3m rec | 2m @119W",
+      "planned_tss": 43,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": "3m @117W | 3m @140W | 2m @163W | 1m @187W | 1m @198W | 5m @152W | 3\u00d73m @269W / 3m rec | 2m @117W",
       "has_terrain": false
     },
     {
@@ -2045,38 +2033,12 @@
       "name": "Saturday long ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 227,
-      "duration_hours": 4.5,
-      "duration_formatted": "4h30m3s",
+      "planned_tss": 206,
+      "duration_hours": 4.05,
+      "duration_formatted": "4h2m57s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 24m4s 60%\n- 38s 119%\n- 12m33s 65%"
-    },
-    {
-      "id": 97765695,
-      "date": "2026-11-01",
-      "name": "Botany Bunch",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.94,
-      "duration_formatted": "1h56m10s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm"
-    },
-    {
-      "id": 97765717,
-      "date": "2026-11-02",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 30,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
+      "description_preview": "- 41s 110%\n- 50m45s 60%\n- 49s 121%"
     },
     {
       "id": 97765718,
@@ -2084,7 +2046,20 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 144060395,
+      "date": "2026-11-02",
+      "name": "Morning E-Bike Ride",
+      "type": "WORKOUT",
+      "sport_type": "EBikeRide",
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2094,39 +2069,55 @@
     {
       "id": 97765925,
       "date": "2026-11-03",
-      "name": "A.2. Threshold",
+      "name": "A.1. Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
       "planned_tss": 58,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 2\u00d712m @233W / 4m rec | 1m @119W",
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "3m @117W | 10m @140W | 3m @163W | 1m @187W | 1m @210W | 6m @152W | 1\u00d720m @234W / 5m rec | 1m @117W",
       "has_terrain": false
     },
     {
-      "id": 97765725,
+      "id": 97765724,
       "date": "2026-11-04",
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "planned_tss": 77,
+      "duration_hours": 1.97,
+      "duration_formatted": "1h58m11s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 34m34s 56%\n- 50m 66%\n- 5m 100%"
+      "description_preview": "- 34m34s 56%\n- 50m 60%\n- 5m 100%"
     },
     {
-      "id": 97765931,
+      "id": 144060445,
       "date": "2026-11-05",
-      "name": "B.2. VO2 max",
+      "name": "FTP test",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 63,
-      "duration_hours": 0.82,
-      "duration_formatted": "49m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 4\u00d74m @268W / 4m rec | 2m @119W",
-      "has_terrain": false
+      "planned_tss": 56,
+      "duration_hours": 0.68,
+      "duration_formatted": "41m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "Warm up\n- 3m 50%\n- 3m 60%"
+    },
+    {
+      "id": 144063031,
+      "date": "2026-11-06",
+      "name": "1hr zone 2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 41,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "indoor": true,
+      "description_preview": "- 1m 50%\n- 1m 55%\n- 1m 60%"
     },
     {
       "id": 97765682,
@@ -2134,12 +2125,12 @@
       "name": "Saturday long ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 227,
-      "duration_hours": 4.5,
-      "duration_formatted": "4h30m3s",
+      "planned_tss": 225,
+      "duration_hours": 4.42,
+      "duration_formatted": "4h25m21s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 24m4s 60%\n- 38s 119%\n- 12m33s 65%"
+      "description_preview": "- 32m33s 65%\n- 39s 115%\n- 32m12s 65%"
     },
     {
       "id": 97765694,
@@ -2160,7 +2151,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2173,7 +2164,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2181,15 +2172,15 @@
       "description_preview": null
     },
     {
-      "id": 97765928,
+      "id": 144060712,
       "date": "2026-11-10",
       "name": "A.2. Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 58,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 2\u00d712m @233W / 4m rec | 1m @119W",
+      "planned_tss": 92,
+      "duration_hours": 1.13,
+      "duration_formatted": "1h8m",
+      "workout_summary": "2m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 2m @140W | 3\u00d715m @231W / 4m rec | 1m @117W",
       "has_terrain": false
     },
     {
@@ -2198,12 +2189,12 @@
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "planned_tss": 77,
+      "duration_hours": 1.97,
+      "duration_formatted": "1h58m11s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 34m34s 56%\n- 50m 66%\n- 5m 100%"
+      "description_preview": "- 34m34s 56%\n- 50m 60%\n- 5m 100%"
     },
     {
       "id": 97765932,
@@ -2211,10 +2202,10 @@
       "name": "B.1. VO2 max",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 52,
-      "duration_hours": 0.68,
-      "duration_formatted": "41m",
-      "workout_summary": "3m @119W | 3m @142W | 2m @166W | 1m @190W | 1m @202W | 5m @154W | 4\u00d73m @273W / 3m rec | 2m @119W",
+      "planned_tss": 49,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m",
+      "workout_summary": "2m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 3m @152W | 4\u00d73m @269W / 3m rec | 2m @117W",
       "has_terrain": false
     },
     {
@@ -2223,7 +2214,7 @@
       "name": "Saturday long ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 227,
+      "planned_tss": 229,
       "duration_hours": 4.5,
       "duration_formatted": "4h30m3s",
       "workout_summary": null,
@@ -2236,7 +2227,7 @@
       "name": "Botany Bunch",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 86,
+      "planned_tss": 81,
       "duration_hours": 1.94,
       "duration_formatted": "1h56m10s",
       "workout_summary": null,
@@ -2249,7 +2240,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2262,7 +2253,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 20,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2270,57 +2261,67 @@
       "description_preview": null
     },
     {
-      "id": 97766090,
+      "id": 144061050,
       "date": "2026-11-17",
-      "name": "5x4min Ramped",
+      "name": "A.1. Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 70,
-      "duration_hours": 0.87,
-      "duration_formatted": "52m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 6m @ 60%\n- 1m @ 70%\n- 1m @ 80%"
+      "planned_tss": 52,
+      "duration_hours": 0.7,
+      "duration_formatted": "42m",
+      "workout_summary": "2m @117W | 3m @140W | 3m @159W | 1m @187W | 1m @210W | 3m @152W | 2\u00d710m @234W / 4m rec | 1m @117W",
+      "has_terrain": false
     },
     {
-      "id": 124263308,
+      "id": 144061189,
       "date": "2026-11-18",
-      "name": "1hr zone 2",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 54,
-      "duration_hours": 1.1,
-      "duration_formatted": "1h6m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description_preview": "- 1m 50%\n- 1m 55%\n- 1m 60%"
-    },
-    {
-      "id": 97766173,
-      "date": "2026-11-20",
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m41s",
+      "planned_tss": 77,
+      "duration_hours": 1.97,
+      "duration_formatted": "1h58m11s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 34m34s 56%\n- 50m 66%\n- 5m 100%"
+      "description_preview": "- 34m34s 56%\n- 50m 60%\n- 5m 100%"
     },
     {
-      "id": 97766170,
-      "date": "2026-11-22",
-      "name": "Botany Bunch",
+      "id": 144061193,
+      "date": "2026-11-19",
+      "name": "B.1. VO2 max",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 43,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": "3m @117W | 3m @140W | 2m @163W | 1m @187W | 1m @198W | 5m @152W | 3\u00d73m @269W / 3m rec | 2m @117W",
+      "has_terrain": false
+    },
+    {
+      "id": 144061511,
+      "date": "2026-11-21",
+      "name": "Saturday long ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.94,
-      "duration_formatted": "1h56m10s",
+      "planned_tss": 129,
+      "duration_hours": 2.38,
+      "duration_formatted": "2h23m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 43m58s 56%\n- 1m43s 94%\n- 12m7s 53% 68rpm"
+      "description_preview": "- 38s 119%\n- 12m33s 65%\n- 39s 115%"
+    },
+    {
+      "id": 144061565,
+      "date": "2026-11-22",
+      "name": "Morning E-Bike Ride",
+      "type": "WORKOUT",
+      "sport_type": "EBikeRide",
+      "planned_tss": 20,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m19s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 97765961,
@@ -2328,7 +2329,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 15,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2341,7 +2342,7 @@
       "name": "Morning E-Bike Ride",
       "type": "WORKOUT",
       "sport_type": "EBikeRide",
-      "planned_tss": 30,
+      "planned_tss": 15,
       "duration_hours": 0.71,
       "duration_formatted": "42m19s",
       "workout_summary": null,
@@ -2350,12 +2351,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 30,
-    "success": 9,
-    "patternA": 9,
+    "attempted": 29,
+    "success": 10,
+    "patternA": 10,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 21
+    "bail_no_match": 19
   },
   "weekly_summary": {
     "total_training_hours": 2.93,
