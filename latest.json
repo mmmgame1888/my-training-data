@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-16T19:20:59.872421",
+    "last_updated": "2026-10-16T22:34:36.532887",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -256,7 +256,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 57,
+      "resting_hr": 112,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -611,7 +611,7 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -621,13 +621,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.88,
+          "planned_tss_delta": 3.31,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": 43,
           "next_week_load": 2.29,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.67,
           "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
@@ -661,7 +661,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-16T19:20:59.871144",
+    "calculation_timestamp": "2026-10-16T22:34:36.531733",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 4,
@@ -1969,20 +1969,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 144053842,
-      "date": "2026-10-17",
-      "name": "1hr zone 2",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 41,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 54m 65%\n- 3m 55%"
-    },
-    {
       "id": 145051409,
       "date": "2026-10-17",
       "name": "Saturday long ride",
@@ -2498,12 +2484,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 28,
+    "attempted": 27,
     "success": 10,
     "patternA": 10,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 18
+    "bail_no_match": 17
   },
   "weekly_summary": {
     "total_training_hours": 4.12,
