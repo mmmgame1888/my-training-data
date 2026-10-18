@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T23:46:28.596632",
+  "generated_at": "2026-10-18T03:16:28.722032",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -190,6 +190,27 @@
           "zone": 1,
           "training_load": 2.8065958,
           "decoupling": -9.735321
+        }
+      ]
+    },
+    {
+      "activity_id": "i198471411",
+      "date": "2026-10-18",
+      "type": "Ride",
+      "name": "Botany Bunch",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10843,
+          "avg_power": 125,
+          "max_power": 547,
+          "avg_hr": 129,
+          "max_hr": 153,
+          "avg_cadence": 68.78022,
+          "zone": 1,
+          "training_load": 80.45341,
+          "decoupling": -11.707068
         }
       ]
     }
