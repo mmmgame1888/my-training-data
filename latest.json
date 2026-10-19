@@ -65,12 +65,12 @@
       "total_training_hours": 7.62,
       "total_training_formatted": "7h37m",
       "total_activities": 6,
-      "total_tss": 312
+      "total_tss": 358
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-19T05:46:29.850052",
+    "last_updated": "2026-10-19T12:17:09.505942",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,10 +103,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.63,
+      "value": 1.77,
       "severity": "alarm",
       "threshold": "1.35",
-      "context": "ACWR 1.63 above safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 1.77 above safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
@@ -134,7 +134,7 @@
       },
       "acwr": {
         "status": "red",
-        "value": 1.63
+        "value": 1.77
       },
       "ri": {
         "status": "green",
@@ -156,7 +156,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P1 acute overload. ACWR 1.63 >= 1.5.",
+    "reason": "P1 acute overload. ACWR 1.77 >= 1.5.",
     "alarm_refs": []
   },
   "history": {
@@ -175,7 +175,7 @@
       "EBikeRide": {
         "duration_decimal_hours": 1.49,
         "count": 2,
-        "tss": 0,
+        "tss": 46,
         "distance_km": 44.3,
         "display": {
           "distance": {
@@ -212,10 +212,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 43.21,
-      "atl": 38.51,
-      "tsb": 4.7,
-      "ramp_rate": 0.32,
+      "ctl": 44.29,
+      "atl": 44.63,
+      "tsb": -0.34,
+      "ramp_rate": 1.41,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -301,20 +301,20 @@
     "rhr_baseline_28d": 60.0,
     "latest_hrv": 36.316,
     "latest_rhr": 57,
-    "acwr": 1.63,
+    "acwr": 1.77,
     "acwr_interpretation": "danger",
-    "monotony": 0.8,
+    "monotony": 0.97,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.8,
-    "primary_sport_tss_7d": 312.0,
-    "effective_monotony": 0.8,
+    "primary_sport_monotony": 0.97,
+    "primary_sport_tss_7d": 358.0,
+    "effective_monotony": 0.97,
     "multi_sport_detected": false,
-    "strain": 250.0,
-    "stress_tolerance": 3.1,
-    "load_recovery_ratio": 2.6,
-    "tss_7d_total": 312.0,
-    "tss_28d_total": 765.0,
+    "strain": 347.0,
+    "stress_tolerance": 3.6,
+    "load_recovery_ratio": 3.0,
+    "tss_7d_total": 358.0,
+    "tss_28d_total": 811.0,
     "zone_distribution_7d": {
       "z1_hours": 1.05,
       "z2_hours": 1.15,
@@ -665,7 +665,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-19T05:46:29.848756",
+    "calculation_timestamp": "2026-10-19T12:17:09.504665",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -686,8 +686,8 @@
       "name": "Morning E-Bike Ride",
       "duration_hours": 0.72,
       "distance_km": 21.89,
-      "tss": null,
-      "intensity_factor": null,
+      "tss": 23,
+      "intensity_factor": 54.95174,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": null,
@@ -802,8 +802,8 @@
       "name": "Morning E-Bike Ride",
       "duration_hours": 0.77,
       "distance_km": 22.41,
-      "tss": null,
-      "intensity_factor": null,
+      "tss": 23,
+      "intensity_factor": 53.33276,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": null,
@@ -2403,15 +2403,28 @@
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
       "planned_tss": 74,
-      "duration_hours": 1.05,
-      "duration_formatted": "1h3m",
-      "workout_summary": "3m @117W | 2m @140W | 2m @163W | 1m @187W | 1m @198W | 2m @152W | 2\u00d720m @215W / 6m rec",
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": "2m @128W | 2m @145W | 2m @170W | 1m @187W | 1m @198W | 2m @152W | 2\u00d720m @215W / 6m rec",
       "has_terrain": false,
-      "description": "Warm up\n- 3m 50%\n- 2m 60%\n- 2m 70%\n- 1m 80%\n- 1m 85%\n- 2m 65%\n\nIntervals: \n2x 20m\n- 20m 92%\n- 6m 56%\n\nCool down:"
+      "description": "Warm up\n- 2m 55%\n- 2m 62%\n- 2m 73%\n- 1m 80%\n- 1m 85%\n- 2m 65%\n\nIntervals: \n2x 20m\n- 20m 92%\n- 6m 56%\n\nCool down:"
+    },
+    {
+      "id": 97765723,
+      "date": "2026-10-21",
+      "name": "Rat racers",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.89,
+      "duration_formatted": "1h53m11s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 34m34s 56%\n- 50m 56%\n- 12m 56%\n- 16m37s 57%"
     },
     {
       "id": 143701629,
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "name": "1hr zone 2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -2422,19 +2435,6 @@
       "has_terrain": false,
       "indoor": true,
       "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 40m 66%\n- 3m 55%"
-    },
-    {
-      "id": 97765723,
-      "date": "2026-10-22",
-      "name": "Rat racers",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.89,
-      "duration_formatted": "1h53m11s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 34m34s 56%\n- 50m 56%\n- 12m 56%\n- 16m37s 57%"
     },
     {
       "id": 97765679,
@@ -2883,7 +2883,7 @@
   "weekly_summary": {
     "total_training_hours": 7.62,
     "total_training_formatted": "7h37m",
-    "total_tss": 312,
+    "total_tss": 358,
     "activities_count": 6,
     "avg_hrv": 32.2,
     "avg_resting_hr": 59.8
