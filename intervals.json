@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T22:07:52.634462",
+  "generated_at": "2026-10-22T01:15:40.146228",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -283,6 +283,27 @@
           "zone": 1,
           "training_load": 3.5646193,
           "decoupling": -5.151887
+        }
+      ]
+    },
+    {
+      "activity_id": "i200195298",
+      "date": "2026-10-22",
+      "type": "VirtualRide",
+      "name": "1hr zone 2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3974,
+          "avg_power": 148,
+          "max_power": 196,
+          "avg_hr": 140,
+          "max_hr": 149,
+          "avg_cadence": 84.96829,
+          "zone": 2,
+          "training_load": 48.84295,
+          "decoupling": 3.0448873
         }
       ]
     }
