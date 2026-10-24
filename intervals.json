@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:51:53.601408",
+  "generated_at": "2026-10-24T00:17:28.831479",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -304,6 +304,27 @@
           "zone": 2,
           "training_load": 48.84295,
           "decoupling": 3.0448873
+        }
+      ]
+    },
+    {
+      "activity_id": "i200903679",
+      "date": "2026-10-24",
+      "type": "Ride",
+      "name": "Saturday long ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 18043,
+          "avg_power": 130,
+          "max_power": 580,
+          "avg_hr": 133,
+          "max_hr": 155,
+          "avg_cadence": 70.16331,
+          "zone": 2,
+          "training_load": 148.54305,
+          "decoupling": 9.752246
         }
       ]
     }
