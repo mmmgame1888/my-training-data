@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-24T00:17:29.426690",
+    "last_updated": "2026-10-24T05:25:29.573666",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -634,7 +634,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.91,
+          "planned_tss_delta": 4.71,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
@@ -674,7 +674,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.0,
-    "calculation_timestamp": "2026-10-24T00:17:29.425441",
+    "calculation_timestamp": "2026-10-24T05:25:29.572790",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2432,13 +2432,13 @@
       "name": "1hr zone 2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 32,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m",
+      "planned_tss": 75,
+      "duration_hours": 1.77,
+      "duration_formatted": "1h46m",
       "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 40m 66%\n- 3m 55%"
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 100m 66%\n- 3m 55%"
     },
     {
       "id": 97765714,
