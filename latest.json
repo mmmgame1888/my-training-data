@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-26T21:23:29.901181",
+    "last_updated": "2026-10-26T22:22:29.894342",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -624,13 +624,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.44,
+          "planned_tss_delta": 1.37,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": 33,
           "next_week_load": 1.82,
-          "plan_coverage_current_week": 1.5,
+          "plan_coverage_current_week": 1.25,
           "plan_coverage_next_week": 1.75
         },
         "data_quality": "good",
@@ -664,7 +664,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.0,
-    "calculation_timestamp": "2026-10-26T21:23:29.900286",
+    "calculation_timestamp": "2026-10-26T22:22:29.893541",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2650,19 +2650,6 @@
       "description": ""
     },
     {
-      "id": 97765715,
-      "date": "2026-10-28",
-      "name": "Morning E-Bike Ride",
-      "type": "WORKOUT",
-      "sport_type": "EBikeRide",
-      "planned_tss": 20,
-      "duration_hours": 0.71,
-      "duration_formatted": "42m19s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
       "id": 97765930,
       "date": "2026-10-29",
       "name": "B.1. VO2 max",
@@ -2737,7 +2724,7 @@
       "planned_tss": 58,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
-      "workout_summary": "3m @117W | 10m @140W | 3m @163W | 1m @187W | 1m @210W | 6m @152W | 1\u00d720m @234W / 5m rec | 1m @117W",
+      "workout_summary": "3m @117W | 10m @140W | 3m @163W | 1m @187W | 1m @210W | 6m @152W | 1\u00d720m @234W / 5m rec | 1m @105W",
       "has_terrain": false
     },
     {
