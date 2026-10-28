@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-28T03:09:57.020968+00:00",
+        "updated_at": "2026-10-28T04:16:24.950353+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-10-28T03:10:13.428154+00:00",
+        "updated_at": "2026-10-28T04:16:32.908403+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-10-28T03:10:13.429909+00:00",
+        "updated_at": "2026-10-28T04:16:32.909256+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-28T03:09:55.055045+00:00",
+        "updated_at": "2026-10-28T04:16:18.173702+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-28T03:09:57.020499+00:00",
+        "updated_at": "2026-10-28T04:16:24.950137+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-28T03:10:13.442908+00:00",
+        "updated_at": "2026-10-28T04:16:32.923256+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-10-28T03:09:57.021725+00:00",
+        "updated_at": "2026-10-28T04:16:24.950210+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -282,7 +282,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T03:10:08.023211",
+    "last_updated": "2026-10-28T04:16:30.025015",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -393,7 +393,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-10-28T03:09:56.090136+00:00",
+    "source_updated_at": "2026-10-28T04:16:24.126108+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "incomplete_reference",
@@ -1703,7 +1703,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.0,
-    "calculation_timestamp": "2026-10-28T03:10:06.783509",
+    "calculation_timestamp": "2026-10-28T04:16:28.821237",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1980,11 +1980,6 @@
         "300": 121,
         "1200": 104
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "4617db801f19cdf47bf4b93825c088f6f6cd176e0f04abe1d5e32a0c3f23002d",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -2041,6 +2036,11 @@
         "bucket_decoupling": -7.220923,
         "power_trend": "rising",
         "comparability": "rising_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "4617db801f19cdf47bf4b93825c088f6f6cd176e0f04abe1d5e32a0c3f23002d",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -2207,11 +2207,6 @@
         "1200": 192,
         "3600": 179
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "720bc07d074ff3ae0a78a5c30853b7f2f6a430a88b862d4502e6b759d2713df3",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -2268,6 +2263,11 @@
         "bucket_decoupling": 8.112309,
         "power_trend": "falling",
         "comparability": "falling_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "720bc07d074ff3ae0a78a5c30853b7f2f6a430a88b862d4502e6b759d2713df3",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -2550,11 +2550,6 @@
         "1200": 140,
         "3600": 122
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "3e8db6171e73d51693ac1ec4524198993974350fc3275fe07dd32ab3de3ac913",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -2611,6 +2606,11 @@
         "bucket_decoupling": 17.61179,
         "power_trend": "falling",
         "comparability": "falling_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "3e8db6171e73d51693ac1ec4524198993974350fc3275fe07dd32ab3de3ac913",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -2841,11 +2841,6 @@
         "1200": 148,
         "3600": 120
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "634e4ce012ff6b9d9e3b6439f23548ec17da4c4a346f077e27e943d9557bf3cc",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -2914,6 +2909,11 @@
           ],
           "changes_power": false
         }
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "634e4ce012ff6b9d9e3b6439f23548ec17da4c4a346f077e27e943d9557bf3cc",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -3266,11 +3266,6 @@
         "1200": 160,
         "3600": 134
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "1fff089490178dafbe2f89a3c342465b3e08053dd6a7e5962c4ade40bf5e3c0c",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -3327,6 +3322,11 @@
         "bucket_decoupling": 14.01718,
         "power_trend": "falling",
         "comparability": "falling_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "1fff089490178dafbe2f89a3c342465b3e08053dd6a7e5962c4ade40bf5e3c0c",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -3619,11 +3619,6 @@
         "1200": 152,
         "3600": 151
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "b5d8c7d6d8bc7a0aa4c6949158763e5324f317ad644d3d2ed1ccc20b669c0999",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -3692,6 +3687,11 @@
           ],
           "changes_power": false
         }
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "b5d8c7d6d8bc7a0aa4c6949158763e5324f317ad644d3d2ed1ccc20b669c0999",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -3942,11 +3942,6 @@
         "1200": 205,
         "3600": 183
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "706d3c4835659f36ba1c96118e0cc354af3b3b566184169a93944b68da06ca28",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -4003,6 +3998,11 @@
         "bucket_decoupling": 3.62705,
         "power_trend": "steady",
         "comparability": "steady_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "706d3c4835659f36ba1c96118e0cc354af3b3b566184169a93944b68da06ca28",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -4259,18 +4259,14 @@
         "version": 1,
         "plan_match": {
           "method": "plan_match_v2",
-          "status": "unknown",
+          "status": "no_steps",
           "plan": {
             "event_id": "97765698",
             "name": "Morning E-Bike Ride",
             "updated": "2026-10-12T02:24:42.870+00:00",
             "duration_s": 2539,
             "duration_source": "moving_time"
-          },
-          "issues": [
-            "efforts_transient",
-            "efforts_unavailable"
-          ]
+          }
         },
         "compliance": {
           "status": "unavailable",
@@ -4464,18 +4460,14 @@
         "version": 1,
         "plan_match": {
           "method": "plan_match_v2",
-          "status": "unknown",
+          "status": "no_steps",
           "plan": {
             "event_id": "97765713",
             "name": "Morning E-Bike Ride",
             "updated": "2026-10-12T02:24:49.846+00:00",
             "duration_s": 2539,
             "duration_source": "moving_time"
-          },
-          "issues": [
-            "efforts_transient",
-            "efforts_unavailable"
-          ]
+          }
         },
         "compliance": {
           "status": "unavailable",
@@ -4695,11 +4687,6 @@
         "1200": 161,
         "3600": 134
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "5f054c8e3fe85361a5ebfc4d53f02de0f78d41510e0c38ac6dbb20219dc592a7",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -4756,6 +4743,11 @@
         "bucket_decoupling": -6.847021,
         "power_trend": "rising",
         "comparability": "rising_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "5f054c8e3fe85361a5ebfc4d53f02de0f78d41510e0c38ac6dbb20219dc592a7",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -5219,8 +5211,7 @@
             ]
           ],
           "issues": [
-            "efforts_transient",
-            "efforts_unavailable"
+            "truncated"
           ],
           "omitted_steps": 4
         },
@@ -5368,6 +5359,75 @@
       "power_weight_kg": 64.0,
       "avg_power_wkg": 2.62,
       "power_curve_expected": true,
+      "power_curve": {
+        "1": 281,
+        "5": 267,
+        "60": 261,
+        "300": 215,
+        "1200": 179
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "bd7838941ce179ad3bb0486a89c927d6f20bbff42191911cf5e78192ddf22ffa",
+        "status": "ok"
+      },
+      "decoupling_detail": {
+        "method": "intervals_power_vs_hr_v1",
+        "window": {
+          "bucket_size_s": 60,
+          "start_bucket": 0,
+          "mid_bucket": 12,
+          "end_bucket": 24,
+          "start_s": 0,
+          "mid_s": 720,
+          "end_s": 1440,
+          "warmup_s": 0,
+          "cooldown_s": 0,
+          "hr_lag_s": 15
+        },
+        "early": {
+          "duration_s": 720,
+          "span_s": 720,
+          "paired_s": 720,
+          "bucket_coverage_pct": 100.0,
+          "avg_power_w": 157.333,
+          "avg_hr_bpm": 131.833,
+          "work_kj": 113.28
+        },
+        "late": {
+          "duration_s": 720,
+          "span_s": 720,
+          "paired_s": 720,
+          "bucket_coverage_pct": 100.0,
+          "avg_power_w": 180.333,
+          "avg_hr_bpm": 155.917,
+          "work_kj": 129.84
+        },
+        "change": {
+          "avg_power_w": {
+            "absolute": 23.0,
+            "pct": 14.619
+          },
+          "avg_hr_bpm": {
+            "absolute": 24.083,
+            "pct": 18.268
+          },
+          "work_kj": {
+            "absolute": 16.56,
+            "pct": 14.619
+          },
+          "duration_s": {
+            "absolute": 0,
+            "pct": 0.0
+          }
+        },
+        "power_hr_first": 1.1947075,
+        "power_hr_second": 1.1561052,
+        "upstream_decoupling": 3.2311194,
+        "bucket_decoupling": 3.085679,
+        "power_trend": "rising",
+        "comparability": "rising_power"
+      },
       "interval_data": {
         "version": 1,
         "plan_match": {
@@ -5581,6 +5641,75 @@
       "power_weight_kg": 64.0,
       "avg_power_wkg": 2.7,
       "power_curve_expected": true,
+      "power_curve": {
+        "1": 265,
+        "5": 218,
+        "60": 202,
+        "300": 202,
+        "1200": 192
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "0832228653e865b7cfb50d329102adfff10e909afc65f420a27e514916966332",
+        "status": "ok"
+      },
+      "decoupling_detail": {
+        "method": "intervals_power_vs_hr_v1",
+        "window": {
+          "bucket_size_s": 60,
+          "start_bucket": 15,
+          "mid_bucket": 30,
+          "end_bucket": 46,
+          "start_s": 900,
+          "mid_s": 1805,
+          "end_s": 2765,
+          "warmup_s": 900,
+          "cooldown_s": 180,
+          "hr_lag_s": 15
+        },
+        "early": {
+          "duration_s": 905,
+          "span_s": 905,
+          "paired_s": 900,
+          "bucket_coverage_pct": 99.448,
+          "avg_power_w": 168.667,
+          "avg_hr_bpm": 166.667,
+          "work_kj": 151.8
+        },
+        "late": {
+          "duration_s": 960,
+          "span_s": 960,
+          "paired_s": 960,
+          "bucket_coverage_pct": 100.0,
+          "avg_power_w": 182.25,
+          "avg_hr_bpm": 171.688,
+          "work_kj": 174.96
+        },
+        "change": {
+          "avg_power_w": {
+            "absolute": 13.583,
+            "pct": 8.053
+          },
+          "avg_hr_bpm": {
+            "absolute": 5.021,
+            "pct": 3.013
+          },
+          "work_kj": {
+            "absolute": 23.16,
+            "pct": 15.257
+          },
+          "duration_s": {
+            "absolute": 55,
+            "pct": 6.077
+          }
+        },
+        "power_hr_first": 1.0116503,
+        "power_hr_second": 1.061205,
+        "upstream_decoupling": -4.8983965,
+        "bucket_decoupling": -4.893445,
+        "power_trend": "rising",
+        "comparability": "rising_power"
+      },
       "interval_data": {
         "version": 1,
         "plan_match": {
@@ -5744,6 +5873,76 @@
       "power_weight_kg": 64.0,
       "avg_power_wkg": 2.41,
       "power_curve_expected": true,
+      "power_curve": {
+        "1": 183,
+        "5": 171,
+        "60": 161,
+        "300": 161,
+        "1200": 160,
+        "3600": 154
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "a1b4ca61ca210937a9dc03d7c3d8c68a36a4f6df3ae4fc13c344f1c212d612fe",
+        "status": "ok"
+      },
+      "decoupling_detail": {
+        "method": "intervals_power_vs_hr_v1",
+        "window": {
+          "bucket_size_s": 60,
+          "start_bucket": 4,
+          "mid_bucket": 25,
+          "end_bucket": 47,
+          "start_s": 900,
+          "mid_s": 2160,
+          "end_s": 3480,
+          "warmup_s": 900,
+          "cooldown_s": 180,
+          "hr_lag_s": 15
+        },
+        "early": {
+          "duration_s": 1260,
+          "span_s": 1260,
+          "paired_s": 1260,
+          "bucket_coverage_pct": 100.0,
+          "avg_power_w": 158.905,
+          "avg_hr_bpm": 138.333,
+          "work_kj": 200.22
+        },
+        "late": {
+          "duration_s": 1320,
+          "span_s": 1320,
+          "paired_s": 1320,
+          "bucket_coverage_pct": 100.0,
+          "avg_power_w": 152.545,
+          "avg_hr_bpm": 141.864,
+          "work_kj": 201.36
+        },
+        "change": {
+          "avg_power_w": {
+            "absolute": -6.359,
+            "pct": -4.002
+          },
+          "avg_hr_bpm": {
+            "absolute": 3.53,
+            "pct": 2.552
+          },
+          "work_kj": {
+            "absolute": 1.14,
+            "pct": 0.569
+          },
+          "duration_s": {
+            "absolute": 60,
+            "pct": 4.762
+          }
+        },
+        "power_hr_first": 1.1485325,
+        "power_hr_second": 1.0749536,
+        "upstream_decoupling": 6.4063425,
+        "bucket_decoupling": 6.390891,
+        "power_trend": "steady",
+        "comparability": "steady_power"
+      },
       "interval_data": {
         "version": 1,
         "plan_match": {
@@ -5970,6 +6169,76 @@
       "power_weight_kg": 64.0,
       "avg_power_wkg": 2.28,
       "power_curve_expected": true,
+      "power_curve": {
+        "1": 564,
+        "5": 492,
+        "60": 258,
+        "300": 204,
+        "1200": 167,
+        "3600": 135
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "616d8a41f1a56446d15492c435235fa15006c0c82a7044ce4842673bdded394a",
+        "status": "ok"
+      },
+      "decoupling_detail": {
+        "method": "intervals_power_vs_hr_v1",
+        "window": {
+          "bucket_size_s": 60,
+          "start_bucket": 11,
+          "mid_bucket": 63,
+          "end_bucket": 116,
+          "start_s": 1264,
+          "mid_s": 5155,
+          "end_s": 11044,
+          "warmup_s": 900,
+          "cooldown_s": 180,
+          "hr_lag_s": 21
+        },
+        "early": {
+          "duration_s": 3828,
+          "span_s": 3891,
+          "paired_s": 3119,
+          "bucket_coverage_pct": 80.159,
+          "avg_power_w": 131.962,
+          "avg_hr_bpm": 124.231,
+          "work_kj": 411.549
+        },
+        "late": {
+          "duration_s": 5802,
+          "span_s": 5889,
+          "paired_s": 3174,
+          "bucket_coverage_pct": 53.897,
+          "avg_power_w": 151.717,
+          "avg_hr_bpm": 138.245,
+          "work_kj": 481.841
+        },
+        "change": {
+          "avg_power_w": {
+            "absolute": 19.755,
+            "pct": 14.971
+          },
+          "avg_hr_bpm": {
+            "absolute": 14.015,
+            "pct": 11.281
+          },
+          "work_kj": {
+            "absolute": 70.292,
+            "pct": 17.08
+          },
+          "duration_s": {
+            "absolute": 1974,
+            "pct": 51.567
+          }
+        },
+        "power_hr_first": 1.0616552,
+        "power_hr_second": 1.0969859,
+        "upstream_decoupling": -3.327889,
+        "bucket_decoupling": -3.315546,
+        "power_trend": "rising",
+        "comparability": "rising_power"
+      },
       "interval_data": {
         "version": 1,
         "plan_match": {
@@ -6113,6 +6382,8 @@
       "power_weight_kg": 64.0,
       "avg_power_wkg": 2.44,
       "power_curve_expected": true,
+      "power_curve_status": "failed",
+      "power_curve_error": "http_404",
       "interval_data": {
         "version": 1,
         "plan_match": {
@@ -7470,16 +7741,16 @@
             "watts": 475
           },
           "60": {
-            "activity_id": "i198471411",
-            "activity_name": "Morning E-bike Ride",
-            "date": "2026-10-18",
-            "watts": 212
+            "activity_id": "i197304850",
+            "activity_name": "B.1. VO2 max",
+            "date": "2026-10-15",
+            "watts": 261
           },
           "300": {
-            "activity_id": "i199268212",
-            "activity_name": "A.1. Threshold",
-            "date": "2026-10-20",
-            "watts": 206
+            "activity_id": "i197304850",
+            "activity_name": "B.1. VO2 max",
+            "date": "2026-10-15",
+            "watts": 215
           },
           "1200": {
             "activity_id": "i199268212",
@@ -7524,7 +7795,7 @@
           "elevation_m": 4,
           "max_hr": 3,
           "power": {
-            "status": "partial",
+            "status": "complete",
             "expected": {
               "1": 3,
               "5": 3,
@@ -7534,11 +7805,11 @@
               "3600": 2
             },
             "available": {
-              "1": 2,
-              "5": 2,
-              "60": 2,
-              "300": 2,
-              "1200": 2,
+              "1": 3,
+              "5": 3,
+              "60": 3,
+              "300": 3,
+              "1200": 3,
               "3600": 2
             }
           }
@@ -7729,13 +8000,43 @@
             "elevation_activities": 0
           }
         },
-        "max_power": null,
+        "max_power": {
+          "activity_id": "i195937102",
+          "activity_name": "Botany Bunch",
+          "date": "2026-10-11",
+          "watts": 564
+        },
         "peaks": {
-          "5": null,
-          "60": null,
-          "300": null,
-          "1200": null,
-          "3600": null
+          "5": {
+            "activity_id": "i195937102",
+            "activity_name": "Botany Bunch",
+            "date": "2026-10-11",
+            "watts": 492
+          },
+          "60": {
+            "activity_id": "i195937102",
+            "activity_name": "Botany Bunch",
+            "date": "2026-10-11",
+            "watts": 258
+          },
+          "300": {
+            "activity_id": "i195937102",
+            "activity_name": "Botany Bunch",
+            "date": "2026-10-11",
+            "watts": 204
+          },
+          "1200": {
+            "activity_id": "i196573899",
+            "activity_name": "A.1. Threshold",
+            "date": "2026-10-13",
+            "watts": 192
+          },
+          "3600": {
+            "activity_id": "i196214223",
+            "activity_name": "1hr zone 2",
+            "date": "2026-10-12",
+            "watts": 154
+          }
         },
         "max_hr": {
           "activity_id": "i196573899",
@@ -7767,7 +8068,7 @@
           "elevation_m": 3,
           "max_hr": 3,
           "power": {
-            "status": "unavailable",
+            "status": "complete",
             "expected": {
               "1": 3,
               "5": 3,
@@ -7777,12 +8078,12 @@
               "3600": 2
             },
             "available": {
-              "1": 0,
-              "5": 0,
-              "60": 0,
-              "300": 0,
-              "1200": 0,
-              "3600": 0
+              "1": 3,
+              "5": 3,
+              "60": 3,
+              "300": 3,
+              "1200": 3,
+              "3600": 2
             }
           }
         }
@@ -8256,12 +8557,12 @@
             "3600": 10
           },
           "available": {
-            "1": 8,
-            "5": 8,
-            "60": 8,
-            "300": 8,
-            "1200": 8,
-            "3600": 7
+            "1": 12,
+            "5": 12,
+            "60": 12,
+            "300": 12,
+            "1200": 12,
+            "3600": 9
           }
         }
       },
