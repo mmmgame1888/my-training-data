@@ -1,390 +1,102 @@
 {
-  "generated_at": "2026-10-27T23:31:24.604740",
-  "version": "3.112",
-  "script_hash": "a60c2ee19b34",
+  "generated_at": "2026-10-28T03:09:59.608419",
+  "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
+  "schema_version": 2,
+  "version": "3.163",
+  "script_hash": "26a393b23c88",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
     {
-      "activity_id": "i196573899",
-      "date": "2026-10-13",
-      "type": "VirtualRide",
-      "name": "A.1. Threshold",
-      "interval_summary": [
-        "1x 15m17s 200w",
-        "1x 11m59s 201w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 585,
-          "avg_power": 148,
-          "max_power": 205,
-          "avg_hr": 132,
-          "max_hr": 158,
-          "avg_cadence": 87.71282,
-          "zone": 2,
-          "training_load": 7.382178,
-          "decoupling": -2.9996338
-        },
-        {
-          "type": "WORK",
-          "label": "917s@200w97rpm",
-          "duration_secs": 917,
-          "avg_power": 200,
-          "max_power": 265,
-          "avg_hr": 166,
-          "max_hr": 176,
-          "avg_cadence": 96.82116,
-          "zone": 3,
-          "training_load": 19.971342,
-          "decoupling": 3.7883725
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 373,
-          "avg_power": 119,
-          "max_power": 183,
-          "avg_hr": 160,
-          "max_hr": 173,
-          "avg_cadence": 79.64375,
-          "zone": 1,
-          "training_load": 2.8970742,
-          "decoupling": -3.7930684
-        },
-        {
-          "type": "WORK",
-          "label": "719s@201w98rpm",
-          "duration_secs": 719,
-          "avg_power": 201,
-          "max_power": 229,
-          "avg_hr": 174,
-          "max_hr": 183,
-          "avg_cadence": 97.89569,
-          "zone": 3,
-          "training_load": 15.6591,
-          "decoupling": 2.654824
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 315,
-          "avg_power": 121,
-          "max_power": 192,
-          "avg_hr": 163,
-          "max_hr": 180,
-          "avg_cadence": 75.88571,
-          "zone": 1,
-          "training_load": 2.914063,
-          "decoupling": -10.914449
-        }
-      ]
-    },
-    {
-      "activity_id": "i197304850",
-      "date": "2026-10-15",
-      "type": "VirtualRide",
-      "name": "B.1. VO2 max",
-      "interval_summary": [
-        "2x 2m57s 261w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 666,
-          "avg_power": 149,
-          "max_power": 280,
-          "avg_hr": 129,
-          "max_hr": 149,
-          "avg_cadence": 86.35285,
-          "zone": 2,
-          "training_load": 8.630949,
-          "decoupling": -3.7124944
-        },
-        {
-          "type": "WORK",
-          "label": "177s@261w103rpm",
-          "duration_secs": 175,
-          "avg_power": 260,
-          "max_power": 280,
-          "avg_hr": 164,
-          "max_hr": 174,
-          "avg_cadence": 102.685715,
-          "zone": 5,
-          "training_load": 6.3492064,
-          "decoupling": 8.187773
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 183,
-          "avg_power": 126,
-          "max_power": 265,
-          "avg_hr": 152,
-          "max_hr": 174,
-          "avg_cadence": 89.513664,
-          "zone": 2,
-          "training_load": 2.3099706,
-          "decoupling": -11.09538
-        },
-        {
-          "type": "WORK",
-          "label": "177s@261w103rpm",
-          "duration_secs": 178,
-          "avg_power": 261,
-          "max_power": 281,
-          "avg_hr": 162,
-          "max_hr": 175,
-          "avg_cadence": 102.39888,
-          "zone": 5,
-          "training_load": 6.357537,
-          "decoupling": 8.236197
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 255,
-          "avg_power": 114,
-          "max_power": 244,
-          "avg_hr": 149,
-          "max_hr": 177,
-          "avg_cadence": 79.63529,
-          "zone": 1,
-          "training_load": 2.8065958,
-          "decoupling": -9.735321
-        }
-      ]
-    },
-    {
-      "activity_id": "i198471411",
-      "date": "2026-10-18",
-      "type": "Ride",
-      "name": "Botany Bunch",
+      "activity_id": "i202552174",
+      "date": "2026-10-28",
+      "start_datetime": "2026-10-28T12:16:04",
+      "type": "GravelRide",
+      "name": "Morning E-Bike Ride",
       "interval_summary": null,
       "intervals": [
         {
           "type": "RECOVERY",
-          "duration_secs": 10843,
-          "avg_power": 125,
-          "max_power": 547,
-          "avg_hr": 129,
-          "max_hr": 153,
-          "avg_cadence": 68.78022,
-          "zone": 1,
-          "training_load": 80.45341,
-          "decoupling": -11.707068
-        }
-      ]
-    },
-    {
-      "activity_id": "i199268212",
-      "date": "2026-10-20",
-      "type": "VirtualRide",
-      "name": "A.1. Threshold",
-      "interval_summary": [
-        "2x 19m57s 206w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 606,
-          "avg_power": 151,
-          "max_power": 206,
-          "avg_hr": 132,
+          "duration_secs": 2836,
+          "moving_secs": 2347,
+          "start_secs": 0,
+          "end_secs": 2836,
+          "avg_power": 105,
+          "max_power": 439,
+          "avg_hr": 130,
           "max_hr": 141,
-          "avg_cadence": 85.562706,
-          "zone": 2,
-          "training_load": 7.9563804
-        },
-        {
-          "type": "WORK",
-          "label": "1197s@206w95rpm",
-          "duration_secs": 1196,
-          "avg_power": 206,
-          "max_power": 227,
-          "avg_hr": 161,
-          "max_hr": 172,
-          "avg_cadence": 93.49415,
-          "zone": 4,
-          "training_load": 28.097462,
-          "decoupling": 7.62992
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 362,
-          "avg_power": 125,
-          "max_power": 193,
-          "avg_hr": 144,
-          "max_hr": 166,
-          "avg_cadence": 84.98066,
-          "zone": 2,
-          "training_load": 3.439162,
-          "decoupling": -4.996162
-        },
-        {
-          "type": "WORK",
-          "label": "1197s@206w95rpm",
-          "duration_secs": 1197,
-          "avg_power": 206,
-          "max_power": 257,
-          "avg_hr": 173,
-          "max_hr": 180,
-          "avg_cadence": 96.05347,
-          "zone": 4,
-          "training_load": 27.848598,
-          "decoupling": 4.470277
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 381,
-          "avg_power": 118,
-          "max_power": 211,
-          "avg_hr": 158,
-          "max_hr": 180,
-          "avg_cadence": 78.4462,
+          "min_hr": 88,
+          "avg_cadence": 72.0923,
           "zone": 1,
-          "training_load": 3.5646193,
-          "decoupling": -5.151887
+          "w_bal_start": 20039,
+          "w_bal_end": 20018,
+          "training_load": 15.203226
         }
-      ]
-    },
-    {
-      "activity_id": "i200195298",
-      "date": "2026-10-22",
-      "type": "VirtualRide",
-      "name": "1hr zone 2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3974,
-          "avg_power": 148,
-          "max_power": 196,
-          "avg_hr": 140,
-          "max_hr": 149,
-          "avg_cadence": 84.96829,
-          "zone": 2,
-          "training_load": 48.84295,
-          "decoupling": 3.0448873
-        }
-      ]
-    },
-    {
-      "activity_id": "i200903679",
-      "date": "2026-10-24",
-      "type": "Ride",
-      "name": "Saturday long ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 18043,
-          "avg_power": 130,
-          "max_power": 580,
-          "avg_hr": 133,
-          "max_hr": 155,
-          "avg_cadence": 70.16331,
-          "zone": 2,
-          "training_load": 148.54305,
-          "decoupling": 9.752246
-        }
-      ]
-    },
-    {
-      "activity_id": "i201249658",
-      "date": "2026-10-25",
-      "type": "Ride",
-      "name": "1hr zone 2",
-      "interval_summary": [
-        "1x 36s 475w"
       ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7264,
-          "avg_power": 137,
-          "max_power": 544,
-          "avg_hr": 126,
-          "max_hr": 150,
-          "avg_cadence": 73.10665,
-          "zone": 2,
-          "training_load": 72.679016,
-          "decoupling": -7.6739717
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "no_steps",
+        "plan": {
+          "event_id": "97765714",
+          "updated": "2026-10-25T21:03:43.577+00:00",
+          "name": "Morning E-Bike Ride",
+          "duration_s": 2539,
+          "duration_source": "moving_time"
         },
-        {
-          "type": "WORK",
-          "label": "36s@475w104rpm",
-          "duration_secs": 36,
-          "avg_power": 475,
-          "max_power": 592,
-          "avg_hr": 164,
-          "max_hr": 175,
-          "avg_cadence": 104.333336,
-          "zone": 7,
-          "training_load": 3.0699832,
-          "decoupling": 1.036033
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2579,
-          "avg_power": 111,
-          "max_power": 436,
-          "avg_hr": 132,
-          "max_hr": 176,
-          "avg_cadence": 65.84659,
-          "zone": 1,
-          "training_load": 12.305843
+        "thirds": [
+          [
+            0,
+            945,
+            110.8,
+            94.6,
+            133.4,
+            73.4,
+            90.37,
+            90.37,
+            90.37,
+            5.15
+          ],
+          [
+            945,
+            1890,
+            98.3,
+            54.6,
+            123.3,
+            65.3,
+            58.73,
+            58.73,
+            58.73,
+            15.68
+          ],
+          [
+            1890,
+            2835,
+            104.0,
+            97.9,
+            131.3,
+            74.9,
+            99.58,
+            99.58,
+            99.58,
+            5.31
+          ]
+        ],
+        "cache": {
+          "activity_key": "74732e67b02213b793f15f9dfc3d2f5883090d81b1b3538716dc7911e557d5a7",
+          "event_key": "e4d53dba9bba32589b651eb02a66ddb045170b165d1ee23dd8ab637b1411a87a",
+          "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
         }
-      ]
-    },
-    {
-      "activity_id": "i201660848",
-      "date": "2026-10-26",
-      "type": "Ride",
-      "name": "Auckland Road Cycling",
-      "interval_summary": [
-        "1x 3m34s 180w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3758,
-          "avg_power": 116,
-          "max_power": 395,
-          "avg_hr": 114,
-          "max_hr": 133,
-          "avg_cadence": 67.32564,
-          "zone": 1,
-          "training_load": 30.001848,
-          "decoupling": 1.4346308
-        },
-        {
-          "type": "WORK",
-          "label": "214s@180w83rpm",
-          "duration_secs": 214,
-          "avg_power": 180,
-          "max_power": 286,
-          "avg_hr": 128,
-          "max_hr": 140,
-          "avg_cadence": 82.76636,
-          "zone": 3,
-          "training_load": 3.36283,
-          "decoupling": 3.710689
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7143,
-          "avg_power": 111,
-          "max_power": 577,
-          "avg_hr": 119,
-          "max_hr": 144,
-          "avg_cadence": 64.28304,
-          "zone": 1,
-          "training_load": 44.31982,
-          "decoupling": 3.1504397
-        }
-      ]
+      }
     },
     {
       "activity_id": "i201990649",
       "date": "2026-10-27",
+      "start_datetime": "2026-10-27T05:44:24",
       "type": "VirtualRide",
       "name": "A.2. Threshold",
       "interval_summary": [
@@ -394,91 +106,2060 @@
         {
           "type": "RECOVERY",
           "duration_secs": 665,
+          "moving_secs": 665,
+          "start_secs": 0,
+          "end_secs": 665,
           "avg_power": 143,
           "max_power": 212,
           "avg_hr": 120,
           "max_hr": 143,
+          "min_hr": 76,
           "avg_cadence": 86.48722,
           "zone": 2,
-          "training_load": 8.063926,
-          "decoupling": -7.4705124
+          "w_bal_start": 20039,
+          "w_bal_end": 20039,
+          "training_load": 8.063926
         },
         {
           "type": "WORK",
           "label": "717s@215w99rpm",
           "duration_secs": 716,
+          "moving_secs": 716,
+          "start_secs": 665,
+          "end_secs": 1381,
           "avg_power": 214,
           "max_power": 231,
           "avg_hr": 158,
           "max_hr": 167,
+          "min_hr": 129,
           "avg_cadence": 98.47067,
           "zone": 4,
-          "training_load": 18.152733,
-          "decoupling": 5.320989
+          "w_bal_start": 20039,
+          "w_bal_end": 19999,
+          "training_load": 18.152733
         },
         {
           "type": "RECOVERY",
           "duration_secs": 272,
+          "moving_secs": 272,
+          "start_secs": 1381,
+          "end_secs": 1653,
           "avg_power": 111,
           "max_power": 210,
           "avg_hr": 135,
           "max_hr": 164,
+          "min_hr": 125,
           "avg_cadence": 84.04779,
           "zone": 1,
-          "training_load": 2.3153346,
-          "decoupling": -13.271006
+          "w_bal_start": 19999,
+          "w_bal_end": 20030,
+          "training_load": 2.3153346
         },
         {
           "type": "WORK",
           "label": "717s@215w99rpm",
           "duration_secs": 718,
+          "moving_secs": 718,
+          "start_secs": 1653,
+          "end_secs": 2371,
           "avg_power": 214,
           "max_power": 236,
           "avg_hr": 164,
           "max_hr": 174,
+          "min_hr": 129,
           "avg_cadence": 99.23816,
           "zone": 4,
-          "training_load": 18.20344,
-          "decoupling": 5.9820094
+          "w_bal_start": 20030,
+          "w_bal_end": 19964,
+          "training_load": 18.20344
         },
         {
           "type": "RECOVERY",
           "duration_secs": 272,
+          "moving_secs": 272,
+          "start_secs": 2371,
+          "end_secs": 2643,
           "avg_power": 112,
           "max_power": 203,
           "avg_hr": 142,
           "max_hr": 171,
+          "min_hr": 131,
           "avg_cadence": 82.60294,
           "zone": 1,
-          "training_load": 2.3153346,
-          "decoupling": -12.568627
+          "w_bal_start": 19964,
+          "w_bal_end": 20022,
+          "training_load": 2.3153346
         },
         {
           "type": "WORK",
           "label": "717s@215w99rpm",
           "duration_secs": 718,
+          "moving_secs": 718,
+          "start_secs": 2643,
+          "end_secs": 3361,
           "avg_power": 216,
           "max_power": 235,
           "avg_hr": 169,
           "max_hr": 179,
+          "min_hr": 138,
           "avg_cadence": 99.02507,
           "zone": 4,
-          "training_load": 18.54528,
-          "decoupling": 4.428817
+          "w_bal_start": 20022,
+          "w_bal_end": 19937,
+          "training_load": 18.54528
         },
         {
           "type": "RECOVERY",
           "duration_secs": 354,
+          "moving_secs": 354,
+          "start_secs": 3361,
+          "end_secs": 3715,
           "avg_power": 104,
           "max_power": 203,
           "avg_hr": 143,
           "max_hr": 169,
+          "min_hr": 122,
           "avg_cadence": 77.432205,
           "zone": 1,
-          "training_load": 2.9004393,
-          "decoupling": -9.929283
+          "w_bal_start": 19938,
+          "w_bal_end": 20026,
+          "training_load": 2.9004393
         }
-      ]
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "144058553",
+          "updated": "2026-10-26T08:35:18.637+00:00",
+          "name": "A.2. Threshold",
+          "duration_s": 3690,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 224,
+          "plan_ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 180,
+            "target_w": 112.0
+          },
+          {
+            "duration_s": 120,
+            "target_w": 134.4
+          },
+          {
+            "duration_s": 120,
+            "target_w": 156.8
+          },
+          {
+            "duration_s": 60,
+            "target_w": 179.2
+          },
+          {
+            "duration_s": 60,
+            "target_w": 190.4
+          },
+          {
+            "duration_s": 120,
+            "target_w": 145.6
+          },
+          {
+            "supported": false,
+            "duration_s": 2970
+          },
+          {
+            "duration_s": 60,
+            "target_w": 112.0
+          }
+        ],
+        "thirds": [
+          [
+            0,
+            1238,
+            176.4,
+            218.4,
+            137.4,
+            91.9,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            1238,
+            2476,
+            183.5,
+            227.2,
+            157.4,
+            94.8,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            2476,
+            3714,
+            170.9,
+            211.6,
+            157.5,
+            90.5,
+            100.0,
+            100.0,
+            100.0,
+            1.78
+          ]
+        ],
+        "efforts": [
+          [
+            665,
+            1381,
+            214,
+            158,
+            98.47067
+          ],
+          [
+            1653,
+            2371,
+            214,
+            164,
+            99.23816
+          ],
+          [
+            2643,
+            3361,
+            216,
+            169,
+            99.02507
+          ]
+        ],
+        "issues": [
+          "unsupported_steps",
+          "efforts_from_interval_cache"
+        ],
+        "cache": {
+          "activity_key": "c379b7a666426ac046e95605bfa33cf78380cb7a5257d5ea570b3969f0818fb1",
+          "event_key": "60a8a7dc33a6631e30280b1fba0d515d92113334b513b4b623d21cfb349951f5",
+          "plan_key": "beba62fd05e49532b9d9bee59347412e44a928466b91e3095e31f5fb5f9adb10",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i201660848",
+      "date": "2026-10-26",
+      "start_datetime": "2026-10-26T06:47:49",
+      "type": "Ride",
+      "name": "Auckland Road Cycling",
+      "interval_summary": [
+        "1x 3m34s 180w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3758,
+          "moving_secs": 3242,
+          "start_secs": 0,
+          "end_secs": 3758,
+          "avg_power": 116,
+          "max_power": 395,
+          "avg_hr": 114,
+          "max_hr": 133,
+          "min_hr": 77,
+          "avg_cadence": 67.32564,
+          "zone": 1,
+          "w_bal_start": 20039,
+          "w_bal_end": 20033,
+          "training_load": 30.001848
+        },
+        {
+          "type": "WORK",
+          "label": "214s@180w83rpm",
+          "duration_secs": 214,
+          "moving_secs": 214,
+          "start_secs": 3758,
+          "end_secs": 3972,
+          "avg_power": 180,
+          "max_power": 286,
+          "avg_hr": 128,
+          "max_hr": 140,
+          "min_hr": 97,
+          "avg_cadence": 82.76636,
+          "zone": 3,
+          "w_bal_start": 20033,
+          "w_bal_end": 19910,
+          "training_load": 3.36283
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7143,
+          "moving_secs": 5019,
+          "start_secs": 3972,
+          "end_secs": 11115,
+          "avg_power": 111,
+          "max_power": 577,
+          "avg_hr": 119,
+          "max_hr": 144,
+          "min_hr": 81,
+          "avg_cadence": 64.28304,
+          "zone": 1,
+          "w_bal_start": 19910,
+          "w_bal_end": 19866,
+          "training_load": 44.31982
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "no_plan",
+        "thirds": [
+          [
+            0,
+            3704,
+            117.2,
+            374.4,
+            115.2,
+            67.7,
+            86.26,
+            86.26,
+            86.26,
+            10.92
+          ],
+          [
+            3704,
+            7409,
+            116.6,
+            392.3,
+            118.3,
+            66.1,
+            90.82,
+            90.82,
+            90.82,
+            11.68
+          ],
+          [
+            7409,
+            11114,
+            109.8,
+            212.8,
+            122.4,
+            62.6,
+            52.31,
+            52.31,
+            52.17,
+            16.46
+          ]
+        ],
+        "efforts": [
+          [
+            3758,
+            3972,
+            180,
+            128,
+            82.76636
+          ]
+        ],
+        "issues": [
+          "efforts_from_interval_cache"
+        ],
+        "cache": {
+          "activity_key": "737b145e2f9ce3e2c6c46472bbea3bc1f7ff1ea3c6c7749d55937f235a42fb6d",
+          "event_key": null,
+          "plan_key": null,
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i201249658",
+      "date": "2026-10-25",
+      "start_datetime": "2026-10-25T08:12:51",
+      "type": "Ride",
+      "name": "1hr zone 2",
+      "interval_summary": [
+        "1x 36s 475w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7264,
+          "moving_secs": 5891,
+          "start_secs": 0,
+          "end_secs": 7264,
+          "avg_power": 137,
+          "max_power": 544,
+          "avg_hr": 126,
+          "max_hr": 150,
+          "min_hr": 82,
+          "avg_cadence": 73.10665,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 17458,
+          "training_load": 72.679016
+        },
+        {
+          "type": "WORK",
+          "label": "36s@475w104rpm",
+          "duration_secs": 36,
+          "moving_secs": 36,
+          "start_secs": 7264,
+          "end_secs": 7300,
+          "avg_power": 475,
+          "max_power": 592,
+          "avg_hr": 164,
+          "max_hr": 175,
+          "min_hr": 147,
+          "avg_cadence": 104.333336,
+          "zone": 7,
+          "w_bal_start": 17284,
+          "w_bal_end": 8764,
+          "training_load": 3.0699832
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2579,
+          "moving_secs": 890,
+          "start_secs": 7300,
+          "end_secs": 9879,
+          "avg_power": 111,
+          "max_power": 436,
+          "avg_hr": 132,
+          "max_hr": 176,
+          "min_hr": 101,
+          "avg_cadence": 65.84659,
+          "zone": 1,
+          "w_bal_start": 8618,
+          "w_bal_end": 19959,
+          "training_load": 12.305843
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "paired_plan_windows",
+        "status": "partly_followed",
+        "plan": {
+          "event_id": "143701629",
+          "updated": "2026-10-24T04:37:22.915+00:00",
+          "name": "1hr zone 2",
+          "duration_s": 6360,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 234,
+          "plan_ftp": 224
+        },
+        "steps": [
+          {
+            "target_w": 117.0,
+            "duration_s": 60,
+            "actual": [
+              2,
+              61,
+              121.0,
+              7.1,
+              109.4,
+              74.9,
+              100.0,
+              100.0,
+              100.0,
+              0.0
+            ],
+            "match": true,
+            "adherence": [
+              3,
+              57.0,
+              6810.0,
+              0.0
+            ]
+          },
+          {
+            "target_w": 128.7,
+            "duration_s": 60,
+            "actual": [
+              62,
+              121,
+              127.5,
+              7.5,
+              126.1,
+              81.1,
+              100.0,
+              100.0,
+              100.0,
+              0.0
+            ],
+            "match": true,
+            "adherence": [
+              63,
+              57.0,
+              7261.0,
+              0.0
+            ]
+          },
+          {
+            "target_w": 140.4,
+            "duration_s": 60,
+            "actual": [
+              122,
+              181,
+              123.6,
+              7.3,
+              124.7,
+              72.7,
+              100.0,
+              100.0,
+              100.0,
+              5.08
+            ],
+            "match": false,
+            "adherence": [
+              123,
+              57.0,
+              7124.0,
+              3.0
+            ]
+          },
+          {
+            "target_w": 154.44,
+            "duration_s": 6000,
+            "actual": [
+              182,
+              6181,
+              137.3,
+              823.9,
+              127.4,
+              71.9,
+              100.0,
+              100.0,
+              97.83,
+              11.74
+            ],
+            "match": false
+          },
+          {
+            "target_w": 128.7,
+            "duration_s": 180,
+            "actual": [
+              6182,
+              6361,
+              123.2,
+              22.1,
+              132.4,
+              73.3,
+              100.0,
+              100.0,
+              100.0,
+              9.5
+            ],
+            "match": true
+          }
+        ],
+        "offset_s": 1,
+        "bout_metrics_version": 4,
+        "unassigned": [
+          [
+            0,
+            1,
+            212.0,
+            0.2,
+            96.0,
+            46.0,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            6361,
+            6834,
+            126.2,
+            59.7,
+            135.8,
+            76.2,
+            100.0,
+            100.0,
+            100.0,
+            3.38
+          ]
+        ],
+        "issues": [
+          "shortened_or_extended"
+        ],
+        "cache": {
+          "activity_key": "887d20c1ad5a67b7c0e0476ae252ee6c470e14e6e4754b323dc9af2531268aae",
+          "event_key": "387edcefa25d989562025ae9760fff75354ba2299ff63568df834aaa9885928d",
+          "plan_key": "480daedf4893ca008bf2fd1991f08dbfe0d6a8b49b10a9ec7ec57c7749ef1929",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i200903679",
+      "date": "2026-10-24",
+      "start_datetime": "2026-10-24T06:47:34",
+      "type": "Ride",
+      "name": "Saturday long ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 18043,
+          "moving_secs": 12853,
+          "start_secs": 0,
+          "end_secs": 18043,
+          "avg_power": 130,
+          "max_power": 580,
+          "avg_hr": 133,
+          "max_hr": 155,
+          "min_hr": 92,
+          "avg_cadence": 70.16331,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 20022,
+          "training_load": 148.54305
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765679",
+          "updated": "2026-10-15T22:37:04.741+00:00",
+          "name": "Saturday long ride",
+          "duration_s": 13024,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 3244,
+            "target_w": 140.4
+          },
+          {
+            "duration_s": 38,
+            "target_w": 278.46
+          },
+          {
+            "duration_s": 1953,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 39,
+            "target_w": 269.1
+          },
+          {
+            "duration_s": 1932,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 41,
+            "target_w": 257.4
+          },
+          {
+            "duration_s": 465,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 49,
+            "target_w": 283.14
+          },
+          {
+            "duration_s": 705,
+            "target_w": 140.4
+          },
+          {
+            "duration_s": 132,
+            "target_w": 238.68
+          },
+          {
+            "duration_s": 50,
+            "target_w": 95.94
+          },
+          {
+            "duration_s": 47,
+            "target_w": 290.16
+          },
+          {
+            "duration_s": 624,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 35,
+            "target_w": 257.4
+          },
+          {
+            "duration_s": 134,
+            "target_w": 60.84
+          },
+          {
+            "duration_s": 94,
+            "target_w": 212.94
+          },
+          {
+            "duration_s": 549,
+            "target_w": 170.82
+          },
+          {
+            "duration_s": 37,
+            "target_w": 285.48
+          },
+          {
+            "duration_s": 735,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 91,
+            "target_w": 294.84
+          }
+        ],
+        "omitted_steps": 6,
+        "thirds": [
+          [
+            0,
+            6014,
+            133.4,
+            695.5,
+            128.1,
+            72.7,
+            86.68,
+            86.68,
+            86.68,
+            8.36
+          ],
+          [
+            6014,
+            12028,
+            127.8,
+            703.3,
+            136.4,
+            68.1,
+            91.5,
+            91.5,
+            91.5,
+            13.12
+          ],
+          [
+            12028,
+            18042,
+            128.9,
+            280.1,
+            139.2,
+            69.4,
+            36.13,
+            36.13,
+            36.13,
+            9.89
+          ]
+        ],
+        "issues": [
+          "truncated"
+        ],
+        "cache": {
+          "activity_key": "e95111b78fde86f6a1c8ea85d78e17c45dc11e51aeca6017c93c43029e634d3b",
+          "event_key": "1ba759a0458a6252077206c8bc1939fb3e8d8b55c0c797f596bb25cf27054781",
+          "plan_key": "3796858621976878a77f54a3c85a3f5e2cd8c917b2739ea5a660a9e51562d139",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i200195298",
+      "date": "2026-10-22",
+      "start_datetime": "2026-10-22T11:52:14",
+      "type": "VirtualRide",
+      "name": "1hr zone 2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3974,
+          "moving_secs": 3974,
+          "start_secs": 0,
+          "end_secs": 3974,
+          "avg_power": 148,
+          "max_power": 196,
+          "avg_hr": 140,
+          "max_hr": 149,
+          "min_hr": 124,
+          "avg_cadence": 84.96829,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 20039,
+          "training_load": 48.84295
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "paired_plan_windows",
+        "status": "followed",
+        "plan": {
+          "event_id": "146433987",
+          "updated": "2026-10-21T22:44:50.381+00:00",
+          "name": "1hr zone 2",
+          "duration_s": 3960,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 224
+        },
+        "steps": [
+          {
+            "target_w": 112.0,
+            "duration_s": 60,
+            "actual": [
+              1,
+              60,
+              112.8,
+              6.7,
+              null,
+              76.0,
+              100.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "match": true,
+            "adherence": [
+              2,
+              57.0,
+              6447.0,
+              0.0
+            ]
+          },
+          {
+            "target_w": 123.2,
+            "duration_s": 60,
+            "actual": [
+              61,
+              120,
+              123.2,
+              7.3,
+              null,
+              82.8,
+              100.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "match": true,
+            "adherence": [
+              62,
+              57.0,
+              7012.0,
+              0.0
+            ]
+          },
+          {
+            "target_w": 134.4,
+            "duration_s": 60,
+            "actual": [
+              121,
+              180,
+              133.6,
+              7.9,
+              null,
+              82.9,
+              100.0,
+              0.0,
+              100.0,
+              0.0
+            ],
+            "match": true,
+            "adherence": [
+              122,
+              57.0,
+              7636.0,
+              0.0
+            ]
+          },
+          {
+            "target_w": 152.32,
+            "duration_s": 3600,
+            "actual": [
+              181,
+              3780,
+              151.5,
+              545.3,
+              141.2,
+              85.6,
+              100.0,
+              98.78,
+              100.0,
+              0.0
+            ],
+            "match": true
+          },
+          {
+            "target_w": 123.2,
+            "duration_s": 180,
+            "actual": [
+              3781,
+              3960,
+              122.8,
+              22.0,
+              137.0,
+              80.8,
+              100.0,
+              100.0,
+              100.0,
+              0.0
+            ],
+            "match": true
+          }
+        ],
+        "bout_metrics_version": 4,
+        "cache": {
+          "activity_key": "d388ff1093c814c0d19f729cd1d15d67e35e895f68b8cadb4fcadbea8d3ba83a",
+          "event_key": "5ec631f18bcde51e07a902df1303713f01341ed455d66d991d145a4450e60a4b",
+          "plan_key": "23ac880cfd4c82b3857cc8b91514dabdde4d93b066de87b9e742578a225e4281",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i199268212",
+      "date": "2026-10-20",
+      "start_datetime": "2026-10-20T11:20:22",
+      "type": "VirtualRide",
+      "name": "A.1. Threshold",
+      "interval_summary": [
+        "2x 19m57s 206w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 606,
+          "moving_secs": 606,
+          "start_secs": 0,
+          "end_secs": 606,
+          "avg_power": 151,
+          "max_power": 206,
+          "avg_hr": 132,
+          "max_hr": 141,
+          "min_hr": 113,
+          "avg_cadence": 85.562706,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 20039,
+          "training_load": 7.9563804
+        },
+        {
+          "type": "WORK",
+          "label": "1197s@206w95rpm",
+          "duration_secs": 1196,
+          "moving_secs": 1196,
+          "start_secs": 606,
+          "end_secs": 1802,
+          "avg_power": 206,
+          "max_power": 227,
+          "avg_hr": 161,
+          "max_hr": 172,
+          "min_hr": 130,
+          "avg_cadence": 93.49415,
+          "zone": 4,
+          "w_bal_start": 20039,
+          "w_bal_end": 20034,
+          "training_load": 28.097462
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 362,
+          "moving_secs": 362,
+          "start_secs": 1802,
+          "end_secs": 2164,
+          "avg_power": 125,
+          "max_power": 193,
+          "avg_hr": 144,
+          "max_hr": 166,
+          "min_hr": 138,
+          "avg_cadence": 84.98066,
+          "zone": 2,
+          "w_bal_start": 20034,
+          "w_bal_end": 20038,
+          "training_load": 3.439162
+        },
+        {
+          "type": "WORK",
+          "label": "1197s@206w95rpm",
+          "duration_secs": 1197,
+          "moving_secs": 1197,
+          "start_secs": 2164,
+          "end_secs": 3361,
+          "avg_power": 206,
+          "max_power": 257,
+          "avg_hr": 173,
+          "max_hr": 180,
+          "min_hr": 145,
+          "avg_cadence": 96.05347,
+          "zone": 4,
+          "w_bal_start": 20038,
+          "w_bal_end": 20027,
+          "training_load": 27.848598
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 381,
+          "moving_secs": 381,
+          "start_secs": 3361,
+          "end_secs": 3742,
+          "avg_power": 118,
+          "max_power": 211,
+          "avg_hr": 158,
+          "max_hr": 180,
+          "min_hr": 147,
+          "avg_cadence": 78.4462,
+          "zone": 1,
+          "w_bal_start": 20027,
+          "w_bal_end": 20037,
+          "training_load": 3.5646193
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765891",
+          "updated": "2026-10-19T07:51:25.477+00:00",
+          "name": "A.1. Threshold",
+          "duration_s": 3720,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 224,
+          "plan_ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 120,
+            "target_w": 123.2
+          },
+          {
+            "duration_s": 120,
+            "target_w": 138.88
+          },
+          {
+            "duration_s": 120,
+            "target_w": 163.52
+          },
+          {
+            "duration_s": 60,
+            "target_w": 179.2
+          },
+          {
+            "duration_s": 60,
+            "target_w": 190.4
+          },
+          {
+            "duration_s": 120,
+            "target_w": 145.6
+          },
+          {
+            "supported": false,
+            "duration_s": 3120
+          }
+        ],
+        "thirds": [
+          [
+            0,
+            1247,
+            179.5,
+            223.8,
+            150.6,
+            88.9,
+            100.0,
+            65.2,
+            100.0,
+            0.0
+          ],
+          [
+            1247,
+            2494,
+            182.5,
+            227.6,
+            160.4,
+            92.1,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            2494,
+            3741,
+            179.4,
+            223.7,
+            171.3,
+            91.0,
+            100.0,
+            100.0,
+            100.0,
+            1.52
+          ]
+        ],
+        "efforts": [
+          [
+            606,
+            1802,
+            206,
+            161,
+            93.49415
+          ],
+          [
+            2164,
+            3361,
+            206,
+            173,
+            96.05347
+          ]
+        ],
+        "issues": [
+          "unsupported_steps",
+          "efforts_from_interval_cache"
+        ],
+        "cache": {
+          "activity_key": "b10411080afd5352ee5ebc87cfb13bda6e9a309f92ab056e55ae7fb1edcadafd",
+          "event_key": "3872ff7853c1fcec4290bca4984675f8564d36259f4606052d987c0a1c973b6b",
+          "plan_key": "e0fe9a3e2f14e3885f314e64a84f9c13f19154b272347cccb385091cf165e599",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i198471411",
+      "date": "2026-10-18",
+      "start_datetime": "2026-10-18T08:11:54",
+      "type": "Ride",
+      "name": "Morning E-bike Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10843,
+          "moving_secs": 7443,
+          "start_secs": 0,
+          "end_secs": 10843,
+          "avg_power": 125,
+          "max_power": 547,
+          "avg_hr": 129,
+          "max_hr": 153,
+          "min_hr": 88,
+          "avg_cadence": 68.78022,
+          "zone": 1,
+          "w_bal_start": 20039,
+          "w_bal_end": 19893,
+          "training_load": 80.45341
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "not_followed",
+        "plan": {
+          "event_id": "144053851",
+          "updated": "2026-10-15T22:35:40.620+00:00",
+          "name": "Botany Bunch",
+          "duration_s": 6970,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 2638,
+            "target_w": 131.04
+          },
+          {
+            "duration_s": 103,
+            "target_w": 219.96
+          },
+          {
+            "duration_s": 727,
+            "target_w": 124.02
+          },
+          {
+            "duration_s": 85,
+            "target_w": 212.94
+          },
+          {
+            "duration_s": 1449,
+            "target_w": 163.8
+          },
+          {
+            "duration_s": 16,
+            "target_w": 453.96
+          },
+          {
+            "duration_s": 23,
+            "target_w": 205.92
+          },
+          {
+            "duration_s": 11,
+            "target_w": 397.8
+          },
+          {
+            "duration_s": 426,
+            "target_w": 154.44
+          },
+          {
+            "duration_s": 8,
+            "target_w": 407.16
+          },
+          {
+            "duration_s": 370,
+            "target_w": 154.44
+          },
+          {
+            "duration_s": 10,
+            "target_w": 400.14
+          },
+          {
+            "duration_s": 91,
+            "target_w": 180.18
+          },
+          {
+            "duration_s": 55,
+            "target_w": 285.48
+          },
+          {
+            "duration_s": 958,
+            "target_w": 135.72
+          }
+        ],
+        "offset_s": 1,
+        "thirds": [
+          [
+            0,
+            3614,
+            112.8,
+            307.1,
+            126.9,
+            66.6,
+            75.35,
+            75.35,
+            74.79,
+            11.6
+          ],
+          [
+            3614,
+            7228,
+            142.6,
+            395.7,
+            132.0,
+            71.7,
+            76.78,
+            76.78,
+            76.78,
+            9.37
+          ],
+          [
+            7228,
+            10842,
+            120.3,
+            236.8,
+            129.4,
+            67.6,
+            54.45,
+            54.45,
+            52.35,
+            15.04
+          ]
+        ],
+        "issues": [
+          "most_steps_disagree"
+        ],
+        "cache": {
+          "activity_key": "9980cd8ea672c4a0bb09b965a1ffd29ab2dffd50458d295667f24a43740e9752",
+          "event_key": "c7caefee3ef575c99c6e1ab4e555f103c7f16cbcb31e1fe84f95ed9d17baf5b0",
+          "plan_key": "8e9c764c9be6354cf7841bc456c0c46b2d264e721532acf83c45958377d05d44",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i197304850",
+      "date": "2026-10-15",
+      "start_datetime": "2026-10-15T05:44:19",
+      "type": "VirtualRide",
+      "name": "B.1. VO2 max",
+      "interval_summary": [
+        "2x 2m57s 261w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 666,
+          "moving_secs": 666,
+          "start_secs": 0,
+          "end_secs": 666,
+          "avg_power": 149,
+          "max_power": 280,
+          "avg_hr": 129,
+          "max_hr": 149,
+          "min_hr": 106,
+          "avg_cadence": 86.35285,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 19958,
+          "training_load": 8.630949
+        },
+        {
+          "type": "WORK",
+          "label": "177s@261w103rpm",
+          "duration_secs": 175,
+          "moving_secs": 175,
+          "start_secs": 666,
+          "end_secs": 841,
+          "avg_power": 260,
+          "max_power": 280,
+          "avg_hr": 164,
+          "max_hr": 174,
+          "min_hr": 135,
+          "avg_cadence": 102.685715,
+          "zone": 5,
+          "w_bal_start": 19939,
+          "w_bal_end": 13507,
+          "training_load": 6.3492064
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 183,
+          "moving_secs": 183,
+          "start_secs": 841,
+          "end_secs": 1024,
+          "avg_power": 126,
+          "max_power": 265,
+          "avg_hr": 152,
+          "max_hr": 174,
+          "min_hr": 141,
+          "avg_cadence": 89.513664,
+          "zone": 2,
+          "w_bal_start": 13466,
+          "w_bal_end": 17344,
+          "training_load": 2.3099706
+        },
+        {
+          "type": "WORK",
+          "label": "177s@261w103rpm",
+          "duration_secs": 178,
+          "moving_secs": 178,
+          "start_secs": 1024,
+          "end_secs": 1202,
+          "avg_power": 261,
+          "max_power": 281,
+          "avg_hr": 162,
+          "max_hr": 175,
+          "min_hr": 144,
+          "avg_cadence": 102.39888,
+          "zone": 5,
+          "w_bal_start": 17336,
+          "w_bal_end": 10747,
+          "training_load": 6.357537
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 255,
+          "moving_secs": 255,
+          "start_secs": 1202,
+          "end_secs": 1457,
+          "avg_power": 114,
+          "max_power": 244,
+          "avg_hr": 149,
+          "max_hr": 177,
+          "min_hr": 129,
+          "avg_cadence": 79.63529,
+          "zone": 1,
+          "w_bal_start": 10727,
+          "w_bal_end": 17736,
+          "training_load": 2.8065958
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765899",
+          "updated": "2026-10-12T23:11:01.772+00:00",
+          "name": "B.1. VO2 max",
+          "duration_s": 1440,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 224,
+          "plan_ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 120,
+            "target_w": 112.0
+          },
+          {
+            "duration_s": 120,
+            "target_w": 134.4
+          },
+          {
+            "duration_s": 120,
+            "target_w": 156.8
+          },
+          {
+            "duration_s": 60,
+            "target_w": 179.2
+          },
+          {
+            "duration_s": 60,
+            "target_w": 190.4
+          },
+          {
+            "duration_s": 180,
+            "target_w": 145.6
+          },
+          {
+            "supported": false,
+            "duration_s": 720
+          },
+          {
+            "supported": false,
+            "duration_s": 60,
+            "target_w": 112.0
+          }
+        ],
+        "thirds": [
+          [
+            0,
+            485,
+            148.9,
+            72.2,
+            125.6,
+            85.2,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            485,
+            970,
+            183.8,
+            89.2,
+            152.7,
+            94.3,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            970,
+            1456,
+            169.8,
+            82.5,
+            153.3,
+            89.2,
+            100.0,
+            100.0,
+            100.0,
+            2.88
+          ]
+        ],
+        "efforts": [
+          [
+            666,
+            841,
+            260,
+            164,
+            102.685715
+          ],
+          [
+            1024,
+            1202,
+            261,
+            162,
+            102.39888
+          ]
+        ],
+        "issues": [
+          "unsupported_steps",
+          "efforts_from_interval_cache"
+        ],
+        "cache": {
+          "activity_key": "6492bf3781cddda0bf34c246580136b641593a861f87e27761343915ce235931",
+          "event_key": "23c335f1e0676bcee98a72f6683b3c0818acd3a0840abcee79d218e0f420d53f",
+          "plan_key": "c5eb1bbc2e2cf7b15d4c9c393c9cbb96f5dea6ed2c6f7e5fb4ecabb4ad02ebcb",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-29T03:10:05.700823+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i198854142",
+      "date": "2026-10-19",
+      "start_datetime": "2026-10-19T16:50:24",
+      "type": "EBikeRide",
+      "name": "Morning E-Bike Ride",
+      "interval_summary": null,
+      "intervals": [],
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765698",
+          "updated": "2026-10-12T02:24:42.870+00:00",
+          "name": "Morning E-Bike Ride",
+          "duration_s": 2539,
+          "duration_source": "moving_time"
+        },
+        "thirds": [
+          [
+            0,
+            949,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            949,
+            1899,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            1899,
+            2849,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ]
+        ],
+        "issues": [
+          "efforts_transient",
+          "efforts_unavailable"
+        ],
+        "cache": {
+          "activity_key": "010d92e59a426e76c0e384f20ca6ce0a009cdc0f5ec3cbaddfab51e3b7d77694",
+          "event_key": "57eda92eb84fcfaad3911c6d13b352c0860911130488a5b6af10388c35203503",
+          "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-28T04:10:05.700823+00:00",
+          "status": "unavailable",
+          "failures": 1
+        }
+      }
+    },
+    {
+      "activity_id": "i198766747",
+      "date": "2026-10-19",
+      "start_datetime": "2026-10-19T07:10:16",
+      "type": "EBikeRide",
+      "name": "Morning E-Bike Ride",
+      "interval_summary": null,
+      "intervals": [],
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765713",
+          "updated": "2026-10-12T02:24:49.846+00:00",
+          "name": "Morning E-Bike Ride",
+          "duration_s": 2539,
+          "duration_source": "moving_time"
+        },
+        "thirds": [
+          [
+            0,
+            989,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            989,
+            1978,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            1978,
+            2967,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ]
+        ],
+        "issues": [
+          "efforts_transient",
+          "efforts_unavailable"
+        ],
+        "cache": {
+          "activity_key": "c1ecda0b3648ef0bf71a68846f33842e8bb88daa4daafa8b7582984438600deb",
+          "event_key": "3f732055976476568950804ac43a4bc6c1bdbcb95ce88f929398333238c91f13",
+          "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-28T04:10:05.700823+00:00",
+          "status": "unavailable",
+          "failures": 1
+        }
+      }
+    },
+    {
+      "activity_id": "i198127201",
+      "date": "2026-10-17",
+      "start_datetime": "2026-10-17T06:23:00",
+      "type": "Ride",
+      "name": "Saturday long ride",
+      "interval_summary": null,
+      "intervals": [],
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "145051409",
+          "updated": "2026-10-15T22:35:17.371+00:00",
+          "name": "Saturday long ride",
+          "duration_s": 10942,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 3153,
+            "target_w": 145.08
+          },
+          {
+            "duration_s": 39,
+            "target_w": 269.1
+          },
+          {
+            "duration_s": 1932,
+            "target_w": 145.08
+          },
+          {
+            "duration_s": 41,
+            "target_w": 257.4
+          },
+          {
+            "duration_s": 465,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 49,
+            "target_w": 283.14
+          },
+          {
+            "duration_s": 705,
+            "target_w": 140.4
+          },
+          {
+            "duration_s": 132,
+            "target_w": 238.68
+          },
+          {
+            "duration_s": 50,
+            "target_w": 95.94
+          },
+          {
+            "duration_s": 47,
+            "target_w": 290.16
+          },
+          {
+            "duration_s": 624,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 35,
+            "target_w": 257.4
+          },
+          {
+            "duration_s": 134,
+            "target_w": 60.84
+          },
+          {
+            "duration_s": 94,
+            "target_w": 212.94
+          },
+          {
+            "duration_s": 549,
+            "target_w": 170.82
+          },
+          {
+            "duration_s": 37,
+            "target_w": 285.48
+          },
+          {
+            "duration_s": 735,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 91,
+            "target_w": 294.84
+          },
+          {
+            "duration_s": 18,
+            "target_w": 236.34
+          },
+          {
+            "duration_s": 61,
+            "target_w": 311.22
+          }
+        ],
+        "omitted_steps": 4,
+        "thirds": [
+          [
+            0,
+            4737,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            4737,
+            9474,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            9474,
+            14212,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ]
+        ],
+        "issues": [
+          "efforts_transient",
+          "efforts_unavailable"
+        ],
+        "cache": {
+          "activity_key": "5f6068ca1c705c02f0d328d4aadf086991f370d448f0bcc1bc89159952824e53",
+          "event_key": "4d01bd42a9315b424285baf186c7414d7f6da56a2dd58e0ad338fc646a3306df",
+          "plan_key": "a0461006dc9a122ab66d60c16e236fc6f5e41a7a5e01cf999af3df42c006b0e3",
+          "plan_key_version": 2,
+          "sampled_at": "2026-10-28T03:10:05.700823+00:00",
+          "next_refresh_at": "2026-10-28T04:10:05.700823+00:00",
+          "status": "unavailable",
+          "failures": 1
+        }
+      }
     }
-  ]
+  ],
+  "fetch_state": {
+    "i202552174": {
+      "date": "2026-10-28",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-28T00:56:39.938+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-28T03:14:59.608419"
+      }
+    },
+    "i201990649": {
+      "date": "2026-10-27",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-26T17:46:27.527+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-28T03:14:59.608419"
+      }
+    },
+    "i201660848": {
+      "date": "2026-10-26",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-25T20:54:59.323+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-28T03:14:59.608419"
+      }
+    },
+    "i201249658": {
+      "date": "2026-10-25",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-24T22:17:55.237+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-28T03:14:59.608419"
+      }
+    },
+    "i200903679": {
+      "date": "2026-10-24",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-23T22:50:23.497+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i200195298": {
+      "date": "2026-10-22",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-21T23:58:31.588+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i199268212": {
+      "date": "2026-10-20",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-19T23:22:49.641+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i198854142": {
+      "date": "2026-10-19",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i198766747": {
+      "date": "2026-10-19",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i198471411": {
+      "date": "2026-10-18",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-17T22:18:57.712+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i198127201": {
+      "date": "2026-10-17",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "pending",
+        "reason": "transient",
+        "next_retry_at": "2026-10-29T03:09:59.608419"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i197304850": {
+      "date": "2026-10-15",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-14T17:08:40.270+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-28T03:09:59.608419",
+        "last_attempt": "2026-10-28T03:09:59.608419",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    }
+  }
 }
