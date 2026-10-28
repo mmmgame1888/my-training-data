@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:00:00.259443",
+  "generated_at": "2026-10-28T17:07:14.284484",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -1931,12 +1931,12 @@
         "source_icu_sync_date": "2026-10-28T00:56:39.938+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T11:00:00.259443",
+        "last_attempt": "2026-10-28T17:07:14.284484",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-28T11:05:00.259443"
+        "next_retry_at": "2026-10-28T17:12:14.284484"
       }
     },
     "i201990649": {
@@ -1951,12 +1951,12 @@
         "source_icu_sync_date": "2026-10-26T17:46:27.527+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T11:00:00.259443",
+        "last_attempt": "2026-10-28T17:07:14.284484",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-28T11:05:00.259443"
+        "next_retry_at": "2026-10-28T17:12:14.284484"
       }
     },
     "i201660848": {
@@ -1970,12 +1970,12 @@
         "source_icu_sync_date": "2026-10-25T20:54:59.323+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T11:00:00.259443",
+        "last_attempt": "2026-10-28T17:07:14.284484",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-28T11:05:00.259443"
+        "next_retry_at": "2026-10-28T17:12:14.284484"
       }
     },
     "i201249658": {
