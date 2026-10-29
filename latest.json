@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-29T16:38:12.343850+00:00",
+        "updated_at": "2026-10-29T21:33:25.753245+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-10-29T16:38:20.823188+00:00",
+        "updated_at": "2026-10-29T21:33:30.748243+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-10-29T16:38:20.825197+00:00",
+        "updated_at": "2026-10-29T21:33:30.748847+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-29T16:38:04.186180+00:00",
+        "updated_at": "2026-10-29T21:33:21.228260+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-29T16:38:12.343568+00:00",
+        "updated_at": "2026-10-29T21:33:25.752963+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-29T16:38:20.839197+00:00",
+        "updated_at": "2026-10-29T21:33:30.763846+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-10-29T16:38:12.344356+00:00",
+        "updated_at": "2026-10-29T21:33:25.753744+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -214,11 +214,36 @@
           "present": false,
           "reason": "weather_missing"
         }
+      },
+      {
+        "event_id": 97765724,
+        "name": "Rat racers",
+        "path": "routes.json",
+        "json_path": null,
+        "departure_assumed": true,
+        "departure_display": "2026-11-04 10:00 NZDT+1300 (ASSUMED)",
+        "start_time_status": "midnight_treated_as_unset",
+        "has_route": false,
+        "route_status": "absent",
+        "climbs_present": false,
+        "climb_count": null,
+        "weather": {
+          "status": "missing",
+          "tier": null,
+          "fetched_at": null,
+          "expires_at": null,
+          "summary": null,
+          "reason": "no_route"
+        },
+        "map": {
+          "present": false,
+          "reason": "weather_missing"
+        }
       }
     ],
-    "rides_total": 3,
+    "rides_total": 4,
     "rides_omitted": 0,
-    "rides_without_route_beyond_horizon": 18,
+    "rides_without_route_beyond_horizon": 17,
     "managed_files": [
       "ftp_history.json",
       "history.json",
@@ -282,7 +307,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-29T16:38:18.617757",
+    "last_updated": "2026-10-29T21:33:29.637159",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -397,7 +422,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-10-29T16:38:10.791619+00:00",
+    "source_updated_at": "2026-10-29T21:33:24.874293+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "current_date_mismatch",
@@ -1702,7 +1727,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-29T16:38:16.724804",
+    "calculation_timestamp": "2026-10-29T21:33:28.595125",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
