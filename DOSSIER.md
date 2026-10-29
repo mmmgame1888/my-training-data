@@ -7,8 +7,8 @@
 - **Primary Sport:** Road Cycling
 
 ## Fitness Benchmarks
-- **FTP (outdoor):** 238W
-- **FTP (indoor):** 228W
+- **FTP (outdoor):** 234W
+- **FTP (indoor):** 224W
 - **Max HR:** 192 bpm
 - **LTHR:** 168 bpm
 - **Weekly Training Volume:** ~10 hours
