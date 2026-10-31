@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-31T06:40:06.857779+00:00",
+        "updated_at": "2026-10-31T13:20:51.182233+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-10-31T06:40:14.192442+00:00",
+        "updated_at": "2026-10-31T13:20:56.381431+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-10-31T06:40:14.193715+00:00",
+        "updated_at": "2026-10-31T13:20:56.382690+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-31T06:40:01.811823+00:00",
+        "updated_at": "2026-10-31T13:20:41.425854+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-31T06:40:06.857550+00:00",
+        "updated_at": "2026-10-31T13:20:51.181932+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-10-31T06:40:14.205715+00:00",
+        "updated_at": "2026-10-31T13:20:56.397694+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-10-31T06:40:06.858211+00:00",
+        "updated_at": "2026-10-31T13:20:51.182770+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -140,31 +140,6 @@
       }
     ],
     "rides": [
-      {
-        "event_id": 97765680,
-        "name": "Saturday long ride",
-        "path": "routes.json",
-        "json_path": null,
-        "departure_assumed": true,
-        "departure_display": "2026-10-31 10:00 NZDT+1300 (ASSUMED)",
-        "start_time_status": "midnight_treated_as_unset",
-        "has_route": false,
-        "route_status": "absent",
-        "climbs_present": false,
-        "climb_count": null,
-        "weather": {
-          "status": "unavailable",
-          "tier": null,
-          "fetched_at": null,
-          "expires_at": null,
-          "summary": null,
-          "reason": "completed"
-        },
-        "map": {
-          "present": false,
-          "reason": "weather_unavailable"
-        }
-      },
       {
         "event_id": 148225983,
         "name": "1hr zone 2",
@@ -241,7 +216,7 @@
         }
       }
     ],
-    "rides_total": 4,
+    "rides_total": 3,
     "rides_omitted": 0,
     "rides_without_route_beyond_horizon": 17,
     "managed_files": [
@@ -307,7 +282,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-31T06:40:12.125079",
+    "last_updated": "2026-10-31T13:20:55.002189",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -422,10 +397,10 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-10-31T06:40:05.381710+00:00",
+    "source_updated_at": "2026-10-31T13:20:50.345639+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
-    "reason": "incomplete_reference",
+    "reason": "current_date_mismatch",
     "confidence": "low",
     "readiness_eligible": false,
     "reference": {
@@ -1727,7 +1702,7 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 56.0,
-    "calculation_timestamp": "2026-10-31T06:40:10.809921",
+    "calculation_timestamp": "2026-10-31T13:20:53.809399",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 7,
