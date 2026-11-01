@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:53:25.527842",
+  "generated_at": "2026-11-01T08:46:48.258511",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -2197,8 +2197,8 @@
           "event_key": "451077719381b373335cd73d639180375c2803fbe683a61e045271f7b6ba2ea0",
           "plan_key": "45c612362ec3ea0da8446d9106cfd7e010f62f26bed980fe6994bc35438ae471",
           "plan_key_version": 2,
-          "sampled_at": "2026-10-31T06:40:10.745080+00:00",
-          "next_refresh_at": "2026-11-01T06:40:10.745080+00:00"
+          "sampled_at": "2026-11-01T08:46:49.982058+00:00",
+          "next_refresh_at": "2026-11-02T08:46:49.982058+00:00"
         }
       }
     },
@@ -2479,12 +2479,11 @@
         "source_icu_sync_date": "2026-10-28T17:35:41.583+00:00"
       },
       "streams": {
-        "attempts": 13,
+        "attempts": 14,
         "first_seen": "2026-10-29T02:08:22.049870",
-        "last_attempt": "2026-10-31T22:13:30.246468",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-01T04:13:30.246468"
+        "last_attempt": "2026-11-01T08:46:48.258511",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i203773942": {
@@ -2499,12 +2498,12 @@
         "source_icu_sync_date": "2026-10-31T02:45:33.969+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-10-31T06:40:09.348534",
-        "last_attempt": "2026-11-01T01:53:25.527842",
+        "last_attempt": "2026-11-01T08:46:48.258511",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-01T01:58:25.527842"
+        "next_retry_at": "2026-11-01T08:51:48.258511"
       }
     },
     "i204144068": {
@@ -2518,12 +2517,12 @@
         "source_icu_sync_date": "2026-10-31T22:25:34.372+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-11-01T01:53:25.527842",
-        "last_attempt": "2026-11-01T01:53:25.527842",
+        "last_attempt": "2026-11-01T08:46:48.258511",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-01T01:58:25.527842"
+        "next_retry_at": "2026-11-01T08:51:48.258511"
       }
     }
   }
