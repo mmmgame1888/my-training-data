@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:13:30.246468",
+  "generated_at": "2026-11-01T01:53:25.527842",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -1544,163 +1544,6 @@
       }
     },
     {
-      "activity_id": "i198127201",
-      "date": "2026-10-17",
-      "start_datetime": "2026-10-17T06:23:00",
-      "type": "Ride",
-      "name": "Saturday long ride",
-      "interval_summary": null,
-      "intervals": [],
-      "session_structure": {
-        "version": 6,
-        "method": "fixed_elapsed_thirds",
-        "status": "unknown",
-        "plan": {
-          "event_id": "145051409",
-          "updated": "2026-10-15T22:35:17.371+00:00",
-          "name": "Saturday long ride",
-          "duration_s": 10942,
-          "duration_source": "moving_time"
-        },
-        "power_target_basis": {
-          "source": "activity.icu_ftp",
-          "ftp": 234
-        },
-        "steps": [
-          {
-            "duration_s": 3153,
-            "target_w": 145.08
-          },
-          {
-            "duration_s": 39,
-            "target_w": 269.1
-          },
-          {
-            "duration_s": 1932,
-            "target_w": 145.08
-          },
-          {
-            "duration_s": 41,
-            "target_w": 257.4
-          },
-          {
-            "duration_s": 465,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 49,
-            "target_w": 283.14
-          },
-          {
-            "duration_s": 705,
-            "target_w": 140.4
-          },
-          {
-            "duration_s": 132,
-            "target_w": 238.68
-          },
-          {
-            "duration_s": 50,
-            "target_w": 95.94
-          },
-          {
-            "duration_s": 47,
-            "target_w": 290.16
-          },
-          {
-            "duration_s": 624,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 35,
-            "target_w": 257.4
-          },
-          {
-            "duration_s": 134,
-            "target_w": 60.84
-          },
-          {
-            "duration_s": 94,
-            "target_w": 212.94
-          },
-          {
-            "duration_s": 549,
-            "target_w": 170.82
-          },
-          {
-            "duration_s": 37,
-            "target_w": 285.48
-          },
-          {
-            "duration_s": 735,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 91,
-            "target_w": 294.84
-          },
-          {
-            "duration_s": 18,
-            "target_w": 236.34
-          },
-          {
-            "duration_s": 61,
-            "target_w": 311.22
-          }
-        ],
-        "omitted_steps": 4,
-        "thirds": [
-          [
-            0,
-            4737,
-            null,
-            null,
-            null,
-            null,
-            0.0,
-            0.0,
-            0.0,
-            null
-          ],
-          [
-            4737,
-            9474,
-            null,
-            null,
-            null,
-            null,
-            0.0,
-            0.0,
-            0.0,
-            null
-          ],
-          [
-            9474,
-            14212,
-            null,
-            null,
-            null,
-            null,
-            0.0,
-            0.0,
-            0.0,
-            null
-          ]
-        ],
-        "issues": [
-          "truncated"
-        ],
-        "cache": {
-          "activity_key": "5f6068ca1c705c02f0d328d4aadf086991f370d448f0bcc1bc89159952824e53",
-          "event_key": "4d01bd42a9315b424285baf186c7414d7f6da56a2dd58e0ad338fc646a3306df",
-          "plan_key": "a0461006dc9a122ab66d60c16e236fc6f5e41a7a5e01cf999af3df42c006b0e3",
-          "plan_key_version": 2,
-          "sampled_at": "2026-10-31T18:13:32.547321+00:00",
-          "next_refresh_at": "2026-11-01T18:13:32.547321+00:00"
-        }
-      }
-    },
-    {
       "activity_id": "i202866601",
       "date": "2026-10-29",
       "start_datetime": "2026-10-29T06:00:42",
@@ -2358,6 +2201,85 @@
           "next_refresh_at": "2026-11-01T06:40:10.745080+00:00"
         }
       }
+    },
+    {
+      "activity_id": "i204144068",
+      "date": "2026-11-01",
+      "start_datetime": "2026-11-01T08:17:17",
+      "type": "Ride",
+      "name": "Auckland Road Cycling",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11220,
+          "moving_secs": 7690,
+          "start_secs": 0,
+          "end_secs": 11220,
+          "avg_power": 130,
+          "max_power": 430,
+          "avg_hr": 120,
+          "max_hr": 139,
+          "min_hr": 77,
+          "avg_cadence": 73.15227,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 19913,
+          "training_load": 85.40624
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "no_plan",
+        "thirds": [
+          [
+            0,
+            3739,
+            116.0,
+            349.1,
+            118.2,
+            72.0,
+            80.48,
+            80.48,
+            80.48,
+            8.47
+          ],
+          [
+            3739,
+            7479,
+            139.5,
+            406.2,
+            121.6,
+            73.8,
+            77.86,
+            77.86,
+            77.86,
+            6.87
+          ],
+          [
+            7479,
+            11219,
+            141.7,
+            253.4,
+            123.7,
+            74.1,
+            47.81,
+            47.81,
+            47.81,
+            5.37
+          ]
+        ],
+        "cache": {
+          "activity_key": "73387f4e0a71e72dc468430280af21c70e632f721f3e0adc4a81e8212e2fd5a9",
+          "event_key": null,
+          "plan_key": null,
+          "plan_key_version": 2,
+          "sampled_at": "2026-11-01T01:53:26.573589+00:00",
+          "next_refresh_at": "2026-11-02T01:53:26.573589+00:00"
+        }
+      }
     }
   ],
   "fetch_state": {
@@ -2545,24 +2467,6 @@
         "reason": "retry_expired"
       }
     },
-    "i198127201": {
-      "date": "2026-10-17",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 3,
-        "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-30T15:35:16.172754",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T03:09:59.608419",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i202866601": {
       "date": "2026-10-29",
       "paired_planned": true,
@@ -2595,12 +2499,31 @@
         "source_icu_sync_date": "2026-10-31T02:45:33.969+00:00"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-10-31T06:40:09.348534",
-        "last_attempt": "2026-10-31T22:13:30.246468",
+        "last_attempt": "2026-11-01T01:53:25.527842",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-31T22:18:30.246468"
+        "next_retry_at": "2026-11-01T01:58:25.527842"
+      }
+    },
+    "i204144068": {
+      "date": "2026-11-01",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-01T01:53:25.527842",
+        "last_attempt": "2026-11-01T01:53:25.527842",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-31T22:25:34.372+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-01T01:53:25.527842",
+        "last_attempt": "2026-11-01T01:53:25.527842",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-01T01:58:25.527842"
       }
     }
   }
