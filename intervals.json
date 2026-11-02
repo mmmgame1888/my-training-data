@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:17:41.597311",
+  "generated_at": "2026-11-02T07:17:12.790190",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -2120,8 +2120,8 @@
           "event_key": null,
           "plan_key": null,
           "plan_key_version": 2,
-          "sampled_at": "2026-11-01T01:53:26.573589+00:00",
-          "next_refresh_at": "2026-11-02T01:53:26.573589+00:00"
+          "sampled_at": "2026-11-02T07:17:14.866163+00:00",
+          "next_refresh_at": "2026-11-03T07:17:14.866163+00:00"
         }
       }
     },
@@ -2136,7 +2136,7 @@
       "session_structure": {
         "version": 6,
         "method": "fixed_elapsed_thirds",
-        "status": "unknown",
+        "status": "no_steps",
         "plan": {
           "event_id": "97765718",
           "updated": "2026-10-29T03:23:27.231+00:00",
@@ -2182,17 +2182,84 @@
             null
           ]
         ],
-        "issues": [
-          "efforts_transient",
-          "efforts_unavailable"
-        ],
         "cache": {
           "activity_key": "de491557900cc13bd34cfeaddd6ee2954c87a49a232839c27fbb3af8c628e80d",
           "event_key": "3e1ea1f21a727c745ff63c0ad96348935bff57e316a3bc17f8e8e54345a0bd47",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-02T00:17:43.174776+00:00",
-          "next_refresh_at": "2026-11-02T01:17:43.174776+00:00",
+          "sampled_at": "2026-11-02T07:17:14.866163+00:00",
+          "next_refresh_at": "2026-11-03T07:17:14.866163+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i204630741",
+      "date": "2026-11-02",
+      "start_datetime": "2026-11-02T16:18:53",
+      "type": "EBikeRide",
+      "name": "Morning E-Bike Ride",
+      "interval_summary": null,
+      "intervals": [],
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "144060395",
+          "updated": "2026-10-29T03:23:32.865+00:00",
+          "name": "Morning E-Bike Ride",
+          "duration_s": 2539,
+          "duration_source": "moving_time"
+        },
+        "thirds": [
+          [
+            0,
+            959,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            959,
+            1918,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            1918,
+            2878,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ]
+        ],
+        "issues": [
+          "efforts_transient",
+          "efforts_unavailable"
+        ],
+        "cache": {
+          "activity_key": "cd82938be1b80b94f8867bc7d5ed08e85a8287bb72819c6970c5210699b29ea1",
+          "event_key": "eca0899410c390a116f7b5908503a7fc25c2b9b9c0f5af57dce528e44d4d0317",
+          "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
+          "plan_key_version": 2,
+          "sampled_at": "2026-11-02T07:17:14.866163+00:00",
+          "next_refresh_at": "2026-11-02T08:17:14.866163+00:00",
           "status": "unavailable",
           "failures": 1
         }
@@ -2396,12 +2463,12 @@
         "source_icu_sync_date": "2026-10-31T02:45:33.969+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-10-31T06:40:09.348534",
-        "last_attempt": "2026-11-02T00:17:41.597311",
+        "last_attempt": "2026-11-02T07:17:12.790190",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-02T00:47:41.597311"
+        "next_retry_at": "2026-11-02T07:47:12.790190"
       }
     },
     "i204144068": {
@@ -2415,31 +2482,50 @@
         "source_icu_sync_date": "2026-10-31T22:25:34.372+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-01T01:53:25.527842",
-        "last_attempt": "2026-11-02T00:17:41.597311",
+        "last_attempt": "2026-11-02T07:17:12.790190",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-02T00:22:41.597311"
+        "next_retry_at": "2026-11-02T07:22:12.790190"
       }
     },
     "i204490521": {
       "date": "2026-11-02",
       "intervals": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-11-02T00:17:41.597311",
-        "last_attempt": "2026-11-02T00:17:41.597311",
+        "last_attempt": "2026-11-02T07:17:12.790190",
         "status": "pending",
         "reason": "transient",
-        "next_retry_at": "2026-11-02T00:22:41.597311"
+        "next_retry_at": "2026-11-02T07:22:12.790190"
+      },
+      "streams": {
+        "attempts": 2,
+        "first_seen": "2026-11-02T00:17:41.597311",
+        "last_attempt": "2026-11-02T07:17:12.790190",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-02T07:22:12.790190"
+      }
+    },
+    "i204630741": {
+      "date": "2026-11-02",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-02T07:17:12.790190",
+        "last_attempt": "2026-11-02T07:17:12.790190",
+        "status": "pending",
+        "reason": "transient",
+        "next_retry_at": "2026-11-02T07:22:12.790190"
       },
       "streams": {
         "attempts": 1,
-        "first_seen": "2026-11-02T00:17:41.597311",
-        "last_attempt": "2026-11-02T00:17:41.597311",
+        "first_seen": "2026-11-02T07:17:12.790190",
+        "last_attempt": "2026-11-02T07:17:12.790190",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-02T00:22:41.597311"
+        "next_retry_at": "2026-11-02T07:22:12.790190"
       }
     }
   }
