@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:35:41.478629",
+  "generated_at": "2026-11-03T07:37:09.199813",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -1986,8 +1986,8 @@
           "event_key": null,
           "plan_key": null,
           "plan_key_version": 2,
-          "sampled_at": "2026-11-02T07:17:14.866163+00:00",
-          "next_refresh_at": "2026-11-03T07:17:14.866163+00:00"
+          "sampled_at": "2026-11-03T07:37:10.941635+00:00",
+          "next_refresh_at": "2026-11-04T07:37:10.941635+00:00"
         }
       }
     },
@@ -2049,12 +2049,12 @@
           ]
         ],
         "cache": {
-          "activity_key": "029ae2e3e1d5dafea8001e4c3df6bd236eec76865ee3f87debafb76979ba46d9",
+          "activity_key": "2d7d75ac7c4ef5ec66238d574c64cab1edd486b681ff1353c31aa746f4e2cdcb",
           "event_key": "3e1ea1f21a727c745ff63c0ad96348935bff57e316a3bc17f8e8e54345a0bd47",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-02T17:52:17.886752+00:00",
-          "next_refresh_at": "2026-11-03T17:52:17.886752+00:00"
+          "sampled_at": "2026-11-03T07:37:10.941635+00:00",
+          "next_refresh_at": "2026-11-04T07:37:10.941635+00:00"
         }
       }
     },
@@ -2116,12 +2116,12 @@
           ]
         ],
         "cache": {
-          "activity_key": "bcb9ff372335773825e852ba55fd0905a628598dfa2396bba2b4b033c54f4621",
+          "activity_key": "09c6adc6f9985f84a18586e2c69883337308064632fe5d8a0f7e37eca1b826d1",
           "event_key": "eca0899410c390a116f7b5908503a7fc25c2b9b9c0f5af57dce528e44d4d0317",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-02T17:52:17.886752+00:00",
-          "next_refresh_at": "2026-11-03T17:52:17.886752+00:00"
+          "sampled_at": "2026-11-03T07:37:10.941635+00:00",
+          "next_refresh_at": "2026-11-04T07:37:10.941635+00:00"
         }
       }
     }
@@ -2289,12 +2289,11 @@
         "source_icu_sync_date": "2026-10-31T02:45:33.969+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-10-31T06:40:09.348534",
-        "last_attempt": "2026-11-03T00:35:41.478629",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-03T01:05:41.478629"
+        "last_attempt": "2026-11-03T07:37:09.199813",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i204144068": {
@@ -2308,50 +2307,50 @@
         "source_icu_sync_date": "2026-10-31T22:25:34.372+00:00"
       },
       "streams": {
-        "attempts": 8,
+        "attempts": 9,
         "first_seen": "2026-11-01T01:53:25.527842",
-        "last_attempt": "2026-11-03T00:35:41.478629",
+        "last_attempt": "2026-11-03T07:37:09.199813",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-03T01:05:41.478629"
+        "next_retry_at": "2026-11-03T08:07:09.199813"
       }
     },
     "i204490521": {
       "date": "2026-11-02",
       "intervals": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-02T00:17:41.597311",
-        "last_attempt": "2026-11-03T00:35:41.478629",
+        "last_attempt": "2026-11-03T07:37:09.199813",
         "status": "pending",
         "reason": "transient",
-        "next_retry_at": "2026-11-03T00:40:41.478629"
+        "next_retry_at": "2026-11-03T07:42:09.199813"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-02T00:17:41.597311",
-        "last_attempt": "2026-11-03T00:35:41.478629",
+        "last_attempt": "2026-11-03T07:37:09.199813",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-03T00:40:41.478629"
+        "next_retry_at": "2026-11-03T07:42:09.199813"
       }
     },
     "i204630741": {
       "date": "2026-11-02",
       "intervals": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-02T07:17:12.790190",
-        "last_attempt": "2026-11-03T00:35:41.478629",
+        "last_attempt": "2026-11-03T07:37:09.199813",
         "status": "pending",
         "reason": "transient",
-        "next_retry_at": "2026-11-03T00:40:41.478629"
+        "next_retry_at": "2026-11-03T07:42:09.199813"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-02T07:17:12.790190",
-        "last_attempt": "2026-11-03T00:35:41.478629",
+        "last_attempt": "2026-11-03T07:37:09.199813",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-03T00:40:41.478629"
+        "next_retry_at": "2026-11-03T07:42:09.199813"
       }
     }
   }
