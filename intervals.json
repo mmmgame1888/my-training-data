@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:27:10.032358",
+  "generated_at": "2026-11-08T04:43:09.921501",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -85,11 +85,11 @@
         ],
         "cache": {
           "activity_key": "74732e67b02213b793f15f9dfc3d2f5883090d81b1b3538716dc7911e557d5a7",
-          "event_key": "e4d53dba9bba32589b651eb02a66ddb045170b165d1ee23dd8ab637b1411a87a",
+          "event_key": "49d7e7a7c4387353b7888f92afd22cb589690377e40c2a6044c13ef76af099ec",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T08:24:10.101031+00:00",
-          "next_refresh_at": "2026-11-08T08:24:10.101031+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -344,11 +344,11 @@
         ],
         "cache": {
           "activity_key": "c379b7a666426ac046e95605bfa33cf78380cb7a5257d5ea570b3969f0818fb1",
-          "event_key": "60a8a7dc33a6631e30280b1fba0d515d92113334b513b4b623d21cfb349951f5",
+          "event_key": "6c5eb4c72af1b7d7d62de447a30ff7447e3cfd4ff1d23f4ebbe06eeddac1c074",
           "plan_key": "beba62fd05e49532b9d9bee59347412e44a928466b91e3095e31f5fb5f9adb10",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T08:24:10.101031+00:00",
-          "next_refresh_at": "2026-11-08T08:24:10.101031+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -698,187 +698,11 @@
         ],
         "cache": {
           "activity_key": "887d20c1ad5a67b7c0e0476ae252ee6c470e14e6e4754b323dc9af2531268aae",
-          "event_key": "387edcefa25d989562025ae9760fff75354ba2299ff63568df834aaa9885928d",
+          "event_key": "1faf67881b8933e56bfc5af2b6607473ef349efa8f132920d7a11ea3c5635cc4",
           "plan_key": "480daedf4893ca008bf2fd1991f08dbfe0d6a8b49b10a9ec7ec57c7749ef1929",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T08:24:10.101031+00:00",
-          "next_refresh_at": "2026-11-08T08:24:10.101031+00:00"
-        }
-      }
-    },
-    {
-      "activity_id": "i200903679",
-      "date": "2026-10-24",
-      "start_datetime": "2026-10-24T06:47:34",
-      "type": "Ride",
-      "name": "Saturday long ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 18043,
-          "moving_secs": 12853,
-          "start_secs": 0,
-          "end_secs": 18043,
-          "avg_power": 130,
-          "max_power": 580,
-          "avg_hr": 133,
-          "max_hr": 155,
-          "min_hr": 92,
-          "avg_cadence": 70.16331,
-          "zone": 2,
-          "w_bal_start": 20039,
-          "w_bal_end": 20022,
-          "training_load": 148.54305
-        }
-      ],
-      "zone_basis": "power",
-      "session_structure": {
-        "version": 6,
-        "method": "fixed_elapsed_thirds",
-        "status": "unknown",
-        "plan": {
-          "event_id": "97765679",
-          "updated": "2026-10-15T22:37:04.741+00:00",
-          "name": "Saturday long ride",
-          "duration_s": 13024,
-          "duration_source": "moving_time"
-        },
-        "power_target_basis": {
-          "source": "activity.icu_ftp",
-          "ftp": 234
-        },
-        "steps": [
-          {
-            "duration_s": 3244,
-            "target_w": 140.4
-          },
-          {
-            "duration_s": 38,
-            "target_w": 278.46
-          },
-          {
-            "duration_s": 1953,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 39,
-            "target_w": 269.1
-          },
-          {
-            "duration_s": 1932,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 41,
-            "target_w": 257.4
-          },
-          {
-            "duration_s": 465,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 49,
-            "target_w": 283.14
-          },
-          {
-            "duration_s": 705,
-            "target_w": 140.4
-          },
-          {
-            "duration_s": 132,
-            "target_w": 238.68
-          },
-          {
-            "duration_s": 50,
-            "target_w": 95.94
-          },
-          {
-            "duration_s": 47,
-            "target_w": 290.16
-          },
-          {
-            "duration_s": 624,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 35,
-            "target_w": 257.4
-          },
-          {
-            "duration_s": 134,
-            "target_w": 60.84
-          },
-          {
-            "duration_s": 94,
-            "target_w": 212.94
-          },
-          {
-            "duration_s": 549,
-            "target_w": 170.82
-          },
-          {
-            "duration_s": 37,
-            "target_w": 285.48
-          },
-          {
-            "duration_s": 735,
-            "target_w": 152.1
-          },
-          {
-            "duration_s": 91,
-            "target_w": 294.84
-          }
-        ],
-        "omitted_steps": 6,
-        "thirds": [
-          [
-            0,
-            6014,
-            133.4,
-            695.5,
-            128.1,
-            72.7,
-            86.68,
-            86.68,
-            86.68,
-            8.36
-          ],
-          [
-            6014,
-            12028,
-            127.8,
-            703.3,
-            136.4,
-            68.1,
-            91.5,
-            91.5,
-            91.5,
-            13.12
-          ],
-          [
-            12028,
-            18042,
-            128.9,
-            280.1,
-            139.2,
-            69.4,
-            36.13,
-            36.13,
-            36.13,
-            9.89
-          ]
-        ],
-        "issues": [
-          "truncated"
-        ],
-        "cache": {
-          "activity_key": "e95111b78fde86f6a1c8ea85d78e17c45dc11e51aeca6017c93c43029e634d3b",
-          "event_key": "1ba759a0458a6252077206c8bc1939fb3e8d8b55c0c797f596bb25cf27054781",
-          "plan_key": "3796858621976878a77f54a3c85a3f5e2cd8c917b2739ea5a660a9e51562d139",
-          "plan_key_version": 2,
-          "sampled_at": "2026-11-07T08:24:10.101031+00:00",
-          "next_refresh_at": "2026-11-08T08:24:10.101031+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -1134,11 +958,11 @@
         ],
         "cache": {
           "activity_key": "9761364316cae966ffaacb7000efd3a768b44c8b3cb738fbd5171198c270a722",
-          "event_key": "5cb6ad107c35a84e4e8ebad21e92859dafd4ca908a5ec57fae50f33cd1ee59cd",
+          "event_key": "1d33dc0a25286c06fd0c4d512306c055580b20352a288238a4b4182c896d4a68",
           "plan_key": "ea776d53e6053a5f83beac3b5c4cf2a1d92a5c7c131203df36621edfac4a5c8c",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T01:38:48.801084+00:00",
-          "next_refresh_at": "2026-11-08T01:38:48.801084+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -1533,11 +1357,11 @@
         ],
         "cache": {
           "activity_key": "088fa2ab688537b93a075b26147a69827dc5c58fdf429d66c447c36f486858d5",
-          "event_key": "451077719381b373335cd73d639180375c2803fbe683a61e045271f7b6ba2ea0",
+          "event_key": "ffeb25cd38a045d4c4b0f2d9af30b6cff91e36b4d7e2b848b71966b8bd9ff9bf",
           "plan_key": "45c612362ec3ea0da8446d9106cfd7e010f62f26bed980fe6994bc35438ae471",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T01:38:48.801084+00:00",
-          "next_refresh_at": "2026-11-08T01:38:48.801084+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -1679,11 +1503,11 @@
         ],
         "cache": {
           "activity_key": "2d7d75ac7c4ef5ec66238d574c64cab1edd486b681ff1353c31aa746f4e2cdcb",
-          "event_key": "3e1ea1f21a727c745ff63c0ad96348935bff57e316a3bc17f8e8e54345a0bd47",
+          "event_key": "81d30b110b02f1f6b6ac2eedf80b8da2c69e8260389f564846b63d66b883c88e",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T19:54:30.213540+00:00",
-          "next_refresh_at": "2026-11-08T19:54:30.213540+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -1746,11 +1570,11 @@
         ],
         "cache": {
           "activity_key": "09c6adc6f9985f84a18586e2c69883337308064632fe5d8a0f7e37eca1b826d1",
-          "event_key": "eca0899410c390a116f7b5908503a7fc25c2b9b9c0f5af57dce528e44d4d0317",
+          "event_key": "40fde6895074a923501aa7b11614263b36f7abae0f939a10fa3e7c8502e17f70",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T19:54:30.213540+00:00",
-          "next_refresh_at": "2026-11-08T19:54:30.213540+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -1904,11 +1728,11 @@
         "bout_metrics_version": 4,
         "cache": {
           "activity_key": "8b8c072fdd61a86d3e87214443abe80d49a28505fd5f42a26c1414fec0ef8ab5",
-          "event_key": "e0ede8ea7eaa407e6d52b035c1aa187a7d77949e624a189191b26b2ddbbbbbd6",
+          "event_key": "f7cdfcb745d3d37eccb07cb8ae5e99d2bb9a8bf13c14e287e0fd176f76200247",
           "plan_key": "4b53fe0fd2707cbbfc750e79c32d6daac262e3020d805e1787c5ebbc12c66963",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T08:24:10.101031+00:00",
-          "next_refresh_at": "2026-11-08T08:24:10.101031+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -2122,11 +1946,11 @@
         ],
         "cache": {
           "activity_key": "4dd6ec1d6b5da42ccb4c7f546ac63dd43b807d00827e9f00234a52f3b6b43eb3",
-          "event_key": "16787686e61a6cdcd5dd9bf55901056a78e342a344bfe86d8f9e1506e4f389a5",
+          "event_key": "035ee38003287fe6d9d2c6f07a70fe5e5d894d73925ccd336532de978d9c4eee",
           "plan_key": "2a1ed1c9af086d28f16bcc8b7e694e90d512b111933675a3df1ec2e6180088a2",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T08:24:10.101031+00:00",
-          "next_refresh_at": "2026-11-08T08:24:10.101031+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -2239,11 +2063,11 @@
         ],
         "cache": {
           "activity_key": "2c4c80f5b45b6d2707ae6a7ca4c4963190b1d8597017251125f3f0e35786efe7",
-          "event_key": "f24fa6a11202faa73e5000459d8d375b7de3833819039dfb3da3054bc2dfbe96",
+          "event_key": "d9a2d04eb17137e94888eff1570aca624facc6d5d45d15863949e1303188f8db",
           "plan_key": "2cfbcef3f99ead421fe4963628a73201d24a0ca0f760a68cc783f13367771c09",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T01:38:48.801084+00:00",
-          "next_refresh_at": "2026-11-08T01:38:48.801084+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     },
@@ -2280,7 +2104,7 @@
         "status": "not_followed",
         "plan": {
           "event_id": "151369670",
-          "updated": "2026-11-06T22:31:10.161+00:00",
+          "updated": "2026-11-08T04:21:46.181+00:00",
           "name": "90m zone 2",
           "duration_s": 3600,
           "duration_source": "moving_time"
@@ -2355,11 +2179,320 @@
         ],
         "cache": {
           "activity_key": "95c33c456762f089f974af0d316980297ea237fb5b1330cb7ad3b0ff754592ac",
-          "event_key": "4672b4c886dfdd1b2d35d31cb903a83d67e9d28bbfa28eca407094544683810a",
+          "event_key": "cd03a870bd628767f11d25504c5ce1d6041721ecec81f2492481b417e2c9f39f",
           "plan_key": "8495b2556e4af900e86cb0624361baecb757e6e3c0b97ccb60edf58535c826ae",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-07T01:38:48.801084+00:00",
-          "next_refresh_at": "2026-11-08T01:38:48.801084+00:00"
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i207193394",
+      "date": "2026-11-08",
+      "start_datetime": "2026-11-08T06:21:43",
+      "type": "Ride",
+      "name": "Saturday long ride",
+      "interval_summary": [
+        "1x 53s 252w",
+        "1x 2m1s 260w",
+        "1x 3m40s 291w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 20307,
+          "moving_secs": 16968,
+          "start_secs": 0,
+          "end_secs": 20307,
+          "avg_power": 127,
+          "max_power": 1122,
+          "avg_hr": 135,
+          "max_hr": 161,
+          "min_hr": 86,
+          "avg_cadence": 71.53349,
+          "zone": 1,
+          "w_bal_start": 20039,
+          "w_bal_end": 18609,
+          "training_load": 175.82553
+        },
+        {
+          "type": "WORK",
+          "label": "53s@252w95rpm",
+          "duration_secs": 53,
+          "moving_secs": 53,
+          "start_secs": 20307,
+          "end_secs": 20360,
+          "avg_power": 252,
+          "max_power": 295,
+          "avg_hr": 162,
+          "max_hr": 165,
+          "min_hr": 160,
+          "avg_cadence": 94.603775,
+          "zone": 5,
+          "w_bal_start": 18569,
+          "w_bal_end": 17344,
+          "training_load": 1.497496
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 112,
+          "moving_secs": 84,
+          "start_secs": 20360,
+          "end_secs": 20472,
+          "avg_power": 195,
+          "max_power": 487,
+          "avg_hr": 157,
+          "max_hr": 166,
+          "min_hr": 139,
+          "avg_cadence": 67.07059,
+          "zone": 3,
+          "w_bal_start": 17348,
+          "w_bal_end": 16134,
+          "training_load": 1.8613912
+        },
+        {
+          "type": "WORK",
+          "label": "121s@260w97rpm",
+          "duration_secs": 121,
+          "moving_secs": 121,
+          "start_secs": 20472,
+          "end_secs": 20593,
+          "avg_power": 260,
+          "max_power": 336,
+          "avg_hr": 167,
+          "max_hr": 171,
+          "min_hr": 162,
+          "avg_cadence": 96.71901,
+          "zone": 5,
+          "w_bal_start": 16070,
+          "w_bal_end": 12547,
+          "training_load": 4.14952
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 148,
+          "moving_secs": 100,
+          "start_secs": 20593,
+          "end_secs": 20741,
+          "avg_power": 168,
+          "max_power": 445,
+          "avg_hr": 156,
+          "max_hr": 168,
+          "min_hr": 136,
+          "avg_cadence": 69.42574,
+          "zone": 2,
+          "w_bal_start": 12559,
+          "w_bal_end": 14964,
+          "training_load": 1.7739811
+        },
+        {
+          "type": "WORK",
+          "label": "220s@291w102rpm",
+          "duration_secs": 220,
+          "moving_secs": 220,
+          "start_secs": 20741,
+          "end_secs": 20961,
+          "avg_power": 291,
+          "max_power": 607,
+          "avg_hr": 173,
+          "max_hr": 179,
+          "min_hr": 159,
+          "avg_cadence": 101.66818,
+          "zone": 6,
+          "w_bal_start": 14921,
+          "w_bal_end": 2265,
+          "training_load": 9.450928
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2404,
+          "moving_secs": 1056,
+          "start_secs": 20961,
+          "end_secs": 23365,
+          "avg_power": 104,
+          "max_power": 416,
+          "avg_hr": 139,
+          "max_hr": 179,
+          "min_hr": 116,
+          "avg_cadence": 65.45299,
+          "zone": 1,
+          "w_bal_start": 2183,
+          "w_bal_end": 20023,
+          "training_load": 8.09708
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765682",
+          "updated": "2026-11-06T02:18:13.397+00:00",
+          "name": "Saturday long ride",
+          "duration_s": 15921,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 1953,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 39,
+            "target_w": 269.1
+          },
+          {
+            "duration_s": 1932,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 41,
+            "target_w": 257.4
+          },
+          {
+            "duration_s": 465,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 49,
+            "target_w": 283.14
+          },
+          {
+            "duration_s": 705,
+            "target_w": 140.4
+          },
+          {
+            "duration_s": 132,
+            "target_w": 238.68
+          },
+          {
+            "duration_s": 50,
+            "target_w": 95.94
+          },
+          {
+            "duration_s": 47,
+            "target_w": 290.16
+          },
+          {
+            "duration_s": 624,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 35,
+            "target_w": 257.4
+          },
+          {
+            "duration_s": 134,
+            "target_w": 60.84
+          },
+          {
+            "duration_s": 94,
+            "target_w": 212.94
+          },
+          {
+            "duration_s": 549,
+            "target_w": 170.82
+          },
+          {
+            "duration_s": 37,
+            "target_w": 285.48
+          },
+          {
+            "duration_s": 735,
+            "target_w": 152.1
+          },
+          {
+            "duration_s": 91,
+            "target_w": 294.84
+          },
+          {
+            "duration_s": 18,
+            "target_w": 236.34
+          },
+          {
+            "duration_s": 61,
+            "target_w": 311.22
+          }
+        ],
+        "omitted_steps": 19,
+        "thirds": [
+          [
+            0,
+            7788,
+            117.4,
+            738.3,
+            125.2,
+            67.1,
+            80.75,
+            80.75,
+            80.64,
+            13.56
+          ],
+          [
+            7788,
+            15576,
+            133.9,
+            915.6,
+            139.9,
+            73.6,
+            87.78,
+            87.78,
+            87.63,
+            7.64
+          ],
+          [
+            15576,
+            23364,
+            138.6,
+            765.5,
+            144.7,
+            74.8,
+            70.9,
+            70.9,
+            70.45,
+            8.87
+          ]
+        ],
+        "efforts": [
+          [
+            20307,
+            20360,
+            252,
+            162,
+            94.603775
+          ],
+          [
+            20472,
+            20593,
+            260,
+            167,
+            96.71901
+          ],
+          [
+            20741,
+            20961,
+            291,
+            173,
+            101.66818
+          ]
+        ],
+        "issues": [
+          "truncated",
+          "efforts_from_interval_cache"
+        ],
+        "cache": {
+          "activity_key": "3be4bbe78b7b0d0b754890279f6bcc5cdedd83c36d1b72883826361f2eaa90bc",
+          "event_key": "b9602286b5897904ca5f4f60144aaf127bf7eca63ab2eb06474396dbdeeee165",
+          "plan_key": "f7087fa1fd2df805a0b93f75f3dee3ea0308d9e42840e8c9515d0ba3f295cde5",
+          "plan_key_version": 2,
+          "sampled_at": "2026-11-08T04:43:11.425561+00:00",
+          "next_refresh_at": "2026-11-09T04:43:11.425561+00:00"
         }
       }
     }
@@ -2435,25 +2568,6 @@
         "attempts": 3,
         "first_seen": "2026-10-28T03:09:59.608419",
         "last_attempt": "2026-10-28T11:00:00.259443",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i200903679": {
-      "date": "2026-10-24",
-      "paired_planned": true,
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T03:09:59.608419",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-23T22:50:23.497+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T03:09:59.608419",
         "status": "tombstone",
         "reason": "retry_expired"
       }
@@ -2599,12 +2713,12 @@
         "source_icu_sync_date": "2026-11-05T18:21:24.060+00:00"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-11-06T00:47:51.214046",
-        "last_attempt": "2026-11-07T23:27:10.032358",
+        "last_attempt": "2026-11-08T04:43:09.921501",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-07T23:57:10.032358"
+        "next_retry_at": "2026-11-08T05:13:09.921501"
       }
     },
     "i206739756": {
@@ -2619,12 +2733,32 @@
         "source_icu_sync_date": "2026-11-06T20:45:40.854+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-07T01:38:47.779034",
-        "last_attempt": "2026-11-07T23:27:10.032358",
+        "last_attempt": "2026-11-08T04:43:09.921501",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-07T23:32:10.032358"
+        "next_retry_at": "2026-11-08T04:48:09.921501"
+      }
+    },
+    "i207193394": {
+      "date": "2026-11-08",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-08T04:43:09.921501",
+        "last_attempt": "2026-11-08T04:43:09.921501",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-07T23:54:48.875+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-08T04:43:09.921501",
+        "last_attempt": "2026-11-08T04:43:09.921501",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-08T04:48:09.921501"
       }
     }
   }
