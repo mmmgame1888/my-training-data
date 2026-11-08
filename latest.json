@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-08T17:39:47.351666+00:00",
+        "updated_at": "2026-11-08T21:34:14.427678+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-08T17:39:52.859341+00:00",
+        "updated_at": "2026-11-08T21:34:21.171552+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-08T17:39:52.860432+00:00",
+        "updated_at": "2026-11-08T21:34:21.173290+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-08T17:39:43.767472+00:00",
+        "updated_at": "2026-11-08T21:34:08.279492+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-08T17:39:47.351468+00:00",
+        "updated_at": "2026-11-08T21:34:14.427384+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-08T17:39:52.868432+00:00",
+        "updated_at": "2026-11-08T21:34:21.188290+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-08T17:39:47.352104+00:00",
+        "updated_at": "2026-11-08T21:34:14.428280+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -146,8 +146,8 @@
         "path": "routes.json",
         "json_path": null,
         "departure_assumed": true,
-        "departure_display": "2026-11-09 10:00 NZDT+1300 (ASSUMED)",
-        "start_time_status": "midnight_treated_as_unset",
+        "departure_display": "2026-11-09 10:45 NZDT+1300 (ASSUMED)",
+        "start_time_status": "passed_not_completed",
         "has_route": false,
         "route_status": "absent",
         "climbs_present": false,
@@ -239,11 +239,36 @@
           "present": false,
           "reason": "weather_missing"
         }
+      },
+      {
+        "event_id": 97765686,
+        "name": "Saturday long ride",
+        "path": "routes.json",
+        "json_path": null,
+        "departure_assumed": true,
+        "departure_display": "2026-11-14 10:00 NZDT+1300 (ASSUMED)",
+        "start_time_status": "midnight_treated_as_unset",
+        "has_route": false,
+        "route_status": "absent",
+        "climbs_present": false,
+        "climb_count": null,
+        "weather": {
+          "status": "missing",
+          "tier": null,
+          "fetched_at": null,
+          "expires_at": null,
+          "summary": null,
+          "reason": "no_route"
+        },
+        "map": {
+          "present": false,
+          "reason": "weather_missing"
+        }
       }
     ],
-    "rides_total": 4,
+    "rides_total": 5,
     "rides_omitted": 0,
-    "rides_without_route_beyond_horizon": 10,
+    "rides_without_route_beyond_horizon": 9,
     "managed_files": [
       "ftp_history.json",
       "history.json",
@@ -307,7 +332,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-08T17:39:51.338700",
+    "last_updated": "2026-11-08T21:34:19.576636",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -340,10 +365,10 @@
   "alerts": [
     {
       "metric": "recovery_index",
-      "value": 0.58,
+      "value": 0.45,
       "severity": "alarm",
       "threshold": 0.6,
-      "context": "RI 0.58 < 0.6. Immediate deload required.",
+      "context": "RI 0.45 < 0.6. Immediate deload required.",
       "persistence_days": null,
       "tier": 1
     },
@@ -353,6 +378,15 @@
       "severity": "warning",
       "threshold": "\u2193>20% vs baseline (27.1)",
       "context": "HRV 15.8 is 41.8% below baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    },
+    {
+      "metric": "rhr",
+      "value": 80,
+      "severity": "warning",
+      "threshold": "\u2191\u22655bpm vs baseline (61.2)",
+      "context": "RHR 80 is 18.8bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
       "persistence_days": 1,
       "tier": 1
     }
@@ -368,10 +402,10 @@
         "delta_pct": -41.8
       },
       "rhr": {
-        "status": "green",
-        "value": 58,
-        "baseline_7d": 57.5,
-        "delta_bpm": 0.5
+        "status": "red",
+        "value": 80,
+        "baseline_7d": 61.2,
+        "delta_bpm": 18.8
       },
       "sleep": {
         "status": "amber",
@@ -387,14 +421,14 @@
       },
       "ri": {
         "status": "red",
-        "value": 0.58,
-        "value_yesterday": 1.02
+        "value": 0.45,
+        "value_yesterday": 1.08
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 1,
       "amber": 1,
-      "red": 2,
+      "red": 3,
       "unavailable": 0
     },
     "phase_context": {
@@ -405,7 +439,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P0 safety stop. RI 0.58 < 0.6; tier-1 alarms: recovery_index.",
+    "reason": "P0 safety stop. RI 0.45 < 0.6; tier-1 alarms: recovery_index.",
     "alarm_refs": [
       "recovery_index"
     ]
@@ -418,7 +452,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-08T17:39:46.311097+00:00",
+    "source_updated_at": "2026-11-08T21:34:13.290793+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "current_date_mismatch",
@@ -653,7 +687,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 58,
+      "resting_hr": 80,
       "hrv": 15.771428,
       "sleep_quality": null,
       "sleep_hours": 6.8,
@@ -687,14 +721,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.58,
-    "recovery_index_yesterday": 1.02,
+    "recovery_index": 0.45,
+    "recovery_index_yesterday": 1.08,
     "hrv_baseline_7d": 27.1,
-    "rhr_baseline_7d": 57.5,
+    "rhr_baseline_7d": 61.2,
     "hrv_baseline_28d": 30.3,
-    "rhr_baseline_28d": 59.1,
+    "rhr_baseline_28d": 59.9,
     "latest_hrv": 15.771428,
-    "latest_rhr": 58,
+    "latest_rhr": 80,
     "acwr": 1.08,
     "acwr_interpretation": "optimal",
     "acwr_scope": "live_retrospective",
@@ -759,7 +793,7 @@
     "multi_sport_detected": false,
     "strain": 482.0,
     "stress_tolerance": 4.8,
-    "load_recovery_ratio": 8.3,
+    "load_recovery_ratio": 10.7,
     "tss_7d_total": 482.0,
     "tss_28d_total": 1789.0,
     "zone_distribution_7d": {
@@ -1573,7 +1607,7 @@
             },
             "next_week": {
               "sessions": 6,
-              "known_tss": 559,
+              "known_tss": 553,
               "missing_tss": 0,
               "unknown_intensity": 4,
               "same_day_unresolved": 0,
@@ -1616,7 +1650,7 @@
             ]
           },
           "planned_tss_delta": null,
-          "next_week_tss_delta": 1.33,
+          "next_week_tss_delta": 1.32,
           "monotony_trend": "normal",
           "selection_config": {
             "main_sports": [],
@@ -1636,7 +1670,7 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
           "race_proximity": 20,
-          "next_week_load": 1.28,
+          "next_week_load": 1.27,
           "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.0,
           "load_evidence": {
@@ -1654,7 +1688,7 @@
             },
             "next_week": {
               "sessions": 6,
-              "known_tss": 559,
+              "known_tss": 553,
               "missing_tss": 0,
               "unknown_intensity": 4,
               "same_day_unresolved": 0
@@ -1736,7 +1770,7 @@
     "p_max": 1122,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 54.0,
-    "calculation_timestamp": "2026-11-08T17:39:50.151617",
+    "calculation_timestamp": "2026-11-08T21:34:17.996601",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -10057,7 +10091,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 58,
+      "resting_hr": 80,
       "hrv_rmssd": 15.771428,
       "hrv_sdnn": 34.0,
       "sleep_hours": 6.8,
@@ -10116,15 +10150,15 @@
       "name": "Recovery ride",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 41,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": "1m [target not shown] | 1m [target not shown] | 1m [target not shown] | 53m [target not shown] | 4m [target not shown]",
+      "planned_tss": 35,
+      "duration_hours": 0.87,
+      "duration_formatted": "52m",
+      "workout_summary": "1m [target not shown] | 1m [target not shown] | 1m [target not shown] | 46m [target not shown] | 3m [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
       "indoor": true,
-      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 53m 65%\n- 4m 55%"
+      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 46m 65%\n- 3m 55%"
     },
     {
       "id": 152451247,
@@ -10407,7 +10441,7 @@
     "total_tss": 482,
     "activities_count": 7,
     "avg_hrv": 27.1,
-    "avg_resting_hr": 57.5
+    "avg_resting_hr": 61.2
   },
   "race_calendar": {
     "next_race": {
@@ -10569,9 +10603,9 @@
           "days": 7
         },
         "resting_hr": {
-          "avg": 57.5,
+          "avg": 61.17,
           "min": 57.0,
-          "max": 58.0,
+          "max": 80.0,
           "days": 6
         },
         "sleep_hours": {
@@ -10607,7 +10641,7 @@
       "hrrc_mean": 21.5,
       "hrrc_qualifying": 2,
       "avg_hrv": 27.1,
-      "avg_resting_hr": 57.5,
+      "avg_resting_hr": 61.2,
       "avg_sleep_hours": 7.44,
       "wellness_days": {
         "hrv": 7,
@@ -11650,7 +11684,7 @@
       "days": 24
     },
     "resting_hr": {
-      "avg": 59.08,
+      "avg": 59.92,
       "min": 55.0,
       "max": 92.0,
       "days": 26
