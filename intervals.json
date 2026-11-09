@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:13:06.334318",
+  "generated_at": "2026-11-09T20:26:54.317442",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -475,8 +475,8 @@
           "event_key": null,
           "plan_key": null,
           "plan_key_version": 2,
-          "sampled_at": "2026-11-08T11:43:46.681649+00:00",
-          "next_refresh_at": "2026-11-09T11:43:46.681649+00:00"
+          "sampled_at": "2026-11-09T20:26:55.612664+00:00",
+          "next_refresh_at": "2026-11-10T20:26:55.612664+00:00"
         }
       }
     },
@@ -2674,12 +2674,12 @@
         "source_icu_sync_date": "2026-11-06T20:45:40.854+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-11-07T01:38:47.779034",
-        "last_attempt": "2026-11-09T09:13:06.334318",
+        "last_attempt": "2026-11-09T20:26:54.317442",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-09T09:43:06.334318"
+        "next_retry_at": "2026-11-10T02:26:54.317442"
       }
     },
     "i207193394": {
@@ -2694,12 +2694,12 @@
         "source_icu_sync_date": "2026-11-07T23:54:48.875+00:00"
       },
       "streams": {
-        "attempts": 8,
+        "attempts": 9,
         "first_seen": "2026-11-08T04:43:09.921501",
-        "last_attempt": "2026-11-09T09:13:06.334318",
+        "last_attempt": "2026-11-09T20:26:54.317442",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-09T09:43:06.334318"
+        "next_retry_at": "2026-11-09T20:56:54.317442"
       }
     },
     "i207553169": {
@@ -2714,12 +2714,12 @@
         "source_icu_sync_date": "2026-11-08T19:56:44.033+00:00"
       },
       "streams": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-09T01:27:16.173556",
-        "last_attempt": "2026-11-09T09:13:06.334318",
+        "last_attempt": "2026-11-09T20:26:54.317442",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-09T09:18:06.334318"
+        "next_retry_at": "2026-11-09T20:31:54.317442"
       }
     }
   }
