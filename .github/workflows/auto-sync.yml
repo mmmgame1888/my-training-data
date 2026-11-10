@@ -45,6 +45,7 @@ jobs:
           [ -f intervals.json ] && git add intervals.json || true
           [ -f routes.json ] && git add routes.json || true
           git diff --staged --quiet || git commit -m "Sync $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
 
       - name: Purge jsDelivr cache
