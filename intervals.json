@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T23:19:16.761656",
+  "generated_at": "2026-11-12T01:26:25.458234",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -7,92 +7,6 @@
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i202552174",
-      "date": "2026-10-28",
-      "start_datetime": "2026-10-28T12:16:04",
-      "type": "GravelRide",
-      "name": "Morning E-Bike Ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2836,
-          "moving_secs": 2347,
-          "start_secs": 0,
-          "end_secs": 2836,
-          "avg_power": 105,
-          "max_power": 439,
-          "avg_hr": 130,
-          "max_hr": 141,
-          "min_hr": 88,
-          "avg_cadence": 72.0923,
-          "zone": 1,
-          "w_bal_start": 20039,
-          "w_bal_end": 20018,
-          "training_load": 15.203226
-        }
-      ],
-      "zone_basis": "power",
-      "session_structure": {
-        "version": 6,
-        "method": "fixed_elapsed_thirds",
-        "status": "no_steps",
-        "plan": {
-          "event_id": "97765714",
-          "updated": "2026-10-25T21:03:43.577+00:00",
-          "name": "Morning E-Bike Ride",
-          "duration_s": 2539,
-          "duration_source": "moving_time"
-        },
-        "thirds": [
-          [
-            0,
-            945,
-            110.8,
-            94.6,
-            133.4,
-            73.4,
-            90.37,
-            90.37,
-            90.37,
-            5.15
-          ],
-          [
-            945,
-            1890,
-            98.3,
-            54.6,
-            123.3,
-            65.3,
-            58.73,
-            58.73,
-            58.73,
-            15.68
-          ],
-          [
-            1890,
-            2835,
-            104.0,
-            97.9,
-            131.3,
-            74.9,
-            99.58,
-            99.58,
-            99.58,
-            5.31
-          ]
-        ],
-        "cache": {
-          "activity_key": "74732e67b02213b793f15f9dfc3d2f5883090d81b1b3538716dc7911e557d5a7",
-          "event_key": "49d7e7a7c4387353b7888f92afd22cb589690377e40c2a6044c13ef76af099ec",
-          "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
-          "plan_key_version": 2,
-          "sampled_at": "2026-11-11T16:55:07.731493+00:00",
-          "next_refresh_at": "2026-11-12T16:55:07.731493+00:00"
-        }
-      }
-    },
     {
       "activity_id": "i202866601",
       "date": "2026-10-29",
@@ -2183,27 +2097,269 @@
           "failures": 3
         }
       }
+    },
+    {
+      "activity_id": "i208839235",
+      "date": "2026-11-12",
+      "start_datetime": "2026-11-12T05:51:20",
+      "type": "VirtualRide",
+      "name": "A.2. Threshold",
+      "interval_summary": [
+        "2x 14m56s 220w",
+        "1x 11m52s 222w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 903,
+          "moving_secs": 903,
+          "start_secs": 0,
+          "end_secs": 903,
+          "avg_power": 142,
+          "max_power": 199,
+          "avg_hr": 116,
+          "max_hr": 136,
+          "min_hr": 67,
+          "avg_cadence": 83.14064,
+          "zone": 2,
+          "w_bal_start": 20039,
+          "w_bal_end": 20039,
+          "training_load": 10.656017
+        },
+        {
+          "type": "WORK",
+          "label": "896s@220w92rpm",
+          "duration_secs": 898,
+          "moving_secs": 898,
+          "start_secs": 903,
+          "end_secs": 1801,
+          "avg_power": 219,
+          "max_power": 237,
+          "avg_hr": 155,
+          "max_hr": 168,
+          "min_hr": 122,
+          "avg_cadence": 91.64031,
+          "zone": 4,
+          "w_bal_start": 20039,
+          "w_bal_end": 19665,
+          "training_load": 23.84328
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 245,
+          "moving_secs": 245,
+          "start_secs": 1801,
+          "end_secs": 2046,
+          "avg_power": 113,
+          "max_power": 219,
+          "avg_hr": 137,
+          "max_hr": 165,
+          "min_hr": 127,
+          "avg_cadence": 84.82449,
+          "zone": 1,
+          "w_bal_start": 19665,
+          "w_bal_end": 19942,
+          "training_load": 2.1876357
+        },
+        {
+          "type": "WORK",
+          "label": "896s@220w92rpm",
+          "duration_secs": 893,
+          "moving_secs": 893,
+          "start_secs": 2046,
+          "end_secs": 2939,
+          "avg_power": 220,
+          "max_power": 242,
+          "avg_hr": 164,
+          "max_hr": 172,
+          "min_hr": 132,
+          "avg_cadence": 92.614784,
+          "zone": 4,
+          "w_bal_start": 19942,
+          "w_bal_end": 19230,
+          "training_load": 23.927553
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 247,
+          "moving_secs": 247,
+          "start_secs": 2939,
+          "end_secs": 3186,
+          "avg_power": 114,
+          "max_power": 227,
+          "avg_hr": 147,
+          "max_hr": 168,
+          "min_hr": 135,
+          "avg_cadence": 78.24291,
+          "zone": 1,
+          "w_bal_start": 19230,
+          "w_bal_end": 19826,
+          "training_load": 2.2755053
+        },
+        {
+          "type": "WORK",
+          "label": "712s@222w93rpm",
+          "duration_secs": 712,
+          "moving_secs": 712,
+          "start_secs": 3186,
+          "end_secs": 3898,
+          "avg_power": 222,
+          "max_power": 247,
+          "avg_hr": 167,
+          "max_hr": 174,
+          "min_hr": 138,
+          "avg_cadence": 93.36798,
+          "zone": 4,
+          "w_bal_start": 19826,
+          "w_bal_end": 19116,
+          "training_load": 19.251564
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 313,
+          "moving_secs": 313,
+          "start_secs": 3898,
+          "end_secs": 4211,
+          "avg_power": 110,
+          "max_power": 222,
+          "avg_hr": 144,
+          "max_hr": 172,
+          "min_hr": 132,
+          "avg_cadence": 80.00958,
+          "zone": 1,
+          "w_bal_start": 19116,
+          "w_bal_end": 19884,
+          "training_load": 2.802721
+        }
+      ],
+      "zone_basis": "power",
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "152449090",
+          "updated": "2026-11-09T18:31:30.559+00:00",
+          "name": "A.2. Threshold",
+          "duration_s": 4380,
+          "duration_source": "moving_time"
+        },
+        "power_target_basis": {
+          "source": "activity.icu_ftp",
+          "ftp": 224,
+          "plan_ftp": 234
+        },
+        "steps": [
+          {
+            "duration_s": 120,
+            "target_w": 112.0
+          },
+          {
+            "duration_s": 300,
+            "target_w": 134.4
+          },
+          {
+            "duration_s": 180,
+            "target_w": 156.8
+          },
+          {
+            "duration_s": 60,
+            "target_w": 179.2
+          },
+          {
+            "duration_s": 60,
+            "target_w": 190.4
+          },
+          {
+            "duration_s": 180,
+            "target_w": 134.4
+          },
+          {
+            "supported": false,
+            "duration_s": 3420
+          },
+          {
+            "duration_s": 60,
+            "target_w": 112.0
+          }
+        ],
+        "thirds": [
+          [
+            0,
+            1403,
+            169.8,
+            238.3,
+            129.0,
+            86.0,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            1403,
+            2806,
+            201.8,
+            283.1,
+            158.5,
+            91.1,
+            100.0,
+            100.0,
+            100.0,
+            0.0
+          ],
+          [
+            2806,
+            4210,
+            178.4,
+            250.5,
+            159.1,
+            87.8,
+            100.0,
+            100.0,
+            100.0,
+            0.5
+          ]
+        ],
+        "efforts": [
+          [
+            903,
+            1801,
+            219,
+            155,
+            91.64031
+          ],
+          [
+            2046,
+            2939,
+            220,
+            164,
+            92.614784
+          ],
+          [
+            3186,
+            3898,
+            222,
+            167,
+            93.36798
+          ]
+        ],
+        "issues": [
+          "unsupported_steps",
+          "efforts_from_interval_cache"
+        ],
+        "cache": {
+          "activity_key": "fad379ae8697201496afe337bdf8e02bcd07ffca1f308f8fc75c234462774775",
+          "event_key": "8b7cef4636f30ae6308972978dfd9bbcfc8644304fde8b37695906401480380c",
+          "plan_key": "7ee96b5e937aa408767cbe75a0dcca875c7a2a82c0e71759d06d540ecb081e36",
+          "plan_key_version": 2,
+          "sampled_at": "2026-11-12T01:26:26.375893+00:00",
+          "next_refresh_at": "2026-11-13T01:26:26.375893+00:00"
+        }
+      }
     }
   ],
   "fetch_state": {
-    "i202552174": {
-      "date": "2026-10-28",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-28T03:09:59.608419",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-28T00:56:39.938+00:00"
-      },
-      "streams": {
-        "attempts": 14,
-        "first_seen": "2026-10-28T03:09:59.608419",
-        "last_attempt": "2026-10-31T06:40:09.348534",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i202866601": {
       "date": "2026-10-29",
       "paired_planned": true,
@@ -2401,32 +2557,52 @@
         "source_icu_sync_date": "2026-11-08T19:56:44.033+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-11-09T01:27:16.173556",
-        "last_attempt": "2026-11-11T23:06:25.355332",
+        "last_attempt": "2026-11-12T01:26:25.458234",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-11T23:36:25.355332"
+        "next_retry_at": "2026-11-12T07:26:25.458234"
       }
     },
     "i207947301": {
       "date": "2026-11-10",
       "paired_planned": true,
       "intervals": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-11-10T03:12:14.102167",
-        "last_attempt": "2026-11-11T23:06:25.355332",
+        "last_attempt": "2026-11-12T01:26:25.458234",
         "status": "pending",
         "reason": "transient",
-        "next_retry_at": "2026-11-11T23:36:25.355332"
+        "next_retry_at": "2026-11-12T01:56:25.458234"
       },
       "streams": {
-        "attempts": 9,
+        "attempts": 10,
         "first_seen": "2026-11-10T03:12:14.102167",
-        "last_attempt": "2026-11-11T23:06:25.355332",
+        "last_attempt": "2026-11-12T01:26:25.458234",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-11T23:36:25.355332"
+        "next_retry_at": "2026-11-12T01:56:25.458234"
+      }
+    },
+    "i208839235": {
+      "date": "2026-11-12",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-12T01:26:25.458234",
+        "last_attempt": "2026-11-12T01:26:25.458234",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-11T18:01:47.147+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-12T01:26:25.458234",
+        "last_attempt": "2026-11-12T01:26:25.458234",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-12T01:31:25.458234"
       }
     }
   }
