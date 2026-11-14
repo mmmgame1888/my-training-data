@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T00:12:32.489660",
+  "generated_at": "2026-11-14T04:47:36.413502",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -2093,8 +2093,8 @@
           "event_key": "8b7cef4636f30ae6308972978dfd9bbcfc8644304fde8b37695906401480380c",
           "plan_key": "7ee96b5e937aa408767cbe75a0dcca875c7a2a82c0e71759d06d540ecb081e36",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-13T02:04:54.788973+00:00",
-          "next_refresh_at": "2026-11-14T02:04:54.788973+00:00"
+          "sampled_at": "2026-11-14T04:47:37.432230+00:00",
+          "next_refresh_at": "2026-11-15T04:47:37.432230+00:00"
         }
       }
     },
@@ -2210,8 +2210,8 @@
           "event_key": "7159bd46230758a374a60ff89e0cb03f8811ea73a6f0854556603f7dc3f1e40c",
           "plan_key": "e57a9d0fec9ae7a03601bd4b50253557153d4b047d441f719ff90f9d745fe002",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-13T02:04:54.788973+00:00",
-          "next_refresh_at": "2026-11-14T02:04:54.788973+00:00"
+          "sampled_at": "2026-11-14T04:47:37.432230+00:00",
+          "next_refresh_at": "2026-11-15T04:47:37.432230+00:00"
         }
       }
     },
@@ -2871,12 +2871,12 @@
           "efforts_from_interval_cache"
         ],
         "cache": {
-          "activity_key": "971454a9f608ddcd906c1d3d3a5a8fd57cb47c0b77f2adef9fc8125b7620849d",
+          "activity_key": "b274085ac0824710e3dbfa5709f0ebdb39406fd29bde2693bc76b60b015c014a",
           "event_key": "c71f2545df37dcc2fa2d06e1a2f577a01f3b9e550d8650724a44d0def264d5fb",
           "plan_key": "0f13e3f1eb0c647690cd6ae85ffcf676ec3ff4e7f665a8b7d9bf1a6ba2830b20",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-14T00:12:34.017684+00:00",
-          "next_refresh_at": "2026-11-15T00:12:34.017684+00:00"
+          "sampled_at": "2026-11-14T04:47:37.432230+00:00",
+          "next_refresh_at": "2026-11-15T04:47:37.432230+00:00"
         }
       }
     }
@@ -3098,12 +3098,12 @@
         "source_icu_sync_date": "2026-11-11T18:01:47.147+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-12T01:26:25.458234",
-        "last_attempt": "2026-11-14T00:12:32.489660",
+        "last_attempt": "2026-11-14T04:47:36.413502",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-14T00:42:32.489660"
+        "next_retry_at": "2026-11-14T05:17:36.413502"
       }
     },
     "i209284587": {
@@ -3118,12 +3118,12 @@
         "source_icu_sync_date": "2026-11-12T19:22:39.980+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-13T02:04:53.893775",
-        "last_attempt": "2026-11-14T00:12:32.489660",
+        "last_attempt": "2026-11-14T04:47:36.413502",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-14T00:17:32.489660"
+        "next_retry_at": "2026-11-14T04:52:36.413502"
       }
     },
     "i209730571": {
@@ -3138,12 +3138,12 @@
         "source_icu_sync_date": "2026-11-13T23:32:54.738+00:00"
       },
       "streams": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-11-14T00:12:32.489660",
-        "last_attempt": "2026-11-14T00:12:32.489660",
+        "last_attempt": "2026-11-14T04:47:36.413502",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-14T00:17:32.489660"
+        "next_retry_at": "2026-11-14T04:52:36.413502"
       }
     }
   }
