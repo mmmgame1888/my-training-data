@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-14T04:47:34.880150+00:00",
+        "updated_at": "2026-11-14T07:22:59.205724+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-14T04:47:39.989419+00:00",
+        "updated_at": "2026-11-14T07:23:05.067779+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-14T04:47:39.990334+00:00",
+        "updated_at": "2026-11-14T07:23:05.069244+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-14T04:47:31.128505+00:00",
+        "updated_at": "2026-11-14T07:22:54.418042+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-14T04:47:34.879938+00:00",
+        "updated_at": "2026-11-14T07:22:59.205471+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-14T04:47:39.998334+00:00",
+        "updated_at": "2026-11-14T07:23:05.083244+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-14T04:47:34.880640+00:00",
+        "updated_at": "2026-11-14T07:22:59.206361+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -332,7 +332,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-14T04:47:38.593838",
+    "last_updated": "2026-11-14T07:23:03.663845",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -457,7 +457,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-14T04:47:33.862749+00:00",
+    "source_updated_at": "2026-11-14T07:22:58.360744+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "incomplete_reference",
@@ -1760,7 +1760,7 @@
     "p_max": 1122,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 57.0,
-    "calculation_timestamp": "2026-11-14T04:47:37.548452",
+    "calculation_timestamp": "2026-11-14T07:23:02.394119",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1806,7 +1806,7 @@
       "work_kj": 2529.8,
       "calories": 2926,
       "carbs_used": 561,
-      "carbs_ingested": 325,
+      "carbs_ingested": 360,
       "variability_index": 1.2313433,
       "decoupling": 8.5531645,
       "efficiency_factor": 1.2132353,
@@ -2884,11 +2884,6 @@
         "1200": 181,
         "3600": 146
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "8e3b0689ddcbfa09b4270bb17d7379ba70b350d1d5e5150a1f847eb89c0f2043",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -2945,6 +2940,11 @@
         "bucket_decoupling": 8.564918,
         "power_trend": "steady",
         "comparability": "steady_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "8e3b0689ddcbfa09b4270bb17d7379ba70b350d1d5e5150a1f847eb89c0f2043",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
