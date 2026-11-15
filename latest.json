@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-15T19:33:32.939664+00:00",
+        "updated_at": "2026-11-15T22:27:58.939317+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-15T19:33:39.883559+00:00",
+        "updated_at": "2026-11-15T22:28:05.965361+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-15T19:33:39.884548+00:00",
+        "updated_at": "2026-11-15T22:28:05.967640+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-15T19:33:26.883365+00:00",
+        "updated_at": "2026-11-15T22:27:54.358174+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-15T19:33:32.939440+00:00",
+        "updated_at": "2026-11-15T22:27:58.938903+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-15T19:33:39.895548+00:00",
+        "updated_at": "2026-11-15T22:28:05.979640+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-15T19:33:32.940190+00:00",
+        "updated_at": "2026-11-15T22:27:58.939931+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -214,11 +214,36 @@
           "present": false,
           "reason": "weather_missing"
         }
+      },
+      {
+        "event_id": 144061511,
+        "name": "Saturday long ride",
+        "path": "routes.json",
+        "json_path": null,
+        "departure_assumed": true,
+        "departure_display": "2026-11-21 10:00 NZDT+1300 (ASSUMED)",
+        "start_time_status": "midnight_treated_as_unset",
+        "has_route": false,
+        "route_status": "absent",
+        "climbs_present": false,
+        "climb_count": null,
+        "weather": {
+          "status": "missing",
+          "tier": null,
+          "fetched_at": null,
+          "expires_at": null,
+          "summary": null,
+          "reason": "no_route"
+        },
+        "map": {
+          "present": false,
+          "reason": "weather_missing"
+        }
       }
     ],
-    "rides_total": 3,
+    "rides_total": 4,
     "rides_omitted": 0,
-    "rides_without_route_beyond_horizon": 5,
+    "rides_without_route_beyond_horizon": 4,
     "managed_files": [
       "ftp_history.json",
       "history.json",
@@ -282,7 +307,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-15T19:33:38.413241",
+    "last_updated": "2026-11-15T22:28:04.508474",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -413,7 +438,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-15T19:33:32.057910+00:00",
+    "source_updated_at": "2026-11-15T22:27:58.061361+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "current_date_mismatch",
@@ -1547,7 +1572,7 @@
             },
             "next_week": {
               "sessions": 7,
-              "known_tss": 294,
+              "known_tss": 289,
               "missing_tss": 0,
               "unknown_intensity": 4,
               "same_day_unresolved": 0,
@@ -1592,7 +1617,7 @@
             ]
           },
           "planned_tss_delta": null,
-          "next_week_tss_delta": 0.66,
+          "next_week_tss_delta": 0.65,
           "monotony_trend": "normal",
           "selection_config": {
             "main_sports": [],
@@ -1612,7 +1637,7 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": 13,
-          "next_week_load": 0.74,
+          "next_week_load": 0.73,
           "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.17,
           "load_evidence": {
@@ -1630,7 +1655,7 @@
             },
             "next_week": {
               "sessions": 7,
-              "known_tss": 354,
+              "known_tss": 349,
               "missing_tss": 0,
               "unknown_intensity": 4,
               "same_day_unresolved": 0
@@ -1712,7 +1737,7 @@
     "p_max": 1122,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-15T19:33:37.132012",
+    "calculation_timestamp": "2026-11-15T22:28:03.208935",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -11819,14 +11844,14 @@
       "name": "A.1. Threshold",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 52,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m",
-      "workout_summary": "2m [target not shown] | 3m [target not shown] | 3m [target not shown] | 1m [target not shown] | 1m [target not shown] | 3m [target not shown] | 2\u00d7(10m [target not shown] + 4m [target not shown]) | 1m [target not shown]",
+      "planned_tss": 51,
+      "duration_hours": 0.68,
+      "duration_formatted": "41m",
+      "workout_summary": "2m [target not shown] | 2m [target not shown] | 3m [target not shown] | 1m [target not shown] | 1m [target not shown] | 3m [target not shown] | 2\u00d7(10m [target not shown] + 4m [target not shown]) | 1m [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
-      "description": "Warm up\n- 2m 50%\n- 3m 60%\n- 3m 68%\n- 1m 80%\n- 1m 90%\n- 3m 65%\n\nIntervals: \n2x 10m\n- 10m 100%\n- 4m 56%\n\nCool down:\n- 1m 50%"
+      "description": "Warm up\n- 2m 50%\n- 2m 60%\n- 3m 68%\n- 1m 80%\n- 1m 90%\n- 3m 65%\n\nIntervals: \n2x 10m\n- 10m 100%\n- 4m 55%\n\nCool down:\n- 1m 50%"
     },
     {
       "id": 144061193,
@@ -11849,14 +11874,14 @@
       "name": "Rat racers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 71,
+      "planned_tss": 68,
       "duration_hours": 1.97,
       "duration_formatted": "1h58m11s",
       "workout_summary": "34m34s [target not shown] | 1h7m [target not shown] | 16m37s [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
-      "description": "- 34m34s 56%\n- 67m 62%\n- 16m37s 57%"
+      "description": "- 34m34s 56%\n- 67m 60%\n- 16m37s 57%"
     },
     {
       "id": 144061511,
@@ -11864,14 +11889,14 @@
       "name": "Saturday long ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 129,
-      "duration_hours": 2.38,
-      "duration_formatted": "2h23m",
-      "workout_summary": "38s [target not shown] | 12m33s [target not shown] | 39s [target not shown] | 32m12s [target not shown] | 41s [target not shown] | 7m45s [target not shown] | 49s [target not shown] | 11m45s [target not shown] | 2m12s [target not shown] | 50s [target not shown] | 47s [target not shown] | 10m24s [target not shown] | 35s [target not shown] | 2m14s [target not shown] | 1m34s [target not shown] | 9m9s [target not shown] | 37s [target not shown] | 12m15s [target not shown] | 1m31s [target not shown] | 18s [target not shown] | [step not summarized]",
+      "planned_tss": 128,
+      "duration_hours": 1.76,
+      "duration_formatted": "1h45m24s",
+      "workout_summary": "38s [target not shown] | 12m33s [target not shown] | 39s [target not shown] | 32m12s [target not shown] | 41s [target not shown] | 7m45s [target not shown] | 49s [target not shown] | 11m45s [target not shown] | 2m12s [target not shown] | 50s [target not shown] | 47s [target not shown] | 10m24s [target not shown] | 35s [target not shown] | 2m14s [target not shown] | 1m34s [target not shown] | 19m9s [target not shown] | 37s [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
-      "description": "- 38s 119%\n- 12m33s 65%\n- 39s 115%\n- 32m12s 65%\n- 41s 110%\n- 7m45s 65%\n- 49s 121%\n- 11m45s 60%\n- 2m12s 102%\n- 50s 41%\n- 47s 124%\n- 10m24s 65%\n- 35s 110%\n- 2m14s 26%\n- 94s 91%\n- 9m9s 73%\n- 37s 122%\n- 12m15s 65%\n- 91s 126%\n- 18s 101%\n- 61s 133%\n- 29m 60%\n- 46s 114%\n- 1m58s 81%\n- 47s 116%"
+      "description": "- 38s 119%\n- 12m33s 65%\n- 39s 115%\n- 32m12s 90%\n- 41s 110%\n- 7m45s 85%\n- 49s 121%\n- 11m45s 85%\n- 2m12s 102%\n- 50s 41%\n- 47s 124%\n- 10m24s 70%\n- 35s 110%\n- 2m14s 26%\n- 94s 91%\n- 19m9s 85%\n- 37s 122%"
     },
     {
       "id": 144061565,
@@ -11924,10 +11949,10 @@
       "name": "C.1. Openers",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 47,
-      "duration_hours": 0.68,
-      "duration_formatted": "41m",
-      "workout_summary": "3m [target not shown] | 3m [target not shown] | 2m [target not shown] | 1m [target not shown] | 1m [target not shown] | 5m [target not shown] | 3\u00d7(3m [target not shown] + 3m [target not shown]) | 2\u00d7(30s [target not shown] + 2m [target not shown]) | 3m [target not shown]",
+      "planned_tss": 46,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m",
+      "workout_summary": "2m [target not shown] | 2m [target not shown] | 2m [target not shown] | 1m [target not shown] | 1m [target not shown] | 3m [target not shown] | 3\u00d7(3m [target not shown] + 3m [target not shown]) | 2\u00d7(30s [target not shown] + 2m [target not shown]) | 3m [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset"
@@ -11935,13 +11960,13 @@
     {
       "id": 144064930,
       "date": "2026-11-25",
-      "name": "1hr zone 2",
+      "name": "50m zone 2",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 45,
-      "duration_hours": 0.93,
-      "duration_formatted": "56m",
-      "workout_summary": "1m [target not shown] | 1m [target not shown] | 1m [target not shown] | 50m [target not shown] | 3m [target not shown]",
+      "planned_tss": 38,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "1m [target not shown] | 1m [target not shown] | 1m [target not shown] | 44m [target not shown] | 3m [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
@@ -11953,10 +11978,10 @@
       "name": "C.1. Openers",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 37,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": "2m [target not shown] | 3m [target not shown] | 10m [target not shown] | 1m [target not shown] | 1m [target not shown] | 3m [target not shown] | 3\u00d7(1m [target not shown] + 5m [target not shown]) | 2m [target not shown]",
+      "planned_tss": 36,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m",
+      "workout_summary": "2m [target not shown] | 2m [target not shown] | 10m [target not shown] | 1m [target not shown] | 1m [target not shown] | 3m [target not shown] | 3\u00d7(1m [target not shown] + 5m [target not shown]) | 1m [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset"
