@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T23:46:22.311692",
+  "generated_at": "2026-11-16T04:59:54.688988",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -7,85 +7,6 @@
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i204144068",
-      "date": "2026-11-01",
-      "start_datetime": "2026-11-01T08:17:17",
-      "type": "Ride",
-      "name": "Auckland Road Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 11220,
-          "moving_secs": 7690,
-          "start_secs": 0,
-          "end_secs": 11220,
-          "avg_power": 130,
-          "max_power": 430,
-          "avg_hr": 120,
-          "max_hr": 139,
-          "min_hr": 77,
-          "avg_cadence": 73.15227,
-          "zone": 2,
-          "w_bal_start": 20039,
-          "w_bal_end": 19913,
-          "training_load": 85.40624
-        }
-      ],
-      "zone_basis": "power",
-      "session_structure": {
-        "version": 6,
-        "method": "fixed_elapsed_thirds",
-        "status": "no_plan",
-        "thirds": [
-          [
-            0,
-            3739,
-            116.0,
-            349.1,
-            118.2,
-            72.0,
-            80.48,
-            80.48,
-            80.48,
-            8.47
-          ],
-          [
-            3739,
-            7479,
-            139.5,
-            406.2,
-            121.6,
-            73.8,
-            77.86,
-            77.86,
-            77.86,
-            6.87
-          ],
-          [
-            7479,
-            11219,
-            141.7,
-            253.4,
-            123.7,
-            74.1,
-            47.81,
-            47.81,
-            47.81,
-            5.37
-          ]
-        ],
-        "cache": {
-          "activity_key": "73387f4e0a71e72dc468430280af21c70e632f721f3e0adc4a81e8212e2fd5a9",
-          "event_key": null,
-          "plan_key": null,
-          "plan_key_version": 2,
-          "sampled_at": "2026-11-15T22:28:02.300467+00:00",
-          "next_refresh_at": "2026-11-16T22:28:02.300467+00:00"
-        }
-      }
-    },
     {
       "activity_id": "i204490521",
       "date": "2026-11-02",
@@ -148,8 +69,8 @@
           "event_key": "81d30b110b02f1f6b6ac2eedf80b8da2c69e8260389f564846b63d66b883c88e",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -215,8 +136,8 @@
           "event_key": "40fde6895074a923501aa7b11614263b36f7abae0f939a10fa3e7c8502e17f70",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -373,8 +294,8 @@
           "event_key": "f7cdfcb745d3d37eccb07cb8ae5e99d2bb9a8bf13c14e287e0fd176f76200247",
           "plan_key": "4b53fe0fd2707cbbfc750e79c32d6daac262e3020d805e1787c5ebbc12c66963",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -591,8 +512,8 @@
           "event_key": "035ee38003287fe6d9d2c6f07a70fe5e5d894d73925ccd336532de978d9c4eee",
           "plan_key": "2a1ed1c9af086d28f16bcc8b7e694e90d512b111933675a3df1ec2e6180088a2",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -708,8 +629,8 @@
           "event_key": "d9a2d04eb17137e94888eff1570aca624facc6d5d45d15863949e1303188f8db",
           "plan_key": "2cfbcef3f99ead421fe4963628a73201d24a0ca0f760a68cc783f13367771c09",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -824,8 +745,8 @@
           "event_key": "cd03a870bd628767f11d25504c5ce1d6041721ecec81f2492481b417e2c9f39f",
           "plan_key": "8495b2556e4af900e86cb0624361baecb757e6e3c0b97ccb60edf58535c826ae",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -1133,8 +1054,8 @@
           "event_key": "b9602286b5897904ca5f4f60144aaf127bf7eca63ab2eb06474396dbdeeee165",
           "plan_key": "f7087fa1fd2df805a0b93f75f3dee3ea0308d9e42840e8c9515d0ba3f295cde5",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
         }
       }
     },
@@ -1433,7 +1354,7 @@
           "plan_key": "45915fe604b8d2d0797d30773736b5b6a98f9d255fcb869129e5cac1edb91d11",
           "plan_key_version": 2,
           "sampled_at": null,
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00",
           "status": "stale",
           "failures": 3
         }
@@ -2631,31 +2552,86 @@
           "event_key": "675ae65455355f05cc59a5c62765ace60891e431416534c962d8083ca8afca87",
           "plan_key": "7eea138b990256347da0d5863fbc35d34da18e83f386fd46ffbabf77fdf85777",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-15T01:27:43.352276+00:00",
-          "next_refresh_at": "2026-11-16T01:27:43.352276+00:00"
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-17T04:59:56.429465+00:00"
+        }
+      }
+    },
+    {
+      "activity_id": "i210481697",
+      "date": "2026-11-16",
+      "start_datetime": "2026-11-16T07:07:52",
+      "type": "EBikeRide",
+      "name": "Morning E-Bike Ride",
+      "interval_summary": null,
+      "intervals": [],
+      "session_structure": {
+        "version": 6,
+        "method": "fixed_elapsed_thirds",
+        "status": "unknown",
+        "plan": {
+          "event_id": "97765719",
+          "updated": "2026-10-12T21:43:09.764+00:00",
+          "name": "Morning E-Bike Ride",
+          "duration_s": 2539,
+          "duration_source": "moving_time"
+        },
+        "thirds": [
+          [
+            0,
+            962,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            962,
+            1925,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ],
+          [
+            1925,
+            2888,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null
+          ]
+        ],
+        "issues": [
+          "efforts_transient",
+          "efforts_unavailable"
+        ],
+        "cache": {
+          "activity_key": "5a183c8554114565f5829e5e2a4bbf2e004756d793d2828a75912d8a143858dd",
+          "event_key": "7890a3a38272a13ad2442a9f6ed92bb42cddd72d397bff70bf6c57fd38713998",
+          "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
+          "plan_key_version": 2,
+          "sampled_at": "2026-11-16T04:59:56.429465+00:00",
+          "next_refresh_at": "2026-11-16T05:59:56.429465+00:00",
+          "status": "unavailable",
+          "failures": 1
         }
       }
     }
   ],
   "fetch_state": {
-    "i204144068": {
-      "date": "2026-11-01",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-11-01T01:53:25.527842",
-        "last_attempt": "2026-11-01T01:53:25.527842",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-31T22:25:34.372+00:00"
-      },
-      "streams": {
-        "attempts": 14,
-        "first_seen": "2026-11-01T01:53:25.527842",
-        "last_attempt": "2026-11-04T08:41:27.905514",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i204490521": {
       "date": "2026-11-02",
       "intervals": {
@@ -2854,12 +2830,11 @@
         "source_icu_sync_date": "2026-11-12T19:22:39.980+00:00"
       },
       "streams": {
-        "attempts": 14,
+        "attempts": 15,
         "first_seen": "2026-11-13T02:04:53.893775",
-        "last_attempt": "2026-11-15T19:33:34.765789",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-16T01:33:34.765789"
+        "last_attempt": "2026-11-16T04:59:54.688988",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i209730571": {
@@ -2874,12 +2849,12 @@
         "source_icu_sync_date": "2026-11-13T23:32:54.738+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-11-14T00:12:32.489660",
-        "last_attempt": "2026-11-15T23:46:22.311692",
+        "last_attempt": "2026-11-16T04:59:54.688988",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-16T00:16:22.311692"
+        "next_retry_at": "2026-11-16T10:59:54.688988"
       }
     },
     "i210087573": {
@@ -2894,12 +2869,31 @@
         "source_icu_sync_date": "2026-11-14T21:26:48.027+00:00"
       },
       "streams": {
-        "attempts": 6,
+        "attempts": 7,
         "first_seen": "2026-11-15T01:27:42.028535",
-        "last_attempt": "2026-11-15T23:46:22.311692",
+        "last_attempt": "2026-11-16T04:59:54.688988",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-15T23:51:22.311692"
+        "next_retry_at": "2026-11-16T05:29:54.688988"
+      }
+    },
+    "i210481697": {
+      "date": "2026-11-16",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-16T04:59:54.688988",
+        "last_attempt": "2026-11-16T04:59:54.688988",
+        "status": "pending",
+        "reason": "transient",
+        "next_retry_at": "2026-11-16T05:04:54.688988"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-16T04:59:54.688988",
+        "last_attempt": "2026-11-16T04:59:54.688988",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-16T05:04:54.688988"
       }
     }
   }
