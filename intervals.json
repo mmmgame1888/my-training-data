@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:13:38.101677",
+  "generated_at": "2026-11-16T23:47:59.365376",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -2930,50 +2930,50 @@
         "source_icu_sync_date": "2026-11-14T21:26:48.027+00:00"
       },
       "streams": {
-        "attempts": 11,
+        "attempts": 12,
         "first_seen": "2026-11-15T01:27:42.028535",
-        "last_attempt": "2026-11-16T23:13:38.101677",
+        "last_attempt": "2026-11-16T23:47:59.365376",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-16T23:43:38.101677"
+        "next_retry_at": "2026-11-17T00:17:59.365376"
       }
     },
     "i210481697": {
       "date": "2026-11-16",
       "intervals": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-16T04:59:54.688988",
-        "last_attempt": "2026-11-16T23:13:38.101677",
+        "last_attempt": "2026-11-16T23:47:59.365376",
         "status": "pending",
         "reason": "transient",
-        "next_retry_at": "2026-11-16T23:18:38.101677"
+        "next_retry_at": "2026-11-16T23:52:59.365376"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-16T04:59:54.688988",
-        "last_attempt": "2026-11-16T23:13:38.101677",
+        "last_attempt": "2026-11-16T23:47:59.365376",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-16T23:18:38.101677"
+        "next_retry_at": "2026-11-16T23:52:59.365376"
       }
     },
     "i210618521": {
       "date": "2026-11-16",
       "intervals": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-16T13:30:48.700539",
-        "last_attempt": "2026-11-16T23:13:38.101677",
+        "last_attempt": "2026-11-16T23:47:59.365376",
         "status": "pending",
         "reason": "transient",
-        "next_retry_at": "2026-11-16T23:18:38.101677"
+        "next_retry_at": "2026-11-16T23:52:59.365376"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-16T13:30:48.700539",
-        "last_attempt": "2026-11-16T23:13:38.101677",
+        "last_attempt": "2026-11-16T23:47:59.365376",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-16T23:18:38.101677"
+        "next_retry_at": "2026-11-16T23:52:59.365376"
       }
     }
   }
