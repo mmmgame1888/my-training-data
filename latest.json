@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-19T16:19:51.776323+00:00",
+        "updated_at": "2026-11-19T23:24:39.326642+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-19T16:20:00.738929+00:00",
+        "updated_at": "2026-11-19T23:24:45.194756+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-19T16:20:00.740369+00:00",
+        "updated_at": "2026-11-19T23:24:45.195867+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-19T16:19:47.871350+00:00",
+        "updated_at": "2026-11-19T23:24:32.278858+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-19T16:19:51.776134+00:00",
+        "updated_at": "2026-11-19T23:24:39.326397+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-19T16:20:00.748369+00:00",
+        "updated_at": "2026-11-19T23:24:45.205867+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-19T16:19:51.776829+00:00",
+        "updated_at": "2026-11-19T23:24:39.326816+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -146,8 +146,8 @@
         "path": "routes.json",
         "json_path": null,
         "departure_assumed": true,
-        "departure_display": "2026-11-20 10:00 NZDT+1300 (ASSUMED)",
-        "start_time_status": "midnight_treated_as_unset",
+        "departure_display": "2026-11-20 12:30 NZDT+1300 (ASSUMED)",
+        "start_time_status": "passed_not_completed",
         "has_route": false,
         "route_status": "absent",
         "climbs_present": false,
@@ -192,7 +192,7 @@
       },
       {
         "event_id": 157030543,
-        "name": "Easy",
+        "name": "C.1. Endurance with tempo touches",
         "path": "routes.json",
         "json_path": null,
         "departure_assumed": true,
@@ -214,11 +214,36 @@
           "present": false,
           "reason": "weather_missing"
         }
+      },
+      {
+        "event_id": 144064930,
+        "name": "Easy",
+        "path": "routes.json",
+        "json_path": null,
+        "departure_assumed": true,
+        "departure_display": "2026-11-25 10:00 NZDT+1300 (ASSUMED)",
+        "start_time_status": "midnight_treated_as_unset",
+        "has_route": false,
+        "route_status": "absent",
+        "climbs_present": false,
+        "climb_count": null,
+        "weather": {
+          "status": "missing",
+          "tier": null,
+          "fetched_at": null,
+          "expires_at": null,
+          "summary": null,
+          "reason": "no_route"
+        },
+        "map": {
+          "present": false,
+          "reason": "weather_missing"
+        }
       }
     ],
-    "rides_total": 3,
+    "rides_total": 4,
     "rides_omitted": 0,
-    "rides_without_route_beyond_horizon": 3,
+    "rides_without_route_beyond_horizon": 2,
     "managed_files": [
       "ftp_history.json",
       "history.json",
@@ -282,7 +307,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-19T16:19:59.125767",
+    "last_updated": "2026-11-19T23:24:43.493794",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -329,9 +354,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 38.0,
-        "baseline_7d": 32.0,
-        "delta_pct": 18.8
+        "value": 28.1,
+        "baseline_7d": 30.6,
+        "delta_pct": -8.0
       },
       "rhr": {
         "status": "green",
@@ -353,8 +378,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.21,
-        "value_yesterday": 1.2
+        "value": 0.94,
+        "value_yesterday": 1.25
       },
       "tsb": {
         "status": "green",
@@ -395,7 +420,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-19T16:19:50.956805+00:00",
+    "source_updated_at": "2026-11-19T23:24:38.440812+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "current_date_mismatch",
@@ -622,7 +647,7 @@
         }
       },
       "resting_hr": 56,
-      "hrv": 38.0,
+      "hrv": 28.15,
       "sleep_quality": null,
       "sleep_hours": 6.57,
       "sleep_formatted": "6h34m",
@@ -655,13 +680,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.21,
-    "recovery_index_yesterday": 1.2,
-    "hrv_baseline_7d": 32.0,
+    "recovery_index": 0.94,
+    "recovery_index_yesterday": 1.25,
+    "hrv_baseline_7d": 30.6,
     "rhr_baseline_7d": 57,
-    "hrv_baseline_28d": 31.2,
+    "hrv_baseline_28d": 30.8,
     "rhr_baseline_28d": 58.5,
-    "latest_hrv": 38.0,
+    "latest_hrv": 28.15,
     "latest_rhr": 56,
     "acwr": 1.04,
     "acwr_interpretation": "optimal",
@@ -727,7 +752,7 @@
     "multi_sport_detected": false,
     "strain": 442.0,
     "stress_tolerance": 5.1,
-    "load_recovery_ratio": 4.2,
+    "load_recovery_ratio": 5.4,
     "tss_7d_total": 508.0,
     "tss_28d_total": 1945.0,
     "zone_distribution_7d": {
@@ -1543,7 +1568,7 @@
             },
             "next_week": {
               "sessions": 6,
-              "known_tss": 402,
+              "known_tss": 404,
               "missing_tss": 0,
               "unknown_intensity": 3,
               "same_day_unresolved": 0,
@@ -1554,7 +1579,7 @@
             },
             "completed_events_excluded": 1,
             "full_week_reduction": "unverified",
-            "next_week_rebound": "unverified",
+            "next_week_rebound": "confirmed",
             "day_aligned": {
               "elapsed_days": 4,
               "minimum_elapsed_days": 2,
@@ -1588,7 +1613,7 @@
             ]
           },
           "planned_tss_delta": 0.57,
-          "next_week_tss_delta": 0.79,
+          "next_week_tss_delta": 0.8,
           "monotony_trend": "normal",
           "selection_config": {
             "main_sports": [],
@@ -1626,7 +1651,7 @@
             },
             "next_week": {
               "sessions": 6,
-              "known_tss": 442,
+              "known_tss": 444,
               "missing_tss": 0,
               "unknown_intensity": 3,
               "same_day_unresolved": 0
@@ -1708,7 +1733,7 @@
     "p_max": 1122,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-19T16:19:57.883167",
+    "calculation_timestamp": "2026-11-19T23:24:42.139801",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -11796,7 +11821,7 @@
         "weight": null
       },
       "resting_hr": 56,
-      "hrv_rmssd": 38.0,
+      "hrv_rmssd": 28.15,
       "hrv_sdnn": null,
       "sleep_hours": 6.57,
       "sleep_formatted": "6h34m",
@@ -11896,10 +11921,10 @@
     {
       "id": 157030543,
       "date": "2026-11-23",
-      "name": "Easy",
+      "name": "C.1. Endurance with tempo touches",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 37,
+      "planned_tss": 39,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": "2m [target not shown] | 3m [target not shown] | 3m [target not shown] | 2m [target not shown] | 6m [target not shown] | 3\u00d7(4m [target not shown] + 4m [target not shown]) | 7m [target not shown] | 3m [target not shown]",
@@ -11907,7 +11932,7 @@
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
       "indoor": true,
-      "description": "Warm up\n- 2m 50%\n- 3m 60%\n- 3m 65%\n- 2m 70%\n\nEndurance\n- 6m 62%\n\nRace-pace touches\n3x 4m\n- 4m 83%\n- 4m 55%\n\nEndurance\n- 7m 62%\n\nCool down\n- 3m 50%"
+      "description": "Warm up\n- 2m 50%\n- 3m 60%\n- 3m 65%\n- 2m 70%\n\nEndurance\n- 6m 62%\n\nRace-pace touches\n3x 4m\n- 4m 86%\n- 4m 55%\n\nEndurance\n- 7m 62%\n\nCool down\n- 3m 50%"
     },
     {
       "id": 97765961,
@@ -11958,7 +11983,7 @@
     {
       "id": 144064962,
       "date": "2026-11-26",
-      "name": "C.1. Openers",
+      "name": "C.2. Openers",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
       "planned_tss": 27,
@@ -12000,7 +12025,7 @@
     "total_training_formatted": "11h40m",
     "total_tss": 508,
     "activities_count": 7,
-    "avg_hrv": 32.0,
+    "avg_hrv": 30.6,
     "avg_resting_hr": 57.0
   },
   "race_calendar": {
@@ -12184,9 +12209,9 @@
         "start": "2026-11-13",
         "end": "2026-11-19",
         "hrv": {
-          "avg": 31.99,
+          "avg": 30.58,
           "min": 24.053333,
-          "max": 38.0,
+          "max": 37.708694,
           "days": 7
         },
         "resting_hr": {
@@ -12227,7 +12252,7 @@
       "ef_qualifying": 0,
       "hrrc_mean": 36.0,
       "hrrc_qualifying": 4,
-      "avg_hrv": 32.0,
+      "avg_hrv": 30.6,
       "avg_resting_hr": 57,
       "avg_sleep_hours": 7.26,
       "wellness_days": {
@@ -13340,7 +13365,7 @@
     "start": "2026-10-23",
     "end": "2026-11-19",
     "hrv": {
-      "avg": 31.21,
+      "avg": 30.8,
       "min": 15.771428,
       "max": 43.425,
       "days": 24
