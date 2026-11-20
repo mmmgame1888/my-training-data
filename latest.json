@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-20T05:54:58.548827+00:00",
+        "updated_at": "2026-11-20T14:57:46.530928+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-20T05:55:05.038278+00:00",
+        "updated_at": "2026-11-20T14:57:51.378958+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-20T05:55:05.039553+00:00",
+        "updated_at": "2026-11-20T14:57:51.380096+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-20T05:54:54.379954+00:00",
+        "updated_at": "2026-11-20T14:57:42.340803+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-20T05:54:58.548478+00:00",
+        "updated_at": "2026-11-20T14:57:46.530646+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-20T05:55:05.047553+00:00",
+        "updated_at": "2026-11-20T14:57:51.394096+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-20T05:54:58.549301+00:00",
+        "updated_at": "2026-11-20T14:57:46.531605+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -140,31 +140,6 @@
       }
     ],
     "rides": [
-      {
-        "event_id": 144061189,
-        "name": "Rat racers",
-        "path": "routes.json",
-        "json_path": null,
-        "departure_assumed": true,
-        "departure_display": "2026-11-20 10:00 NZDT+1300 (ASSUMED)",
-        "start_time_status": "midnight_treated_as_unset",
-        "has_route": false,
-        "route_status": "absent",
-        "climbs_present": false,
-        "climb_count": null,
-        "weather": {
-          "status": "unavailable",
-          "tier": null,
-          "fetched_at": null,
-          "expires_at": null,
-          "summary": null,
-          "reason": "completed"
-        },
-        "map": {
-          "present": false,
-          "reason": "weather_unavailable"
-        }
-      },
       {
         "event_id": 144061511,
         "name": "Saturday long ride",
@@ -241,7 +216,7 @@
         }
       }
     ],
-    "rides_total": 4,
+    "rides_total": 3,
     "rides_omitted": 0,
     "rides_without_route_beyond_horizon": 2,
     "managed_files": [
@@ -307,7 +282,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-20T05:55:03.201135",
+    "last_updated": "2026-11-20T14:57:50.024770",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -420,10 +395,10 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-20T05:54:57.597795+00:00",
+    "source_updated_at": "2026-11-20T14:57:45.724878+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
-    "reason": "incomplete_reference",
+    "reason": "current_date_mismatch",
     "confidence": "low",
     "readiness_eligible": false,
     "reference": {
@@ -655,7 +630,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 98.0,
+      "spO2": 96.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -1729,7 +1704,7 @@
     "p_max": 1122,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-20T05:55:01.785686",
+    "calculation_timestamp": "2026-11-20T14:57:48.939148",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -12360,7 +12335,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 98.0,
+      "spO2": 96.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
