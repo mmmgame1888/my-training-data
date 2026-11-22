@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-22T07:47:27.062830+00:00",
+        "updated_at": "2026-11-22T15:57:18.146329+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-22T07:47:31.649687+00:00",
+        "updated_at": "2026-11-22T15:57:24.610595+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-22T07:47:31.652631+00:00",
+        "updated_at": "2026-11-22T15:57:24.613793+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-22T07:47:22.964648+00:00",
+        "updated_at": "2026-11-22T15:57:14.151898+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-22T07:47:27.062580+00:00",
+        "updated_at": "2026-11-22T15:57:18.145893+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-22T07:47:31.665631+00:00",
+        "updated_at": "2026-11-22T15:57:24.627793+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-22T07:47:27.063449+00:00",
+        "updated_at": "2026-11-22T15:57:18.146980+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -282,7 +282,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-22T07:47:30.634493",
+    "last_updated": "2026-11-22T15:57:22.899938",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -386,10 +386,10 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-22T07:47:26.356839+00:00",
+    "source_updated_at": "2026-11-22T15:57:17.260575+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
-    "reason": "incomplete_reference",
+    "reason": "current_date_mismatch",
     "confidence": "low",
     "readiness_eligible": false,
     "reference": {
@@ -633,7 +633,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 89.0,
+      "spO2": 96.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -1705,7 +1705,7 @@
     "p_max": 1120,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-22T07:47:29.829924",
+    "calculation_timestamp": "2026-11-22T15:57:21.520062",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -12389,7 +12389,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 89.0,
+      "spO2": 96.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -12431,7 +12431,7 @@
       "name": "C.1. Endurance with tempo touches",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 39,
+      "planned_tss": 40,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
       "workout_summary": "2m [target not shown] | 3m [target not shown] | 3m [target not shown] | 2m [target not shown] | 6m [target not shown] | 3\u00d7(4m [target not shown] + 4m [target not shown]) | 7m [target not shown] | 3m [target not shown]",
@@ -12439,7 +12439,7 @@
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
       "indoor": true,
-      "description": "Warm up\n- 2m 50%\n- 3m 60%\n- 3m 65%\n- 2m 70%\n\nEndurance\n- 6m 62%\n\nRace-pace touches\n3x 4m\n- 4m 86%\n- 4m 55%\n\nEndurance\n- 7m 62%\n\nCool down\n- 3m 50%"
+      "description": "Warm up\n- 2m 50%\n- 3m 60%\n- 3m 65%\n- 2m 70%\n\nEndurance\n- 6m 62%\n\nRace-pace touches\n3x 4m\n- 4m 87%\n- 4m 55%\n\nEndurance\n- 7m 62%\n\nCool down\n- 3m 50%"
     },
     {
       "id": 97765961,
@@ -12462,15 +12462,15 @@
       "name": "Easy",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 38,
+      "planned_tss": 37,
       "duration_hours": 0.83,
       "duration_formatted": "50m",
-      "workout_summary": "1m [target not shown] | 1m [target not shown] | 1m [target not shown] | 44m [target not shown] | 3m [target not shown]",
+      "workout_summary": "1m [target not shown] | 2m [target not shown] | 2m [target not shown] | 41m [target not shown] | 4m [target not shown]",
       "has_terrain": false,
       "route_status": "absent",
       "start_time_status": "midnight_treated_as_unset",
       "indoor": true,
-      "description": "- 1m 50%\n- 1m 55%\n- 1m 60%\n- 44m 69%\n- 3m 55%"
+      "description": "- 1m 50%\n- 2m 55%\n- 2m 60%\n- 41m 69%\n- 4m 55%"
     },
     {
       "id": 144064962,
