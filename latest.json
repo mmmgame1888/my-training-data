@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-23T11:52:01.077428+00:00",
+        "updated_at": "2026-11-23T23:26:37.866087+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-23T11:52:09.525297+00:00",
+        "updated_at": "2026-11-23T23:26:44.789415+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-23T11:52:09.528744+00:00",
+        "updated_at": "2026-11-23T23:26:44.791786+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-23T11:51:54.863930+00:00",
+        "updated_at": "2026-11-23T23:26:31.008812+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-23T11:52:01.077158+00:00",
+        "updated_at": "2026-11-23T23:26:37.865843+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-23T11:52:09.541743+00:00",
+        "updated_at": "2026-11-23T23:26:44.803786+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-23T11:52:01.078082+00:00",
+        "updated_at": "2026-11-23T23:26:37.866656+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -282,7 +282,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-23T11:52:07.812031",
+    "last_updated": "2026-11-23T23:26:42.957687",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -329,9 +329,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 43.8,
-        "baseline_7d": 31.4,
-        "delta_pct": 39.6
+        "value": 38.1,
+        "baseline_7d": 30.6,
+        "delta_pct": 24.5
       },
       "rhr": {
         "status": "green",
@@ -353,8 +353,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.4,
-        "value_yesterday": 0.82
+        "value": 1.24,
+        "value_yesterday": 0.84
       },
       "tsb": {
         "status": "green",
@@ -395,7 +395,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-23T11:51:59.094325+00:00",
+    "source_updated_at": "2026-11-23T23:26:36.298520+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "current_date_mismatch",
@@ -618,7 +618,7 @@
         }
       },
       "resting_hr": 57,
-      "hrv": 43.83651,
+      "hrv": 38.094116,
       "sleep_quality": null,
       "sleep_hours": 6.63,
       "sleep_formatted": "6h38m",
@@ -630,7 +630,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 97.0,
+      "spO2": 98.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -651,13 +651,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.4,
-    "recovery_index_yesterday": 0.82,
-    "hrv_baseline_7d": 31.4,
+    "recovery_index": 1.24,
+    "recovery_index_yesterday": 0.84,
+    "hrv_baseline_7d": 30.6,
     "rhr_baseline_7d": 57,
-    "hrv_baseline_28d": 31.3,
+    "hrv_baseline_28d": 31.0,
     "rhr_baseline_28d": 58.6,
-    "latest_hrv": 43.83651,
+    "latest_hrv": 38.094116,
     "latest_rhr": 57,
     "acwr": 0.72,
     "acwr_interpretation": "undertraining",
@@ -723,7 +723,7 @@
     "multi_sport_detected": false,
     "strain": 404.0,
     "stress_tolerance": 3.4,
-    "load_recovery_ratio": 2.4,
+    "load_recovery_ratio": 2.7,
     "tss_7d_total": 337.0,
     "tss_28d_total": 1867.0,
     "zone_distribution_7d": {
@@ -1707,7 +1707,7 @@
     "p_max": 1119,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-23T11:52:06.474576",
+    "calculation_timestamp": "2026-11-23T23:26:41.553915",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -12177,7 +12177,7 @@
         "weight": null
       },
       "resting_hr": 57,
-      "hrv_rmssd": 43.83651,
+      "hrv_rmssd": 38.094116,
       "hrv_sdnn": null,
       "sleep_hours": 6.63,
       "sleep_formatted": "6h38m",
@@ -12193,7 +12193,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 97.0,
+      "spO2": 98.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -12306,7 +12306,7 @@
     "total_training_formatted": "6h17m",
     "total_tss": 337,
     "activities_count": 6,
-    "avg_hrv": 31.4,
+    "avg_hrv": 30.6,
     "avg_resting_hr": 57.0
   },
   "race_calendar": {
@@ -12541,9 +12541,9 @@
         "start": "2026-11-17",
         "end": "2026-11-23",
         "hrv": {
-          "avg": 31.38,
+          "avg": 30.56,
           "min": 21.473684,
-          "max": 43.83651,
+          "max": 38.094116,
           "days": 7
         },
         "resting_hr": {
@@ -12584,7 +12584,7 @@
       "ef_qualifying": 0,
       "hrrc_mean": 19.3,
       "hrrc_qualifying": 3,
-      "avg_hrv": 31.4,
+      "avg_hrv": 30.6,
       "avg_resting_hr": 57,
       "avg_sleep_hours": 6.96,
       "wellness_days": {
@@ -13675,9 +13675,9 @@
     "start": "2026-10-27",
     "end": "2026-11-23",
     "hrv": {
-      "avg": 31.26,
+      "avg": 31.02,
       "min": 15.771428,
-      "max": 43.83651,
+      "max": 43.425,
       "days": 24
     },
     "resting_hr": {
