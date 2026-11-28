@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T09:50:38.211993",
+  "generated_at": "2026-11-28T17:57:44.517507",
   "interval_data_note": "recent_activities[].interval_data: plan_match is timeline matching only; compliance summarizes intervals.json session_structure power/time evidence (only that plan-aware source judges completion, per-bout counts and >=95% progression, subject to its context/availability gates); icu_detected is descriptive Intervals.icu interval_summary, not plan-aware. If sources disagree, report both; session_structure judges. Never use device/app lap averages, whole-session average/NP or a set mean as rep power or compliance counts. See SECTION_11.md#which-interval-data-to-use.",
   "schema_version": 2,
   "version": "3.163",
@@ -668,8 +668,8 @@
           "event_key": "b931cb0b9dbf77c1d1247927e141f28b59b28f5c3be16409bbdf3a9b180a00db",
           "plan_key": "0f13e3f1eb0c647690cd6ae85ffcf676ec3ff4e7f665a8b7d9bf1a6ba2830b20",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -824,8 +824,8 @@
           "event_key": "91e13971bebb20fada772e51de9a211a0c43ea8efcd81562b3e8f9a45e6dabf6",
           "plan_key": "7eea138b990256347da0d5863fbc35d34da18e83f386fd46ffbabf77fdf85777",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -891,8 +891,8 @@
           "event_key": "ccfa8c9a7ab85b0c79ec6de2968b80d5830053cee1a79b2a5d2c9d01840ec6f0",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -958,8 +958,8 @@
           "event_key": "b4335030fc44ade2a91060fe1bd1aa81fb53b232542e4cbe2b705e70d94f2f18",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -1175,8 +1175,8 @@
           "event_key": "4a543d57a2904fc81ed77e2033991afde2f64a56abfe9b7bbcbfe5c40f43f797",
           "plan_key": "ab2103258af2df2861ac128925cceb3102037c7c117c7c2105d5de61206088dd",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -2568,8 +2568,8 @@
           "event_key": "52520e4fdf3cd65813238d396478011b501c7f407b58e090ad5e49d6ab1ed9ee",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -2805,8 +2805,8 @@
           "event_key": "d93319b33d9b7bec9cbcb10cd4876f8e7b5aa47742df23760a25f1c1c57518b7",
           "plan_key": "3e189ae806adb23cf453f0642db33f057a9423942d917d53d7406cf0b0ce36cb",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -2872,8 +2872,8 @@
           "event_key": "4a91cc7339808b48ec34a3745c59356d3e48109d4a4a6d9f8a256be77ee6fde4",
           "plan_key": "0f9424d94a9755ad05176c202c54e3f3ad7a481c010fceefd3c5e72fe7e27706",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -3056,8 +3056,8 @@
           "event_key": "c6310202019d9c73976e85355da03b46b19ef1b36a639cf35ce1ca5752ad726b",
           "plan_key": "816b317daab08bfaedd5a237c2d52f352e9e365bca581114817923b2c759251c",
           "plan_key_version": 2,
-          "sampled_at": "2026-11-27T17:21:31.903276+00:00",
-          "next_refresh_at": "2026-11-28T17:21:31.903276+00:00"
+          "sampled_at": "2026-11-28T17:57:45.551519+00:00",
+          "next_refresh_at": "2026-11-29T17:57:45.551519+00:00"
         }
       }
     },
@@ -5334,12 +5334,11 @@
         "source_icu_sync_date": "2026-11-25T03:34:46.679+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-25T13:55:24.229742",
-        "last_attempt": "2026-11-28T09:50:38.211993",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-28T10:20:38.211993"
+        "last_attempt": "2026-11-28T17:57:44.517507",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i214613884": {
@@ -5354,12 +5353,12 @@
         "source_icu_sync_date": "2026-11-25T17:33:35.972+00:00"
       },
       "streams": {
-        "attempts": 8,
+        "attempts": 9,
         "first_seen": "2026-11-26T04:50:29.772438",
-        "last_attempt": "2026-11-28T09:50:38.211993",
+        "last_attempt": "2026-11-28T17:57:44.517507",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-28T10:20:38.211993"
+        "next_retry_at": "2026-11-28T18:27:44.517507"
       }
     },
     "i215504347": {
@@ -5373,12 +5372,12 @@
         "source_icu_sync_date": "2026-11-27T22:20:07.305+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-28T01:09:51.715772",
-        "last_attempt": "2026-11-28T09:50:38.211993",
+        "last_attempt": "2026-11-28T17:57:44.517507",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-28T09:55:38.211993"
+        "next_retry_at": "2026-11-28T18:02:44.517507"
       }
     }
   }
