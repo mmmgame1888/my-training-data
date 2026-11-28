@@ -82,49 +82,49 @@
         "path": "latest.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-28T01:09:50.253409+00:00",
+        "updated_at": "2026-11-28T01:47:08.729581+00:00",
         "holds": "Current training data and companion overview"
       },
       {
         "path": "routes.json",
         "json_path": "$.events",
         "present": true,
-        "updated_at": "2026-11-28T01:09:57.413512+00:00",
+        "updated_at": "2026-11-28T01:47:14.624669+00:00",
         "holds": "Planned route validity, terrain, weather and compact snapshots"
       },
       {
         "path": "intervals.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-28T01:09:57.416681+00:00",
+        "updated_at": "2026-11-28T01:47:14.628423+00:00",
         "holds": "Completed session interval, structure and DFA detail"
       },
       {
         "path": "history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-28T01:09:46.392753+00:00",
+        "updated_at": "2026-11-28T01:47:04.747746+00:00",
         "holds": "Longitudinal training history"
       },
       {
         "path": "ftp_history.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-28T01:09:50.253191+00:00",
+        "updated_at": "2026-11-28T01:47:08.729335+00:00",
         "holds": "FTP progression"
       },
       {
         "path": "saved_workouts.json",
         "json_path": "$",
         "present": true,
-        "updated_at": "2026-11-28T01:09:57.425680+00:00",
+        "updated_at": "2026-11-28T01:47:14.639423+00:00",
         "holds": "Read-only saved workout inventory"
       },
       {
         "path": "route_eta_history.json",
         "json_path": "$.activities",
         "present": true,
-        "updated_at": "2026-11-28T01:09:50.253939+00:00",
+        "updated_at": "2026-11-28T01:47:08.730125+00:00",
         "holds": "Rolling 180-day outdoor ETA calibration record"
       }
     ],
@@ -232,7 +232,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-28T01:09:55.315841",
+    "last_updated": "2026-11-28T01:47:12.952020",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.163"
@@ -355,7 +355,7 @@
       "value": "Pacific/Auckland",
       "source": "athlete_timezone"
     },
-    "source_updated_at": "2026-11-28T01:09:49.500841+00:00",
+    "source_updated_at": "2026-11-28T01:47:07.878781+00:00",
     "source": "Intervals.icu wellness.sleepSecs",
     "status": "not_assessed",
     "reason": "incomplete_reference",
@@ -602,7 +602,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 97.0,
+      "spO2": 99.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -1676,7 +1676,7 @@
     "p_max": 1114,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 58.0,
-    "calculation_timestamp": "2026-11-28T01:09:54.176722",
+    "calculation_timestamp": "2026-11-28T01:47:11.686627",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3089,11 +3089,6 @@
         "1200": 208,
         "3600": 173
       },
-      "decoupling_cache": {
-        "version": 1,
-        "activity_key": "966ea8b8e3bc4ad4029e779d8095a89afddef9668a5c8eddb80fa78c75faf7a1",
-        "status": "ok"
-      },
       "decoupling_detail": {
         "method": "intervals_power_vs_hr_v1",
         "window": {
@@ -3150,6 +3145,11 @@
         "bucket_decoupling": 6.447408,
         "power_trend": "falling",
         "comparability": "falling_power"
+      },
+      "decoupling_cache": {
+        "version": 1,
+        "activity_key": "966ea8b8e3bc4ad4029e779d8095a89afddef9668a5c8eddb80fa78c75faf7a1",
+        "status": "ok"
       },
       "interval_data": {
         "version": 1,
@@ -13012,7 +13012,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": 97.0,
+      "spO2": 99.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
